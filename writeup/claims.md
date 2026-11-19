@@ -80,5 +80,5 @@ wording fixed the same day. Judge: a fresh sub-agent with no expected answer, ra
 | L4 | SteerCheck 2608.24335: controls too easy or leaky; one model (Qwen3-14B); leakage alone does not break the test (citation sweep 19.11.) | arXiv 2608.24335 (https://arxiv.org/abs/2608.24335) |
 | L5 | Persona Vectors 2507.21509: own-response vector steers Qwen2.5-7B (layer 20); MMLU drops at large steering strengths (citation sweep 19.11.) | arXiv 2507.21509 (https://arxiv.org/abs/2507.21509) |
 | L6 | Arditi et al. 2406.11717: refusal is mediated by one direction | public summary |
-| L7 | 2611.02318 (Aamir, Bin Adil + 1): eight models 0.5B-14B, two families; "no usable direction below 7B", gate cleared at 7B, 8B, 14B; ablation at Qwen2.5-7B lowers reversals by 4.8 pp | arXiv abstract page, read by WebFetch 2026-11-19 |
+| L7 | 2611.02318 (Aamir, Bin Adil; two authors on the arXiv page): eight models 0.5B-14B, two families; "no usable direction below 7B", gate cleared at 7B, 8B, 14B; ablation at Qwen2.5-7B lowers reversals by 4.8 pp | arXiv abstract page, read by WebFetch 2026-11-19 |
 | L8 | 2609.17550 (Aamir, Bin Adil): Qwen2.5-1.5B, "Are you sure?" among four pushback wordings; flip-vs-hold direction at the last prompt token not usable (AUROC 0.58, bar 0.70); no steering, no ablation | citation sweep 18./19.11. (primary page read) |

@@ -25,7 +25,8 @@ user what they want to hear. Difference-of-means steering is the cheapest interv
 training, it is reversible, and for refusal it works: one direction mediates refusal across many chat models [L6],
 and we reproduce that here as a pipeline check (Appendix A). Aamir and Bin Adil find no usable caving direction for the same "are you sure?"
 pushback in this model [L8]; in a follow-up across eight models they remove the direction where it exists (7B and up)
-and call steering along it "a natural complement we did not attempt" (sec. 8) [L1]. This write-up reports that steering test, its failure, and the controls needed to read the
+and call steering along it "a natural complement we did not attempt" (sec. 8) [L1]. Our runs are not that test: it adds their validated Qwen2.5-7B direction, while we steered our own
+arrows at 1.5B. This write-up reports a related steering test at 1.5B, its failure, and the controls needed to read the
 failure fairly.
 
 Contributions:
