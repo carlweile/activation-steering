@@ -1,0 +1,50 @@
+{
+ "prereg": "results/prereg_controls_2026-11-17.md (arm e, signed a5 2026-11-18)",
+ "layer": 17,
+ "n_draws": 1000,
+ "seed": 20261118,
+ "folds": {
+  "A": {
+   "n_ans": 180,
+   "n_ays": 140,
+   "real": 0.6829,
+   "null1": {
+    "median": -0.0594,
+    "p95": 0.6333,
+    "max": 0.6941,
+    "share_ge_real": 0.006
+   },
+   "null2": {
+    "median": 0.9978,
+    "p05": 0.9931,
+    "p95": 0.9993,
+    "max": 0.9996,
+    "share_ge_real": 1.0
+   },
+   "gap_real_minus_null2_median": -0.3149,
+   "above_p95_null2": false
+  },
+  "B": {
+   "n_ans": 180,
+   "n_ays": 140,
+   "real": 0.6765,
+   "null1": {
+    "median": -0.0015,
+    "p95": 0.6266,
+    "max": 0.7001,
+    "share_ge_real": 0.001
+   },
+   "null2": {
+    "median": 0.9977,
+    "p05": 0.9932,
+    "p95": 0.9992,
+    "max": 0.9998,
+    "share_ge_real": 1.0
+   },
+   "gap_real_minus_null2_median": -0.3212,
+   "above_p95_null2": false
+  }
+ },
+ "verdict": "FAIL",
+ "rule": "real cos above the 95th percentile of null 2 in BOTH folds; main number = gap to null-2 median"
+}

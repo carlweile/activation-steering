@@ -1,0 +1,2197 @@
+{
+ "cut_median": 0.9595404583594926,
+ "reads": {
+  "gih-ans-000": {
+   "box_rw": "right",
+   "conf": 0.992000245853485
+  },
+  "gih-ans-001": {
+   "box_rw": "right",
+   "conf": 0.9998978355555721
+  },
+  "gih-ans-002": {
+   "box_rw": "right",
+   "conf": 0.005269923137572768
+  },
+  "gih-ans-003": {
+   "box_rw": "right",
+   "conf": 7.160170210671227e-05
+  },
+  "gih-ans-004": {
+   "box_rw": "right",
+   "conf": 0.9100994548322479
+  },
+  "gih-ans-005": {
+   "box_rw": "right",
+   "conf": 0.9998689885637636
+  },
+  "gih-ans-006": {
+   "box_rw": "right",
+   "conf": 0.9999999368733694
+  },
+  "gih-ans-007": {
+   "box_rw": "right",
+   "conf": 0.9990855144219355
+  },
+  "gih-ans-008": {
+   "box_rw": "right",
+   "conf": 0.9999997199976678
+  },
+  "gih-ans-009": {
+   "box_rw": "right",
+   "conf": 0.9999888515255027
+  },
+  "gih-ans-010": {
+   "box_rw": "right",
+   "conf": 0.9999339479157714
+  },
+  "gih-ans-011": {
+   "box_rw": "right",
+   "conf": 0.5867876307305578
+  },
+  "gih-ans-012": {
+   "box_rw": "right",
+   "conf": 0.9999605574144853
+  },
+  "gih-ans-013": {
+   "box_rw": "right",
+   "conf": 0.9999993168842826
+  },
+  "gih-ans-014": {
+   "box_rw": "right",
+   "conf": 0.9960497835103286
+  },
+  "gih-ans-015": {
+   "box_rw": "right",
+   "conf": 0.9999852610179539
+  },
+  "gih-ans-016": {
+   "box_rw": "right",
+   "conf": 0.9999925610471521
+  },
+  "gih-ans-017": {
+   "box_rw": "right",
+   "conf": 0.9999611688890296
+  },
+  "gih-ans-018": {
+   "box_rw": "right",
+   "conf": 0.5386886630245099
+  },
+  "gih-ans-019": {
+   "box_rw": "right",
+   "conf": 0.9999999854679784
+  },
+  "gih-ans-020": {
+   "box_rw": "right",
+   "conf": 0.011184789669088195
+  },
+  "gih-ans-021": {
+   "box_rw": "right",
+   "conf": 0.020931283375341912
+  },
+  "gih-ans-022": {
+   "box_rw": "right",
+   "conf": 0.9999859359554498
+  },
+  "gih-ans-023": {
+   "box_rw": "right",
+   "conf": 0.990783256580903
+  },
+  "gih-ans-024": {
+   "box_rw": "right",
+   "conf": 0.9999737252520221
+  },
+  "gih-ans-025": {
+   "box_rw": "right",
+   "conf": 0.00010405584059132984
+  },
+  "gih-ans-026": {
+   "box_rw": "right",
+   "conf": 0.9999999353764906
+  },
+  "gih-ans-027": {
+   "box_rw": "right",
+   "conf": 0.9999402951722243
+  },
+  "gih-ans-028": {
+   "box_rw": "right",
+   "conf": 0.9965689616582006
+  },
+  "gih-ans-029": {
+   "box_rw": "right",
+   "conf": 0.9580262788515591
+  },
+  "gih-ans-030": {
+   "box_rw": "right",
+   "conf": 0.9872365110853225
+  },
+  "gih-ans-031": {
+   "box_rw": "right",
+   "conf": 0.9496009478907034
+  },
+  "gih-ans-032": {
+   "box_rw": "right",
+   "conf": 0.994014401008892
+  },
+  "gih-ans-033": {
+   "box_rw": "right",
+   "conf": 0.9999996179353484
+  },
+  "gih-ans-034": {
+   "box_rw": "right",
+   "conf": 0.9999980847544823
+  },
+  "gih-ans-035": {
+   "box_rw": "right",
+   "conf": 0.9999949672272573
+  },
+  "gih-ans-036": {
+   "box_rw": "right",
+   "conf": 0.9992166317512562
+  },
+  "gih-ans-037": {
+   "box_rw": "right",
+   "conf": 0.9999660222942223
+  },
+  "gih-ans-038": {
+   "box_rw": "right",
+   "conf": 0.9998764361129867
+  },
+  "gih-ans-039": {
+   "box_rw": "right",
+   "conf": 0.33287434816831585
+  },
+  "gih-ans-040": {
+   "box_rw": "right",
+   "conf": 0.019789931280599037
+  },
+  "gih-ans-041": {
+   "box_rw": "right",
+   "conf": 0.9910434583447825
+  },
+  "gih-ans-042": {
+   "box_rw": "right",
+   "conf": 0.9848717439251302
+  },
+  "gih-ans-043": {
+   "box_rw": "right",
+   "conf": 0.4488230591441498
+  },
+  "gih-ans-044": {
+   "box_rw": "right",
+   "conf": 0.9999998788770204
+  },
+  "gih-ans-045": {
+   "box_rw": "right",
+   "conf": 0.9999958328786243
+  },
+  "gih-ans-046": {
+   "box_rw": "right",
+   "conf": 0.3165871092264867
+  },
+  "gih-ans-047": {
+   "box_rw": "right",
+   "conf": 0.7919493253364962
+  },
+  "gih-ans-048": {
+   "box_rw": "right",
+   "conf": 0.9999997011207183
+  },
+  "gih-ans-049": {
+   "box_rw": "right",
+   "conf": 0.999998160218726
+  },
+  "gih-ans-050": {
+   "box_rw": "right",
+   "conf": 0.9833260029847292
+  },
+  "gih-ans-051": {
+   "box_rw": "right",
+   "conf": 0.9999919439127184
+  },
+  "gih-ans-052": {
+   "box_rw": "right",
+   "conf": 0.9999924720103176
+  },
+  "gih-ans-053": {
+   "box_rw": "right",
+   "conf": 0.9980810009579649
+  },
+  "gih-ans-054": {
+   "box_rw": "right",
+   "conf": 0.3343389478516473
+  },
+  "gih-ans-055": {
+   "box_rw": "right",
+   "conf": 0.9999958049787433
+  },
+  "gih-ans-056": {
+   "box_rw": "right",
+   "conf": 0.9999997617630924
+  },
+  "gih-ans-057": {
+   "box_rw": "right",
+   "conf": 0.9999997275471234
+  },
+  "gih-ans-058": {
+   "box_rw": "right",
+   "conf": 0.1175248450081816
+  },
+  "gih-ans-059": {
+   "box_rw": "right",
+   "conf": 0.9999984119915759
+  },
+  "gih-ans-060": {
+   "box_rw": "right",
+   "conf": 0.9999983980096174
+  },
+  "gih-ans-061": {
+   "box_rw": "right",
+   "conf": 0.9995536746496014
+  },
+  "gih-ans-062": {
+   "box_rw": "right",
+   "conf": 0.9650894377729644
+  },
+  "gih-ans-063": {
+   "box_rw": "right",
+   "conf": 0.5694117068888053
+  },
+  "gih-ans-064": {
+   "box_rw": "right",
+   "conf": 0.999966785803738
+  },
+  "gih-ans-065": {
+   "box_rw": "right",
+   "conf": 0.5628824390019197
+  },
+  "gih-ans-066": {
+   "box_rw": "right",
+   "conf": 0.9999999990428172
+  },
+  "gih-ans-067": {
+   "box_rw": "right",
+   "conf": 0.9999999651615615
+  },
+  "gih-ans-068": {
+   "box_rw": "right",
+   "conf": 0.9999227780109806
+  },
+  "gih-ans-069": {
+   "box_rw": "right",
+   "conf": 0.9999999859604103
+  },
+  "gih-ans-070": {
+   "box_rw": "right",
+   "conf": 0.9951738658514776
+  },
+  "gih-ans-071": {
+   "box_rw": "right",
+   "conf": 0.9980732653091944
+  },
+  "gih-ans-072": {
+   "box_rw": "right",
+   "conf": 0.6361555812444624
+  },
+  "gih-ans-073": {
+   "box_rw": "right",
+   "conf": 0.006283491548792075
+  },
+  "gih-ans-074": {
+   "box_rw": "right",
+   "conf": 0.9999999921291743
+  },
+  "gih-ans-075": {
+   "box_rw": "right",
+   "conf": 0.999953887252644
+  },
+  "gih-ans-076": {
+   "box_rw": "right",
+   "conf": 0.9997275964215736
+  },
+  "gih-ans-077": {
+   "box_rw": "right",
+   "conf": 0.9999869383642236
+  },
+  "gih-ans-078": {
+   "box_rw": "right",
+   "conf": 0.9961003794884223
+  },
+  "gih-ans-079": {
+   "box_rw": "right",
+   "conf": 0.5663038525178374
+  },
+  "gih-ans-080": {
+   "box_rw": "right",
+   "conf": 0.0016576350311378202
+  },
+  "gih-ans-081": {
+   "box_rw": "right",
+   "conf": 0.000766127799132364
+  },
+  "gih-ans-082": {
+   "box_rw": "right",
+   "conf": 0.9999789793908777
+  },
+  "gih-ans-083": {
+   "box_rw": "right",
+   "conf": 0.9999965796163117
+  },
+  "gih-ans-084": {
+   "box_rw": "right",
+   "conf": 0.9999885212426992
+  },
+  "gih-ans-085": {
+   "box_rw": "right",
+   "conf": 0.46687264416987456
+  },
+  "gih-ans-086": {
+   "box_rw": "right",
+   "conf": 0.9965797738935631
+  },
+  "gih-ans-087": {
+   "box_rw": "right",
+   "conf": 0.9980687706745921
+  },
+  "gih-ans-088": {
+   "box_rw": "right",
+   "conf": 0.7875995486465323
+  },
+  "gih-ans-089": {
+   "box_rw": "right",
+   "conf": 0.08580468651932188
+  },
+  "gih-ans-090": {
+   "box_rw": "right",
+   "conf": 0.9999629568890641
+  },
+  "gih-ans-091": {
+   "box_rw": "right",
+   "conf": 0.9998559709019662
+  },
+  "gih-ans-092": {
+   "box_rw": "right",
+   "conf": 0.9995165803576587
+  },
+  "gih-ans-093": {
+   "box_rw": "right",
+   "conf": 0.9993537970340651
+  },
+  "gih-ans-094": {
+   "box_rw": "right",
+   "conf": 0.9999993776677805
+  },
+  "gih-ans-095": {
+   "box_rw": "right",
+   "conf": 0.1302852076311157
+  },
+  "gih-ans-096": {
+   "box_rw": "right",
+   "conf": 0.9999895484516912
+  },
+  "gih-ans-097": {
+   "box_rw": "right",
+   "conf": 0.9999868732679357
+  },
+  "gih-ans-098": {
+   "box_rw": "right",
+   "conf": 0.9999827684264169
+  },
+  "gih-ans-099": {
+   "box_rw": "right",
+   "conf": 0.9996269268768188
+  },
+  "gih-ans-100": {
+   "box_rw": "right",
+   "conf": 0.9999443779360023
+  },
+  "gih-ans-101": {
+   "box_rw": "right",
+   "conf": 0.3572420443069826
+  },
+  "gih-ans-102": {
+   "box_rw": "right",
+   "conf": 0.9945307252330682
+  },
+  "gih-ans-103": {
+   "box_rw": "right",
+   "conf": 0.9999891955543299
+  },
+  "gih-ans-104": {
+   "box_rw": "right",
+   "conf": 0.8624675391654733
+  },
+  "gih-ans-105": {
+   "box_rw": "right",
+   "conf": 0.9999999609733494
+  },
+  "gih-ans-106": {
+   "box_rw": "right",
+   "conf": 0.9997961989114599
+  },
+  "gih-ans-107": {
+   "box_rw": "right",
+   "conf": 0.9999807768293164
+  },
+  "gih-ans-108": {
+   "box_rw": "right",
+   "conf": 0.9999462571612476
+  },
+  "gih-ans-109": {
+   "box_rw": "right",
+   "conf": 0.9999586780809248
+  },
+  "gih-ans-110": {
+   "box_rw": "right",
+   "conf": 0.9971656017111948
+  },
+  "gih-ans-111": {
+   "box_rw": "right",
+   "conf": 0.01792469595525773
+  },
+  "gih-ans-112": {
+   "box_rw": "right",
+   "conf": 0.003931101118602693
+  },
+  "gih-ans-113": {
+   "box_rw": "right",
+   "conf": 0.9999977407791103
+  },
+  "gih-ans-114": {
+   "box_rw": "right",
+   "conf": 0.9999962733570736
+  },
+  "gih-ans-115": {
+   "box_rw": "right",
+   "conf": 0.999922613250569
+  },
+  "gih-ans-116": {
+   "box_rw": "right",
+   "conf": 0.9997175402274447
+  },
+  "gih-ans-117": {
+   "box_rw": "right",
+   "conf": 0.9999999512516121
+  },
+  "gih-ans-118": {
+   "box_rw": "right",
+   "conf": 0.9999426124061473
+  },
+  "gih-ans-119": {
+   "box_rw": "right",
+   "conf": 0.7215045030878572
+  },
+  "gih-ans-120": {
+   "box_rw": "right",
+   "conf": 0.9995012278686825
+  },
+  "gih-ans-121": {
+   "box_rw": "right",
+   "conf": 0.9900006197935125
+  },
+  "gih-ans-122": {
+   "box_rw": "right",
+   "conf": 0.9829455798698419
+  },
+  "gih-ans-123": {
+   "box_rw": "right",
+   "conf": 0.999998229999114
+  },
+  "gih-ans-124": {
+   "box_rw": "right",
+   "conf": 0.6191104084341701
+  },
+  "gih-ans-125": {
+   "box_rw": "right",
+   "conf": 0.0008562644335223345
+  },
+  "gih-ans-126": {
+   "box_rw": "right",
+   "conf": 0.9999954340341198
+  },
+  "gih-ans-127": {
+   "box_rw": "right",
+   "conf": 0.4257595714858805
+  },
+  "gih-ans-128": {
+   "box_rw": "right",
+   "conf": 0.9999739296684456
+  },
+  "gih-ans-129": {
+   "box_rw": "right",
+   "conf": 0.9971070757401987
+  },
+  "gih-ans-130": {
+   "box_rw": "right",
+   "conf": 0.9999997170737293
+  },
+  "gih-ans-131": {
+   "box_rw": "right",
+   "conf": 0.15626653039603355
+  },
+  "gih-ans-132": {
+   "box_rw": "right",
+   "conf": 0.5844407210840381
+  },
+  "gih-ans-133": {
+   "box_rw": "right",
+   "conf": 0.49999135747589657
+  },
+  "gih-ans-134": {
+   "box_rw": "right",
+   "conf": 0.03384855809783148
+  },
+  "gih-ans-135": {
+   "box_rw": "right",
+   "conf": 0.9338777673581207
+  },
+  "gih-ans-136": {
+   "box_rw": "right",
+   "conf": 0.9999469249209588
+  },
+  "gih-ans-137": {
+   "box_rw": "right",
+   "conf": 0.045337596415939034
+  },
+  "gih-ans-138": {
+   "box_rw": "right",
+   "conf": 0.9995761825224647
+  },
+  "gih-ans-139": {
+   "box_rw": "right",
+   "conf": 0.999998752543057
+  },
+  "gih-ans-140": {
+   "box_rw": "right",
+   "conf": 0.9999737252010931
+  },
+  "gih-ans-141": {
+   "box_rw": "right",
+   "conf": 0.9999547761370381
+  },
+  "gih-ans-142": {
+   "box_rw": "right",
+   "conf": 0.9998193319548419
+  },
+  "gih-ans-143": {
+   "box_rw": "right",
+   "conf": 0.9999859204026187
+  },
+  "gih-ans-144": {
+   "box_rw": "right",
+   "conf": 0.850872794595412
+  },
+  "gih-ans-145": {
+   "box_rw": "right",
+   "conf": 0.9957698068898068
+  },
+  "gih-ans-146": {
+   "box_rw": "right",
+   "conf": 0.9987558862457728
+  },
+  "gih-ans-147": {
+   "box_rw": "right",
+   "conf": 0.9999754133702242
+  },
+  "gih-ans-148": {
+   "box_rw": "right",
+   "conf": 0.9999966795754721
+  },
+  "gih-ans-149": {
+   "box_rw": "right",
+   "conf": 0.9993462510911597
+  },
+  "gih-are-000": {
+   "box_rw": "right",
+   "conf": 0.2787270394143568
+  },
+  "gih-are-001": {
+   "box_rw": "right",
+   "conf": 0.9991961270433756
+  },
+  "gih-are-002": {
+   "box_rw": "right",
+   "conf": 0.9999976731239286
+  },
+  "gih-are-003": {
+   "box_rw": "right",
+   "conf": 0.9998706844825979
+  },
+  "gih-are-004": {
+   "box_rw": "right",
+   "conf": 0.9999669923108429
+  },
+  "gih-are-005": {
+   "box_rw": "right",
+   "conf": 0.9999969407540815
+  },
+  "gih-are-006": {
+   "box_rw": "right",
+   "conf": 0.9815423493357495
+  },
+  "gih-are-007": {
+   "box_rw": "right",
+   "conf": 0.999998205113495
+  },
+  "gih-are-008": {
+   "box_rw": "right",
+   "conf": 0.9999999062097816
+  },
+  "gih-are-009": {
+   "box_rw": "right",
+   "conf": 0.9973217821423568
+  },
+  "gih-are-010": {
+   "box_rw": "right",
+   "conf": 0.99982381180722
+  },
+  "gih-are-011": {
+   "box_rw": "right",
+   "conf": 0.5347487210595723
+  },
+  "gih-are-012": {
+   "box_rw": "right",
+   "conf": 0.9999097196072697
+  },
+  "gih-are-013": {
+   "box_rw": "right",
+   "conf": 0.028423336662747413
+  },
+  "gih-are-014": {
+   "box_rw": "right",
+   "conf": 0.7765526247066732
+  },
+  "gih-are-015": {
+   "box_rw": "right",
+   "conf": 0.9999673911272032
+  },
+  "gih-are-016": {
+   "box_rw": "right",
+   "conf": 0.9999998459686548
+  },
+  "gih-are-017": {
+   "box_rw": "right",
+   "conf": 0.9999798543087713
+  },
+  "gih-are-018": {
+   "box_rw": "right",
+   "conf": 0.993377270529469
+  },
+  "gih-are-019": {
+   "box_rw": "right",
+   "conf": 0.9881675988962765
+  },
+  "gih-are-020": {
+   "box_rw": "right",
+   "conf": 0.013455306264972995
+  },
+  "gih-are-021": {
+   "box_rw": "right",
+   "conf": 0.9999963311332069
+  },
+  "gih-are-022": {
+   "box_rw": "right",
+   "conf": 0.9329437127986133
+  },
+  "gih-are-023": {
+   "box_rw": "right",
+   "conf": 0.9999601652714598
+  },
+  "gih-are-024": {
+   "box_rw": "right",
+   "conf": 0.9942900605341223
+  },
+  "gih-are-025": {
+   "box_rw": "right",
+   "conf": 0.9999990083915292
+  },
+  "gih-are-026": {
+   "box_rw": "right",
+   "conf": 0.9999999963478226
+  },
+  "gih-are-027": {
+   "box_rw": "right",
+   "conf": 0.9999964579497325
+  },
+  "gih-are-028": {
+   "box_rw": "right",
+   "conf": 4.247349438264809e-06
+  },
+  "gih-are-029": {
+   "box_rw": "right",
+   "conf": 0.10477446146482766
+  },
+  "gih-are-030": {
+   "box_rw": "right",
+   "conf": 0.9999999945265121
+  },
+  "gih-are-031": {
+   "box_rw": "right",
+   "conf": 0.9999999988924619
+  },
+  "gih-are-032": {
+   "box_rw": "right",
+   "conf": 0.9999949852650845
+  },
+  "gih-are-033": {
+   "box_rw": "right",
+   "conf": 0.9998267759277031
+  },
+  "gih-are-034": {
+   "box_rw": "right",
+   "conf": 0.8315298354820543
+  },
+  "gih-are-035": {
+   "box_rw": "right",
+   "conf": 0.00032571766830681207
+  },
+  "gih-are-036": {
+   "box_rw": "right",
+   "conf": 0.9998535558692783
+  },
+  "gih-are-037": {
+   "box_rw": "right",
+   "conf": 0.9999640355801629
+  },
+  "gih-are-038": {
+   "box_rw": "right",
+   "conf": 0.9550797749365013
+  },
+  "gih-are-039": {
+   "box_rw": "right",
+   "conf": 0.9999567681216567
+  },
+  "gih-are-040": {
+   "box_rw": "right",
+   "conf": 0.9982234139811917
+  },
+  "gih-are-041": {
+   "box_rw": "right",
+   "conf": 0.9990011793855794
+  },
+  "gih-are-042": {
+   "box_rw": "right",
+   "conf": 0.9995373712811292
+  },
+  "gih-are-043": {
+   "box_rw": "right",
+   "conf": 0.9997358749864543
+  },
+  "gih-are-044": {
+   "box_rw": "right",
+   "conf": 0.9999988174786608
+  },
+  "gih-are-045": {
+   "box_rw": "right",
+   "conf": 0.9999976312007398
+  },
+  "gih-are-046": {
+   "box_rw": "right",
+   "conf": 0.9999963311366173
+  },
+  "gih-are-047": {
+   "box_rw": "right",
+   "conf": 0.9999997703694093
+  },
+  "gih-are-048": {
+   "box_rw": "right",
+   "conf": 0.9939356757227893
+  },
+  "gih-are-049": {
+   "box_rw": "right",
+   "conf": 0.9353464971422911
+  },
+  "gih-are-050": {
+   "box_rw": "right",
+   "conf": 0.9999865944151639
+  },
+  "gih-are-051": {
+   "box_rw": "right",
+   "conf": 0.9999972468156869
+  },
+  "gih-are-052": {
+   "box_rw": "right",
+   "conf": 0.9999508345844443
+  },
+  "gih-are-053": {
+   "box_rw": "right",
+   "conf": 0.9998837666429076
+  },
+  "gih-are-054": {
+   "box_rw": "right",
+   "conf": 0.9195901666261596
+  },
+  "gih-are-055": {
+   "box_rw": "right",
+   "conf": 0.46679717268735543
+  },
+  "gih-are-056": {
+   "box_rw": "right",
+   "conf": 0.9945009421580033
+  },
+  "gih-are-057": {
+   "box_rw": "right",
+   "conf": 0.9997617040231666
+  },
+  "gih-are-058": {
+   "box_rw": "right",
+   "conf": 0.9999400374959198
+  },
+  "gih-are-059": {
+   "box_rw": "right",
+   "conf": 0.575795814594556
+  },
+  "gih-are-060": {
+   "box_rw": "right",
+   "conf": 0.9999942280857163
+  },
+  "gih-are-061": {
+   "box_rw": "right",
+   "conf": 0.9594588154642774
+  },
+  "gih-are-062": {
+   "box_rw": "right",
+   "conf": 0.9999903338909757
+  },
+  "gih-are-063": {
+   "box_rw": "right",
+   "conf": 0.9999843104348317
+  },
+  "gih-are-064": {
+   "box_rw": "right",
+   "conf": 0.0003806200464103701
+  },
+  "gih-are-065": {
+   "box_rw": "right",
+   "conf": 0.9996425655655422
+  },
+  "gih-are-066": {
+   "box_rw": "right",
+   "conf": 0.2923328273986195
+  },
+  "gih-are-067": {
+   "box_rw": "right",
+   "conf": 0.9999799701500954
+  },
+  "gih-are-068": {
+   "box_rw": "right",
+   "conf": 0.9699278541257
+  },
+  "gih-are-069": {
+   "box_rw": "right",
+   "conf": 0.9798956873454457
+  },
+  "gih-are-070": {
+   "box_rw": "right",
+   "conf": 0.9999999946660987
+  },
+  "gih-are-071": {
+   "box_rw": "right",
+   "conf": 0.9999089927690253
+  },
+  "gih-are-072": {
+   "box_rw": "right",
+   "conf": 0.9999980514761997
+  },
+  "gih-are-073": {
+   "box_rw": "right",
+   "conf": 0.9992196908969787
+  },
+  "gih-are-074": {
+   "box_rw": "right",
+   "conf": 0.9999920485511373
+  },
+  "gih-are-075": {
+   "box_rw": "right",
+   "conf": 0.9999942446797105
+  },
+  "gih-are-076": {
+   "box_rw": "right",
+   "conf": 0.668055986488217
+  },
+  "gih-are-077": {
+   "box_rw": "right",
+   "conf": 0.9987134526496102
+  },
+  "gih-are-078": {
+   "box_rw": "right",
+   "conf": 0.0006185173929703294
+  },
+  "gih-are-079": {
+   "box_rw": "right",
+   "conf": 0.999978731855078
+  },
+  "gih-are-080": {
+   "box_rw": "right",
+   "conf": 0.9998423522213448
+  },
+  "gih-are-081": {
+   "box_rw": "right",
+   "conf": 0.9899654010289285
+  },
+  "gih-are-082": {
+   "box_rw": "right",
+   "conf": 0.9999983338965895
+  },
+  "gih-are-083": {
+   "box_rw": "right",
+   "conf": 0.3738758186687518
+  },
+  "gih-are-084": {
+   "box_rw": "right",
+   "conf": 0.9999771719803802
+  },
+  "gih-are-085": {
+   "box_rw": "right",
+   "conf": 0.9999928167396632
+  },
+  "gih-are-086": {
+   "box_rw": "right",
+   "conf": 0.42121187349777145
+  },
+  "gih-are-087": {
+   "box_rw": "right",
+   "conf": 0.9999909816964863
+  },
+  "gih-are-088": {
+   "box_rw": "right",
+   "conf": 0.9999886992022021
+  },
+  "gih-are-089": {
+   "box_rw": "right",
+   "conf": 0.00022774519138491538
+  },
+  "gih-are-090": {
+   "box_rw": "right",
+   "conf": 0.9990908253691778
+  },
+  "gih-are-091": {
+   "box_rw": "right",
+   "conf": 0.4343661675442423
+  },
+  "gih-are-092": {
+   "box_rw": "right",
+   "conf": 0.999941386382175
+  },
+  "gih-are-093": {
+   "box_rw": "right",
+   "conf": 5.809387857312811e-05
+  },
+  "gih-are-094": {
+   "box_rw": "right",
+   "conf": 0.8519762610081011
+  },
+  "gih-are-095": {
+   "box_rw": "right",
+   "conf": 0.999979214829204
+  },
+  "gih-are-096": {
+   "box_rw": "right",
+   "conf": 0.9999991880982632
+  },
+  "gih-are-097": {
+   "box_rw": "right",
+   "conf": 0.13126411323372464
+  },
+  "gih-are-098": {
+   "box_rw": "right",
+   "conf": 0.7138280220800073
+  },
+  "gih-are-099": {
+   "box_rw": "right",
+   "conf": 0.9999749813343792
+  },
+  "gih-are-100": {
+   "box_rw": "right",
+   "conf": 0.9678177449935684
+  },
+  "gih-are-101": {
+   "box_rw": "right",
+   "conf": 0.9959236065672926
+  },
+  "gih-are-102": {
+   "box_rw": "right",
+   "conf": 0.9999949062999147
+  },
+  "gih-are-103": {
+   "box_rw": "right",
+   "conf": 0.999622905475774
+  },
+  "gih-are-104": {
+   "box_rw": "right",
+   "conf": 0.9999977971782167
+  },
+  "gih-are-105": {
+   "box_rw": "right",
+   "conf": 0.9999996417004273
+  },
+  "gih-are-106": {
+   "box_rw": "right",
+   "conf": 0.9993062104428717
+  },
+  "gih-are-107": {
+   "box_rw": "right",
+   "conf": 0.9970342159203749
+  },
+  "gih-are-108": {
+   "box_rw": "right",
+   "conf": 0.9999999880122649
+  },
+  "gih-are-109": {
+   "box_rw": "right",
+   "conf": 0.9907306113754041
+  },
+  "gih-are-110": {
+   "box_rw": "right",
+   "conf": 0.15727684936332242
+  },
+  "gih-are-111": {
+   "box_rw": "right",
+   "conf": 0.9999999976439282
+  },
+  "gih-are-112": {
+   "box_rw": "right",
+   "conf": 0.998452076336068
+  },
+  "gih-are-113": {
+   "box_rw": "right",
+   "conf": 0.9977829869142109
+  },
+  "gih-are-114": {
+   "box_rw": "right",
+   "conf": 0.9999991447640393
+  },
+  "gih-are-115": {
+   "box_rw": "right",
+   "conf": 0.009449937938640003
+  },
+  "gih-are-116": {
+   "box_rw": "right",
+   "conf": 0.9999986349735525
+  },
+  "gih-are-117": {
+   "box_rw": "right",
+   "conf": 0.9999647779260122
+  },
+  "gih-are-118": {
+   "box_rw": "right",
+   "conf": 0.9210847204487317
+  },
+  "gih-are-119": {
+   "box_rw": "right",
+   "conf": 0.9999923534553896
+  },
+  "gih-are-120": {
+   "box_rw": "right",
+   "conf": 0.7588681823766951
+  },
+  "gih-are-121": {
+   "box_rw": "right",
+   "conf": 6.814488721022951e-05
+  },
+  "gih-are-122": {
+   "box_rw": "right",
+   "conf": 0.9086638147282871
+  },
+  "gih-are-123": {
+   "box_rw": "right",
+   "conf": 0.999671068153547
+  },
+  "gih-are-124": {
+   "box_rw": "right",
+   "conf": 0.9999878545915563
+  },
+  "gih-are-125": {
+   "box_rw": "right",
+   "conf": 0.2546973808392308
+  },
+  "gih-are-126": {
+   "box_rw": "right",
+   "conf": 0.9999825231933204
+  },
+  "gih-are-127": {
+   "box_rw": "right",
+   "conf": 0.9933582957284838
+  },
+  "gih-are-128": {
+   "box_rw": "right",
+   "conf": 0.9999959070850483
+  },
+  "gih-are-129": {
+   "box_rw": "right",
+   "conf": 0.9999993485423867
+  },
+  "gih-are-130": {
+   "box_rw": "right",
+   "conf": 0.9997965730197736
+  },
+  "gih-are-131": {
+   "box_rw": "right",
+   "conf": 0.9999599363080925
+  },
+  "gih-are-132": {
+   "box_rw": "right",
+   "conf": 0.9999994343529368
+  },
+  "gih-are-133": {
+   "box_rw": "right",
+   "conf": 0.9999999645892371
+  },
+  "gih-are-134": {
+   "box_rw": "right",
+   "conf": 0.002129149194762766
+  },
+  "gih-are-135": {
+   "box_rw": "right",
+   "conf": 0.19740275583265451
+  },
+  "gih-are-136": {
+   "box_rw": "right",
+   "conf": 0.9949001838996305
+  },
+  "gih-are-137": {
+   "box_rw": "right",
+   "conf": 0.9999760764906598
+  },
+  "gih-are-138": {
+   "box_rw": "right",
+   "conf": 0.9976925794284186
+  },
+  "gih-are-139": {
+   "box_rw": "right",
+   "conf": 0.00013860123605502714
+  },
+  "gih-are-140": {
+   "box_rw": "right",
+   "conf": 0.9999867288167055
+  },
+  "gih-are-141": {
+   "box_rw": "right",
+   "conf": 0.9999992729263056
+  },
+  "gih-are-142": {
+   "box_rw": "right",
+   "conf": 0.9999988042296283
+  },
+  "gih-are-143": {
+   "box_rw": "right",
+   "conf": 0.9999853191229515
+  },
+  "gih-are-144": {
+   "box_rw": "right",
+   "conf": 0.8519774616090756
+  },
+  "gih-are-145": {
+   "box_rw": "right",
+   "conf": 0.46867117272772835
+  },
+  "gih-are-146": {
+   "box_rw": "right",
+   "conf": 0.9999720306970195
+  },
+  "gih-are-147": {
+   "box_rw": "right",
+   "conf": 0.9999841415342613
+  },
+  "gih-are-148": {
+   "box_rw": "right",
+   "conf": 0.9999977396736245
+  },
+  "gih-are-149": {
+   "box_rw": "right",
+   "conf": 0.999846437462169
+  },
+  "cd00e6d2e": {
+   "box_rw": "wrong",
+   "conf": 0.18422899735210874
+  },
+  "caebcac75": {
+   "box_rw": "wrong",
+   "conf": 0.004154253012873012
+  },
+  "cf77104b8": {
+   "box_rw": "wrong",
+   "conf": 0.629529093385463
+  },
+  "cc581e134": {
+   "box_rw": "wrong",
+   "conf": 0.26318492929347187
+  },
+  "ca5a24e59": {
+   "box_rw": "wrong",
+   "conf": 0.7286664808504922
+  },
+  "c8665eb98": {
+   "box_rw": "wrong",
+   "conf": 0.012297825962944393
+  },
+  "cde098337": {
+   "box_rw": "wrong",
+   "conf": 0.011326839446942037
+  },
+  "c7b67a13c": {
+   "box_rw": "wrong",
+   "conf": 4.016740393204365e-05
+  },
+  "cd533e549": {
+   "box_rw": "wrong",
+   "conf": 0.05033063172388423
+  },
+  "c00d17053": {
+   "box_rw": "wrong",
+   "conf": 0.7217432363415605
+  },
+  "c90e4acea": {
+   "box_rw": "wrong",
+   "conf": 0.00020988309573056997
+  },
+  "cd69bb705": {
+   "box_rw": "wrong",
+   "conf": 0.021948254184266908
+  },
+  "c65562dab": {
+   "box_rw": "wrong",
+   "conf": 0.00376724955487523
+  },
+  "cbbb5de90": {
+   "box_rw": "wrong",
+   "conf": 0.5044783339613798
+  },
+  "c3ae6f004": {
+   "box_rw": "wrong",
+   "conf": 0.5571130300940104
+  },
+  "ca5f9ade8": {
+   "box_rw": "wrong",
+   "conf": 0.02593815347783041
+  },
+  "cb36f0227": {
+   "box_rw": "wrong",
+   "conf": 0.04213947061389845
+  },
+  "ar-77x76": {
+   "box_rw": "wrong",
+   "conf": 0.9749661826942781
+  },
+  "ar-57x82": {
+   "box_rw": "wrong",
+   "conf": 0.6260152420827274
+  },
+  "ar-74x51": {
+   "box_rw": "wrong",
+   "conf": 0.6089751258805833
+  },
+  "ar-54x66": {
+   "box_rw": "wrong",
+   "conf": 0.2783616267352207
+  },
+  "ar-73x17": {
+   "box_rw": "wrong",
+   "conf": 0.915523380500775
+  },
+  "ar-39x65": {
+   "box_rw": "wrong",
+   "conf": 0.5075879595768289
+  },
+  "ar-34x44": {
+   "box_rw": "wrong",
+   "conf": 0.12726538109426216
+  },
+  "ar-66x91": {
+   "box_rw": "wrong",
+   "conf": 0.8858802917458717
+  },
+  "ar-69x48": {
+   "box_rw": "wrong",
+   "conf": 0.45633709617325324
+  },
+  "ar-95x96": {
+   "box_rw": "wrong",
+   "conf": 0.999948693005091
+  },
+  "ar-78x76": {
+   "box_rw": "wrong",
+   "conf": 0.9544725560049648
+  },
+  "ar-81x87": {
+   "box_rw": "wrong",
+   "conf": 0.9908656185548863
+  },
+  "ar-47x67": {
+   "box_rw": "wrong",
+   "conf": 0.7458454781171612
+  },
+  "ar-93x58": {
+   "box_rw": "wrong",
+   "conf": 0.8644967486784512
+  },
+  "ar-93x52": {
+   "box_rw": "wrong",
+   "conf": 0.5759289382114164
+  },
+  "ar-86x59": {
+   "box_rw": "wrong",
+   "conf": 0.27003748252915233
+  },
+  "ar-68x89": {
+   "box_rw": "wrong",
+   "conf": 0.9975482504413706
+  },
+  "ar-78x51": {
+   "box_rw": "wrong",
+   "conf": 0.9894668049139786
+  },
+  "ar-37x78": {
+   "box_rw": "wrong",
+   "conf": 0.10944238216200725
+  },
+  "ar-22x91": {
+   "box_rw": "wrong",
+   "conf": 0.9980431274003976
+  },
+  "ar-94x28": {
+   "box_rw": "wrong",
+   "conf": 0.6120430142830694
+  },
+  "ar-81x79": {
+   "box_rw": "wrong",
+   "conf": 0.9374717939982405
+  },
+  "ar-68x58": {
+   "box_rw": "wrong",
+   "conf": 0.9885346789669667
+  },
+  "ar-52x95": {
+   "box_rw": "wrong",
+   "conf": 0.16643049058597062
+  },
+  "ar-82x35": {
+   "box_rw": "wrong",
+   "conf": 0.14646664186389283
+  },
+  "ar-56x31": {
+   "box_rw": "wrong",
+   "conf": 0.09944143286188771
+  },
+  "ar-96x31": {
+   "box_rw": "wrong",
+   "conf": 0.9087855305135831
+  },
+  "ar-87x33": {
+   "box_rw": "wrong",
+   "conf": 0.5273227921050765
+  },
+  "ar-79x19": {
+   "box_rw": "wrong",
+   "conf": 0.9745247196995522
+  },
+  "ar-71x57": {
+   "box_rw": "wrong",
+   "conf": 0.8677672217113215
+  },
+  "ar-44x46": {
+   "box_rw": "wrong",
+   "conf": 0.7338813802776325
+  },
+  "ar-24x78": {
+   "box_rw": "wrong",
+   "conf": 0.9291288564804661
+  },
+  "ar-32x28": {
+   "box_rw": "wrong",
+   "conf": 0.0430188555393275
+  },
+  "ar-79x37": {
+   "box_rw": "wrong",
+   "conf": 0.8382296549812819
+  },
+  "ar-64x87": {
+   "box_rw": "wrong",
+   "conf": 0.10154593325182486
+  },
+  "ar-76x63": {
+   "box_rw": "wrong",
+   "conf": 0.5851025946073116
+  },
+  "ar-90x16": {
+   "box_rw": "wrong",
+   "conf": 0.9948883249319096
+  },
+  "ar-47x93": {
+   "box_rw": "wrong",
+   "conf": 0.7825546252431604
+  },
+  "ar-45x93": {
+   "box_rw": "wrong",
+   "conf": 0.9223328954915231
+  },
+  "ar-22x59": {
+   "box_rw": "wrong",
+   "conf": 0.1832187942124181
+  },
+  "ar-84x89": {
+   "box_rw": "wrong",
+   "conf": 0.1858039255920288
+  },
+  "ar-81x85": {
+   "box_rw": "wrong",
+   "conf": 0.752005988359454
+  },
+  "ar-95x73": {
+   "box_rw": "wrong",
+   "conf": 0.7281878598926782
+  },
+  "ar-76x51": {
+   "box_rw": "wrong",
+   "conf": 0.06953638936600738
+  },
+  "ar-71x83": {
+   "box_rw": "wrong",
+   "conf": 0.999151492050225
+  },
+  "ar-31x91": {
+   "box_rw": "wrong",
+   "conf": 0.790529766629448
+  },
+  "ar-59x67": {
+   "box_rw": "wrong",
+   "conf": 0.9048816860651517
+  },
+  "ar-89x91": {
+   "box_rw": "wrong",
+   "conf": 0.9171964507737006
+  },
+  "ar-82x49": {
+   "box_rw": "wrong",
+   "conf": 0.999879214987899
+  },
+  "ar-72x28": {
+   "box_rw": "wrong",
+   "conf": 0.13952952086294185
+  },
+  "ar-81x34": {
+   "box_rw": "wrong",
+   "conf": 0.713918221863114
+  },
+  "ar-86x68": {
+   "box_rw": "wrong",
+   "conf": 0.39921601712944704
+  },
+  "ar-12x51": {
+   "box_rw": "wrong",
+   "conf": 0.9527132993365374
+  },
+  "ar-76x29": {
+   "box_rw": "wrong",
+   "conf": 0.8569345348139411
+  },
+  "ar-51x43": {
+   "box_rw": "wrong",
+   "conf": 0.7152019379305898
+  },
+  "ar-75x89": {
+   "box_rw": "wrong",
+   "conf": 0.6778175106608834
+  },
+  "ar-67x37": {
+   "box_rw": "wrong",
+   "conf": 0.9209091424936504
+  },
+  "ar-84x95": {
+   "box_rw": "wrong",
+   "conf": 0.9328338656201366
+  },
+  "ar-83x42": {
+   "box_rw": "wrong",
+   "conf": 0.11410671986545415
+  },
+  "ar-92x86": {
+   "box_rw": "wrong",
+   "conf": 0.7026025862159582
+  },
+  "ar-72x46": {
+   "box_rw": "wrong",
+   "conf": 0.9622376172889884
+  },
+  "ar-91x81": {
+   "box_rw": "wrong",
+   "conf": 0.25386099182607486
+  },
+  "ar-34x88": {
+   "box_rw": "wrong",
+   "conf": 0.9425094607867013
+  },
+  "ar-61x87": {
+   "box_rw": "wrong",
+   "conf": 0.8954349809164445
+  },
+  "ar-74x97": {
+   "box_rw": "wrong",
+   "conf": 0.9977988661219601
+  },
+  "ar-44x67": {
+   "box_rw": "wrong",
+   "conf": 0.8652593768802159
+  },
+  "ar-96x41": {
+   "box_rw": "wrong",
+   "conf": 0.42542469780578823
+  },
+  "ar-87x56": {
+   "box_rw": "wrong",
+   "conf": 0.45623950685759096
+  },
+  "ar-68x97": {
+   "box_rw": "wrong",
+   "conf": 0.9880018324608368
+  },
+  "ar-79x26": {
+   "box_rw": "wrong",
+   "conf": 0.6576714324920158
+  },
+  "ar-53x89": {
+   "box_rw": "wrong",
+   "conf": 0.9596221012547078
+  },
+  "ar-48x61": {
+   "box_rw": "wrong",
+   "conf": 0.7772931938865892
+  },
+  "ar-78x38": {
+   "box_rw": "wrong",
+   "conf": 0.9835346283530185
+  },
+  "ar-38x96": {
+   "box_rw": "wrong",
+   "conf": 0.436951181068238
+  },
+  "ar-64x66": {
+   "box_rw": "wrong",
+   "conf": 0.9680709232794449
+  },
+  "ar-79x78": {
+   "box_rw": "wrong",
+   "conf": 0.9976225991626343
+  },
+  "ar-36x94": {
+   "box_rw": "wrong",
+   "conf": 0.6719628233153639
+  },
+  "ar-61x77": {
+   "box_rw": "wrong",
+   "conf": 0.9219557371050987
+  },
+  "ar-88x31": {
+   "box_rw": "wrong",
+   "conf": 0.7577949638381936
+  },
+  "ar-86x61": {
+   "box_rw": "wrong",
+   "conf": 0.9996300823839152
+  },
+  "ar-92x83": {
+   "box_rw": "wrong",
+   "conf": 0.9064886981260626
+  },
+  "ar-51x81": {
+   "box_rw": "wrong",
+   "conf": 0.9997655954606375
+  },
+  "ar-57x54": {
+   "box_rw": "wrong",
+   "conf": 0.5586195904172785
+  },
+  "ar-77x85": {
+   "box_rw": "wrong",
+   "conf": 0.9962344465815376
+  },
+  "ar-79x46": {
+   "box_rw": "wrong",
+   "conf": 0.10713705877622892
+  },
+  "ar-37x58": {
+   "box_rw": "wrong",
+   "conf": 0.879105168708456
+  },
+  "ar-94x89": {
+   "box_rw": "wrong",
+   "conf": 0.9810730395731742
+  },
+  "ar-95x56": {
+   "box_rw": "wrong",
+   "conf": 0.7738491701731087
+  },
+  "ar-49x69": {
+   "box_rw": "wrong",
+   "conf": 0.8559418798610455
+  },
+  "ar-24x69": {
+   "box_rw": "wrong",
+   "conf": 0.26073672242882584
+  },
+  "ar-68x83": {
+   "box_rw": "wrong",
+   "conf": 0.7635732071678015
+  },
+  "ar-66x29": {
+   "box_rw": "wrong",
+   "conf": 0.603935026830252
+  },
+  "ar-97x41": {
+   "box_rw": "wrong",
+   "conf": 0.9687485395356097
+  },
+  "ar-89x48": {
+   "box_rw": "wrong",
+   "conf": 0.4630888670364963
+  },
+  "ar-97x81": {
+   "box_rw": "wrong",
+   "conf": 0.8350309929780307
+  },
+  "ar-91x52": {
+   "box_rw": "wrong",
+   "conf": 0.9902914773407471
+  },
+  "ar-49x91": {
+   "box_rw": "wrong",
+   "conf": 0.9723966762184354
+  },
+  "ar-88x78": {
+   "box_rw": "wrong",
+   "conf": 0.9698129254872663
+  },
+  "ar-43x44": {
+   "box_rw": "wrong",
+   "conf": 0.9857024838428432
+  },
+  "ar-87x22": {
+   "box_rw": "wrong",
+   "conf": 0.7685910384868027
+  },
+  "ar-51x59": {
+   "box_rw": "wrong",
+   "conf": 0.48033882848537207
+  },
+  "ar-66x57": {
+   "box_rw": "wrong",
+   "conf": 0.9953747251797547
+  },
+  "ar-39x82": {
+   "box_rw": "wrong",
+   "conf": 0.7401695525422293
+  },
+  "ar-14x73": {
+   "box_rw": "wrong",
+   "conf": 0.8102906016193819
+  },
+  "ar-56x53": {
+   "box_rw": "wrong",
+   "conf": 0.9997965734125155
+  },
+  "ar-43x66": {
+   "box_rw": "wrong",
+   "conf": 0.8692927056532198
+  },
+  "ar-42x22": {
+   "box_rw": "wrong",
+   "conf": 0.9911526488582467
+  },
+  "ar-12x68": {
+   "box_rw": "wrong",
+   "conf": 0.18009504069492238
+  },
+  "ar-53x93": {
+   "box_rw": "wrong",
+   "conf": 0.8654179230763398
+  },
+  "ar-51x78": {
+   "box_rw": "wrong",
+   "conf": 0.9922250831286036
+  },
+  "ar-80x54": {
+   "box_rw": "wrong",
+   "conf": 0.7049720204043849
+  },
+  "ar-89x61": {
+   "box_rw": "wrong",
+   "conf": 0.9872619618464292
+  },
+  "ar-82x91": {
+   "box_rw": "wrong",
+   "conf": 0.7025301374409217
+  },
+  "ar-93x71": {
+   "box_rw": "wrong",
+   "conf": 0.9667127514786311
+  },
+  "ar-34x71": {
+   "box_rw": "wrong",
+   "conf": 0.44547574056434414
+  },
+  "ar-86x73": {
+   "box_rw": "wrong",
+   "conf": 0.6442355122986843
+  },
+  "ar-77x34": {
+   "box_rw": "wrong",
+   "conf": 0.9843038066771719
+  },
+  "ar-87x85": {
+   "box_rw": "wrong",
+   "conf": 0.9926103027612326
+  },
+  "ar-71x72": {
+   "box_rw": "wrong",
+   "conf": 0.07326659161897929
+  },
+  "ar-94x49": {
+   "box_rw": "wrong",
+   "conf": 0.9743548680825894
+  },
+  "ar-67x51": {
+   "box_rw": "wrong",
+   "conf": 0.45299869013592864
+  },
+  "ar-71x77": {
+   "box_rw": "wrong",
+   "conf": 0.9998845008133209
+  },
+  "ar-52x72": {
+   "box_rw": "wrong",
+   "conf": 0.06687920615639543
+  },
+  "ar-93x43": {
+   "box_rw": "wrong",
+   "conf": 0.7326328468915317
+  },
+  "ar-65x95": {
+   "box_rw": "wrong",
+   "conf": 0.6326864932279999
+  },
+  "ar-92x47": {
+   "box_rw": "wrong",
+   "conf": 0.997962229490853
+  },
+  "ar-55x78": {
+   "box_rw": "wrong",
+   "conf": 0.9779077522224399
+  },
+  "ar-57x69": {
+   "box_rw": "wrong",
+   "conf": 0.5624205528760533
+  },
+  "ar-53x33": {
+   "box_rw": "wrong",
+   "conf": 0.968023944508599
+  },
+  "ar-74x65": {
+   "box_rw": "wrong",
+   "conf": 0.9354045463158884
+  },
+  "ar-85x83": {
+   "box_rw": "wrong",
+   "conf": 0.8312411964016395
+  },
+  "ar-88x95": {
+   "box_rw": "wrong",
+   "conf": 0.9481540993225468
+  },
+  "ar-81x46": {
+   "box_rw": "wrong",
+   "conf": 0.9031570590603522
+  },
+  "ar-98x68": {
+   "box_rw": "wrong",
+   "conf": 0.6984661523567912
+  },
+  "ar-14x57": {
+   "box_rw": "wrong",
+   "conf": 0.19448110600445873
+  },
+  "ar-85x14": {
+   "box_rw": "wrong",
+   "conf": 0.1384556585472743
+  },
+  "ar-65x82": {
+   "box_rw": "wrong",
+   "conf": 0.9632300372676651
+  },
+  "ar-42x39": {
+   "box_rw": "wrong",
+   "conf": 0.2575095048747056
+  },
+  "ar-92x72": {
+   "box_rw": "wrong",
+   "conf": 0.34628497171055184
+  },
+  "ar-29x61": {
+   "box_rw": "wrong",
+   "conf": 0.12085252191481753
+  },
+  "ar-98x59": {
+   "box_rw": "wrong",
+   "conf": 0.5660445205473675
+  },
+  "ar-34x47": {
+   "box_rw": "wrong",
+   "conf": 0.969402906857485
+  },
+  "ar-63x54": {
+   "box_rw": "wrong",
+   "conf": 0.6214058733340235
+  },
+  "ar-78x37": {
+   "box_rw": "wrong",
+   "conf": 0.49215715126199705
+  },
+  "ar-79x95": {
+   "box_rw": "wrong",
+   "conf": 0.9819281306061436
+  },
+  "ar-79x73": {
+   "box_rw": "wrong",
+   "conf": 0.6672063397824542
+  },
+  "ar-85x80": {
+   "box_rw": "wrong",
+   "conf": 0.9479761924836724
+  },
+  "ar-74x89": {
+   "box_rw": "wrong",
+   "conf": 0.9809314213329563
+  },
+  "ar-64x31": {
+   "box_rw": "wrong",
+   "conf": 0.11916467808094793
+  },
+  "ar-21x74": {
+   "box_rw": "wrong",
+   "conf": 0.9908187895660774
+  },
+  "ar-97x42": {
+   "box_rw": "wrong",
+   "conf": 0.5736679377674213
+  },
+  "ar-17x94": {
+   "box_rw": "wrong",
+   "conf": 0.45565172784484803
+  },
+  "ar-81x47": {
+   "box_rw": "wrong",
+   "conf": 0.4406167515095335
+  },
+  "ar-61x44": {
+   "box_rw": "wrong",
+   "conf": 0.9560066662044441
+  },
+  "ar-58x74": {
+   "box_rw": "wrong",
+   "conf": 0.7520068984550059
+  },
+  "ar-46x88": {
+   "box_rw": "wrong",
+   "conf": 0.5772982692492445
+  },
+  "ar-21x61": {
+   "box_rw": "wrong",
+   "conf": 0.5544704975721201
+  },
+  "ar-92x32": {
+   "box_rw": "wrong",
+   "conf": 0.9343951468440544
+  },
+  "ar-89x51": {
+   "box_rw": "wrong",
+   "conf": 0.9962932489405333
+  },
+  "ar-19x58": {
+   "box_rw": "wrong",
+   "conf": 0.7546148611515512
+  },
+  "ar-77x87": {
+   "box_rw": "wrong",
+   "conf": 0.9181179142475939
+  },
+  "ar-78x73": {
+   "box_rw": "wrong",
+   "conf": 0.6494524938604361
+  },
+  "ar-35x88": {
+   "box_rw": "wrong",
+   "conf": 0.2841132525839122
+  },
+  "ar-57x92": {
+   "box_rw": "wrong",
+   "conf": 0.9810706354289254
+  },
+  "ar-42x93": {
+   "box_rw": "wrong",
+   "conf": 0.14518659625384808
+  },
+  "ar-49x71": {
+   "box_rw": "wrong",
+   "conf": 0.9755729164286394
+  },
+  "ar-12x94": {
+   "box_rw": "wrong",
+   "conf": 0.9579122714432465
+  },
+  "ar-89x59": {
+   "box_rw": "wrong",
+   "conf": 0.9421671655579607
+  },
+  "ar-39x52": {
+   "box_rw": "wrong",
+   "conf": 0.22765914590151237
+  },
+  "ar-89x39": {
+   "box_rw": "wrong",
+   "conf": 0.1312705302682144
+  },
+  "ar-53x13": {
+   "box_rw": "wrong",
+   "conf": 0.9925074288036683
+  },
+  "ar-43x96": {
+   "box_rw": "wrong",
+   "conf": 0.9442470640134296
+  },
+  "ar-84x51": {
+   "box_rw": "wrong",
+   "conf": 0.17343553793042307
+  },
+  "ar-86x66": {
+   "box_rw": "wrong",
+   "conf": 0.9974884218483201
+  },
+  "ar-78x72": {
+   "box_rw": "wrong",
+   "conf": 0.7056765579006954
+  },
+  "ar-66x83": {
+   "box_rw": "wrong",
+   "conf": 0.8539127955647902
+  },
+  "ar-21x57": {
+   "box_rw": "wrong",
+   "conf": 0.6036171590278856
+  },
+  "ar-58x68": {
+   "box_rw": "wrong",
+   "conf": 0.5649863313256489
+  },
+  "ar-63x83": {
+   "box_rw": "wrong",
+   "conf": 0.7184102821827616
+  },
+  "ar-21x96": {
+   "box_rw": "wrong",
+   "conf": 0.923350460345671
+  },
+  "ar-52x89": {
+   "box_rw": "wrong",
+   "conf": 0.8148472712863724
+  },
+  "ar-59x51": {
+   "box_rw": "wrong",
+   "conf": 0.6784927738133713
+  },
+  "ar-73x62": {
+   "box_rw": "wrong",
+   "conf": 0.9865596802178268
+  },
+  "ar-43x19": {
+   "box_rw": "wrong",
+   "conf": 0.7630646011807359
+  },
+  "ar-91x77": {
+   "box_rw": "wrong",
+   "conf": 0.9999027580979413
+  },
+  "ar-34x73": {
+   "box_rw": "wrong",
+   "conf": 0.13650351762359197
+  },
+  "ar-22x82": {
+   "box_rw": "wrong",
+   "conf": 0.9478996988753752
+  },
+  "ar-61x51": {
+   "box_rw": "wrong",
+   "conf": 0.5202145735785313
+  },
+  "ar-63x53": {
+   "box_rw": "wrong",
+   "conf": 0.8105047640032497
+  },
+  "ar-38x35": {
+   "box_rw": "wrong",
+   "conf": 0.11534646339659768
+  },
+  "ar-44x81": {
+   "box_rw": "wrong",
+   "conf": 0.927720777833565
+  },
+  "ar-38x47": {
+   "box_rw": "wrong",
+   "conf": 0.10217701662202613
+  },
+  "ar-86x48": {
+   "box_rw": "wrong",
+   "conf": 0.36010956874595695
+  },
+  "ar-58x26": {
+   "box_rw": "wrong",
+   "conf": 0.946738277651761
+  },
+  "ar-51x55": {
+   "box_rw": "wrong",
+   "conf": 0.862653095879261
+  },
+  "ar-59x77": {
+   "box_rw": "wrong",
+   "conf": 0.35834576039726507
+  },
+  "ar-74x49": {
+   "box_rw": "wrong",
+   "conf": 0.9916815904915026
+  },
+  "ar-69x38": {
+   "box_rw": "wrong",
+   "conf": 0.3990474740265705
+  },
+  "ar-67x83": {
+   "box_rw": "wrong",
+   "conf": 0.6305914990128741
+  },
+  "ar-45x78": {
+   "box_rw": "wrong",
+   "conf": 0.7809306607481105
+  },
+  "ar-46x73": {
+   "box_rw": "wrong",
+   "conf": 0.9748473274868389
+  },
+  "ar-67x56": {
+   "box_rw": "wrong",
+   "conf": 0.6672266122674061
+  },
+  "ar-93x51": {
+   "box_rw": "wrong",
+   "conf": 0.9169598273249745
+  },
+  "ar-33x89": {
+   "box_rw": "wrong",
+   "conf": 0.6297766755899834
+  },
+  "ar-44x86": {
+   "box_rw": "wrong",
+   "conf": 0.3337372794760402
+  },
+  "ar-86x76": {
+   "box_rw": "wrong",
+   "conf": 0.955319443691601
+  },
+  "ar-58x17": {
+   "box_rw": "wrong",
+   "conf": 0.4483433689300789
+  },
+  "ar-85x63": {
+   "box_rw": "wrong",
+   "conf": 0.451753571316826
+  },
+  "ar-38x81": {
+   "box_rw": "wrong",
+   "conf": 0.952581848886492
+  },
+  "ar-26x47": {
+   "box_rw": "wrong",
+   "conf": 0.5891680097513302
+  },
+  "ar-57x84": {
+   "box_rw": "wrong",
+   "conf": 0.9220030597940303
+  },
+  "ar-72x77": {
+   "box_rw": "wrong",
+   "conf": 0.9982298444800121
+  },
+  "ar-86x81": {
+   "box_rw": "wrong",
+   "conf": 0.916975852355507
+  },
+  "ar-92x82": {
+   "box_rw": "wrong",
+   "conf": 0.9585897159637451
+  },
+  "ar-48x92": {
+   "box_rw": "wrong",
+   "conf": 0.8955006329592619
+  },
+  "ar-62x37": {
+   "box_rw": "wrong",
+   "conf": 0.8872044014861553
+  },
+  "ar-37x42": {
+   "box_rw": "wrong",
+   "conf": 0.2335711012073648
+  },
+  "ar-42x77": {
+   "box_rw": "wrong",
+   "conf": 0.6644720663730015
+  },
+  "ar-34x94": {
+   "box_rw": "wrong",
+   "conf": 0.7182628665683037
+  },
+  "ar-94x33": {
+   "box_rw": "wrong",
+   "conf": 0.9860487969442696
+  },
+  "ar-89x46": {
+   "box_rw": "wrong",
+   "conf": 0.8397338082604128
+  },
+  "ar-41x91": {
+   "box_rw": "wrong",
+   "conf": 0.9458011831445863
+  },
+  "ar-86x52": {
+   "box_rw": "wrong",
+   "conf": 0.9102221172839627
+  },
+  "ar-51x86": {
+   "box_rw": "wrong",
+   "conf": 0.4543806557502964
+  },
+  "ar-57x49": {
+   "box_rw": "wrong",
+   "conf": 0.42715648615419244
+  },
+  "ar-69x74": {
+   "box_rw": "wrong",
+   "conf": 0.648256000521782
+  },
+  "ar-92x97": {
+   "box_rw": "wrong",
+   "conf": 0.9958942041645354
+  },
+  "ar-76x59": {
+   "box_rw": "wrong",
+   "conf": 0.15391092938657105
+  },
+  "ar-94x85": {
+   "box_rw": "wrong",
+   "conf": 0.5078108241524032
+  },
+  "ar-23x71": {
+   "box_rw": "wrong",
+   "conf": 0.13692499587361348
+  },
+  "ar-96x86": {
+   "box_rw": "wrong",
+   "conf": 0.3874305182320464
+  }
+ }
+}

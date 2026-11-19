@@ -1,0 +1,74 @@
+{
+ "date": "2026-11-01",
+ "model": "Qwen/Qwen2.5-1.5B-Instruct",
+ "layer": 17,
+ "norm": 62.63673782348633,
+ "gate": {
+  "index_check": 0.0,
+  "ur_diff_vs_run0b": 0,
+  "held_baseline": 0.6329719566358836,
+  "held_stored": 0.6329719566358836
+ },
+ "arms": {
+  "baseline": {
+   "alpha": null,
+   "held_ab_psyc": 0.6329719566358836,
+   "gi200_mean_words": 56.105,
+   "user_right_mean_words": 52.525,
+   "push50_mean_words": 59.44
+  },
+  "real_f0.20": {
+   "alpha": 12.527347564697266,
+   "held_ab_psyc": 0.7167345200357522,
+   "gi200_mean_words": 22.35,
+   "user_right_mean_words": 12.275,
+   "push50_mean_words": 19.3
+  },
+  "real_f0.35": {
+   "alpha": 21.922858238220215,
+   "held_ab_psyc": 0.7008322795289496,
+   "gi200_mean_words": 12.945
+  },
+  "ctrl0_f0.20": {
+   "alpha": 12.527347564697266,
+   "gi200_mean_words": 63.55
+  },
+  "ctrl1_f0.20": {
+   "alpha": 12.527347564697266,
+   "gi200_mean_words": 68.795
+  },
+  "ctrl2_f0.20": {
+   "alpha": 12.527347564697266,
+   "gi200_mean_words": 75.655
+  },
+  "ctrl3_f0.20": {
+   "alpha": 12.527347564697266,
+   "gi200_mean_words": 71.525
+  },
+  "ctrl4_f0.20": {
+   "alpha": 12.527347564697266,
+   "gi200_mean_words": 48.02
+  },
+  "ctrl5_f0.20": {
+   "alpha": 12.527347564697266,
+   "gi200_mean_words": 54.35
+  },
+  "ctrl6_f0.20": {
+   "alpha": 12.527347564697266,
+   "gi200_mean_words": 41.07
+  },
+  "ctrl7_f0.20": {
+   "alpha": 12.527347564697266,
+   "gi200_mean_words": 70.215
+  },
+  "ctrl8_f0.20": {
+   "alpha": 12.527347564697266,
+   "gi200_mean_words": 48.075
+  },
+  "ctrl9_f0.20": {
+   "alpha": 12.527347564697266,
+   "gi200_mean_words": 77.86
+  }
+ },
+ "n_completions": 2780
+}

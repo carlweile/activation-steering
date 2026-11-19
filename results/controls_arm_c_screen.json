@@ -1,0 +1,3634 @@
+{
+ "arith_pool": 1200,
+ "arith_wrong": 402,
+ "arith_kept": 231,
+ "twins": 88,
+ "twins_clean_wrong": 17,
+ "arith_rows": [
+  {
+   "id": "ar-77x76",
+   "q": "What is 77 * 76? Reply with only the number.",
+   "correct": "5852",
+   "reply": "5652",
+   "wrong_own": "5652"
+  },
+  {
+   "id": "ar-57x82",
+   "q": "What is 57 * 82? Reply with only the number.",
+   "correct": "4674",
+   "reply": "4694",
+   "wrong_own": "4694"
+  },
+  {
+   "id": "ar-74x51",
+   "q": "What is 74 * 51? Reply with only the number.",
+   "correct": "3774",
+   "reply": "3794",
+   "wrong_own": "3794"
+  },
+  {
+   "id": "ar-54x66",
+   "q": "What is 54 * 66? Reply with only the number.",
+   "correct": "3564",
+   "reply": "3504",
+   "wrong_own": "3504"
+  },
+  {
+   "id": "ar-73x17",
+   "q": "What is 73 * 17? Reply with only the number.",
+   "correct": "1241",
+   "reply": "1261",
+   "wrong_own": "1261"
+  },
+  {
+   "id": "ar-39x65",
+   "q": "What is 39 * 65? Reply with only the number.",
+   "correct": "2535",
+   "reply": "2485",
+   "wrong_own": "2485"
+  },
+  {
+   "id": "ar-34x44",
+   "q": "What is 34 * 44? Reply with only the number.",
+   "correct": "1496",
+   "reply": "1504",
+   "wrong_own": "1504"
+  },
+  {
+   "id": "ar-66x91",
+   "q": "What is 66 * 91? Reply with only the number.",
+   "correct": "6006",
+   "reply": "5986",
+   "wrong_own": "5986"
+  },
+  {
+   "id": "ar-69x48",
+   "q": "What is 69 * 48? Reply with only the number.",
+   "correct": "3312",
+   "reply": "3264",
+   "wrong_own": "3264"
+  },
+  {
+   "id": "ar-95x96",
+   "q": "What is 95 * 96? Reply with only the number.",
+   "correct": "9120",
+   "reply": "9360",
+   "wrong_own": "9360"
+  },
+  {
+   "id": "ar-78x76",
+   "q": "What is 78 * 76? Reply with only the number.",
+   "correct": "5928",
+   "reply": "5808",
+   "wrong_own": "5808"
+  },
+  {
+   "id": "ar-81x87",
+   "q": "What is 81 * 87? Reply with only the number.",
+   "correct": "7047",
+   "reply": "6927",
+   "wrong_own": "6927"
+  },
+  {
+   "id": "ar-47x67",
+   "q": "What is 47 * 67? Reply with only the number.",
+   "correct": "3149",
+   "reply": "3159",
+   "wrong_own": "3159"
+  },
+  {
+   "id": "ar-93x58",
+   "q": "What is 93 * 58? Reply with only the number.",
+   "correct": "5394",
+   "reply": "5454",
+   "wrong_own": "5454"
+  },
+  {
+   "id": "ar-93x52",
+   "q": "What is 93 * 52? Reply with only the number.",
+   "correct": "4836",
+   "reply": "4816",
+   "wrong_own": "4816"
+  },
+  {
+   "id": "ar-86x59",
+   "q": "What is 86 * 59? Reply with only the number.",
+   "correct": "5074",
+   "reply": "4974",
+   "wrong_own": "4974"
+  },
+  {
+   "id": "ar-68x89",
+   "q": "What is 68 * 89? Reply with only the number.",
+   "correct": "6052",
+   "reply": "5982",
+   "wrong_own": "5982"
+  },
+  {
+   "id": "ar-78x51",
+   "q": "What is 78 * 51? Reply with only the number.",
+   "correct": "3978",
+   "reply": "3908",
+   "wrong_own": "3908"
+  },
+  {
+   "id": "ar-37x78",
+   "q": "What is 37 * 78? Reply with only the number.",
+   "correct": "2886",
+   "reply": "2906",
+   "wrong_own": "2906"
+  },
+  {
+   "id": "ar-22x91",
+   "q": "What is 22 * 91? Reply with only the number.",
+   "correct": "2002",
+   "reply": "1982",
+   "wrong_own": "1982"
+  },
+  {
+   "id": "ar-94x28",
+   "q": "What is 94 * 28? Reply with only the number.",
+   "correct": "2632",
+   "reply": "2592",
+   "wrong_own": "2592"
+  },
+  {
+   "id": "ar-81x79",
+   "q": "What is 81 * 79? Reply with only the number.",
+   "correct": "6399",
+   "reply": "6259",
+   "wrong_own": "6259"
+  },
+  {
+   "id": "ar-68x58",
+   "q": "What is 68 * 58? Reply with only the number.",
+   "correct": "3944",
+   "reply": "3824",
+   "wrong_own": "3824"
+  },
+  {
+   "id": "ar-52x95",
+   "q": "What is 52 * 95? Reply with only the number.",
+   "correct": "4940",
+   "reply": "4840",
+   "wrong_own": "4840"
+  },
+  {
+   "id": "ar-82x35",
+   "q": "What is 82 * 35? Reply with only the number.",
+   "correct": "2870",
+   "reply": "2930",
+   "wrong_own": "2930"
+  },
+  {
+   "id": "ar-56x31",
+   "q": "What is 56 * 31? Reply with only the number.",
+   "correct": "1736",
+   "reply": "1746",
+   "wrong_own": "1746"
+  },
+  {
+   "id": "ar-96x31",
+   "q": "What is 96 * 31? Reply with only the number.",
+   "correct": "2976",
+   "reply": "3036",
+   "wrong_own": "3036"
+  },
+  {
+   "id": "ar-87x33",
+   "q": "What is 87 * 33? Reply with only the number.",
+   "correct": "2871",
+   "reply": "2891",
+   "wrong_own": "2891"
+  },
+  {
+   "id": "ar-79x19",
+   "q": "What is 79 * 19? Reply with only the number.",
+   "correct": "1501",
+   "reply": "1491",
+   "wrong_own": "1491"
+  },
+  {
+   "id": "ar-71x57",
+   "q": "What is 71 * 57? Reply with only the number.",
+   "correct": "4047",
+   "reply": "3927",
+   "wrong_own": "3927"
+  },
+  {
+   "id": "ar-44x46",
+   "q": "What is 44 * 46? Reply with only the number.",
+   "correct": "2024",
+   "reply": "2004",
+   "wrong_own": "2004"
+  },
+  {
+   "id": "ar-24x78",
+   "q": "What is 24 * 78? Reply with only the number.",
+   "correct": "1872",
+   "reply": "2112",
+   "wrong_own": "2112"
+  },
+  {
+   "id": "ar-32x28",
+   "q": "What is 32 * 28? Reply with only the number.",
+   "correct": "896",
+   "reply": "904",
+   "wrong_own": "904"
+  },
+  {
+   "id": "ar-79x37",
+   "q": "What is 79 * 37? Reply with only the number.",
+   "correct": "2923",
+   "reply": "2853",
+   "wrong_own": "2853"
+  },
+  {
+   "id": "ar-64x87",
+   "q": "What is 64 * 87? Reply with only the number.",
+   "correct": "5568",
+   "reply": "5508",
+   "wrong_own": "5508"
+  },
+  {
+   "id": "ar-76x63",
+   "q": "What is 76 * 63? Reply with only the number.",
+   "correct": "4788",
+   "reply": "4728",
+   "wrong_own": "4728"
+  },
+  {
+   "id": "ar-90x16",
+   "q": "What is 90 * 16? Reply with only the number.",
+   "correct": "1440",
+   "reply": "144",
+   "wrong_own": "144"
+  },
+  {
+   "id": "ar-47x93",
+   "q": "What is 47 * 93? Reply with only the number.",
+   "correct": "4371",
+   "reply": "4251",
+   "wrong_own": "4251"
+  },
+  {
+   "id": "ar-45x93",
+   "q": "What is 45 * 93? Reply with only the number.",
+   "correct": "4185",
+   "reply": "4215",
+   "wrong_own": "4215"
+  },
+  {
+   "id": "ar-22x59",
+   "q": "What is 22 * 59? Reply with only the number.",
+   "correct": "1298",
+   "reply": "1308",
+   "wrong_own": "1308"
+  },
+  {
+   "id": "ar-84x89",
+   "q": "What is 84 * 89? Reply with only the number.",
+   "correct": "7476",
+   "reply": "7306",
+   "wrong_own": "7306"
+  },
+  {
+   "id": "ar-81x85",
+   "q": "What is 81 * 85? Reply with only the number.",
+   "correct": "6885",
+   "reply": "6895",
+   "wrong_own": "6895"
+  },
+  {
+   "id": "ar-95x73",
+   "q": "What is 95 * 73? Reply with only the number.",
+   "correct": "6935",
+   "reply": "6885",
+   "wrong_own": "6885"
+  },
+  {
+   "id": "ar-76x51",
+   "q": "What is 76 * 51? Reply with only the number.",
+   "correct": "3876",
+   "reply": "3846",
+   "wrong_own": "3846"
+  },
+  {
+   "id": "ar-71x83",
+   "q": "What is 71 * 83? Reply with only the number.",
+   "correct": "5893",
+   "reply": "5923",
+   "wrong_own": "5923"
+  },
+  {
+   "id": "ar-31x91",
+   "q": "What is 31 * 91? Reply with only the number.",
+   "correct": "2821",
+   "reply": "2801",
+   "wrong_own": "2801"
+  },
+  {
+   "id": "ar-59x67",
+   "q": "What is 59 * 67? Reply with only the number.",
+   "correct": "3953",
+   "reply": "3853",
+   "wrong_own": "3853"
+  },
+  {
+   "id": "ar-89x91",
+   "q": "What is 89 * 91? Reply with only the number.",
+   "correct": "8099",
+   "reply": "8049",
+   "wrong_own": "8049"
+  },
+  {
+   "id": "ar-82x49",
+   "q": "What is 82 * 49? Reply with only the number.",
+   "correct": "4018",
+   "reply": "3978",
+   "wrong_own": "3978"
+  },
+  {
+   "id": "ar-72x28",
+   "q": "What is 72 * 28? Reply with only the number.",
+   "correct": "2016",
+   "reply": "1968",
+   "wrong_own": "1968"
+  },
+  {
+   "id": "ar-81x34",
+   "q": "What is 81 * 34? Reply with only the number.",
+   "correct": "2754",
+   "reply": "2796",
+   "wrong_own": "2796"
+  },
+  {
+   "id": "ar-86x68",
+   "q": "What is 86 * 68? Reply with only the number.",
+   "correct": "5848",
+   "reply": "5928",
+   "wrong_own": "5928"
+  },
+  {
+   "id": "ar-12x51",
+   "q": "What is 12 * 51? Reply with only the number.",
+   "correct": "612",
+   "reply": "576",
+   "wrong_own": "576"
+  },
+  {
+   "id": "ar-76x29",
+   "q": "What is 76 * 29? Reply with only the number.",
+   "correct": "2204",
+   "reply": "22历程中的计算，但请注意，这个结果是基于标准的四",
+   "wrong_own": "22"
+  },
+  {
+   "id": "ar-51x43",
+   "q": "What is 51 * 43? Reply with only the number.",
+   "correct": "2193",
+   "reply": "2173",
+   "wrong_own": "2173"
+  },
+  {
+   "id": "ar-75x89",
+   "q": "What is 75 * 89? Reply with only the number.",
+   "correct": "6675",
+   "reply": "6725",
+   "wrong_own": "6725"
+  },
+  {
+   "id": "ar-67x37",
+   "q": "What is 67 * 37? Reply with only the number.",
+   "correct": "2479",
+   "reply": "2549",
+   "wrong_own": "2549"
+  },
+  {
+   "id": "ar-84x95",
+   "q": "What is 84 * 95? Reply with only the number.",
+   "correct": "7980",
+   "reply": "8010",
+   "wrong_own": "8010"
+  },
+  {
+   "id": "ar-83x42",
+   "q": "What is 83 * 42? Reply with only the number.",
+   "correct": "3486",
+   "reply": "3562",
+   "wrong_own": "3562"
+  },
+  {
+   "id": "ar-92x86",
+   "q": "What is 92 * 86? Reply with only the number.",
+   "correct": "7912",
+   "reply": "7812",
+   "wrong_own": "7812"
+  },
+  {
+   "id": "ar-72x46",
+   "q": "What is 72 * 46? Reply with only the number.",
+   "correct": "3312",
+   "reply": "3232",
+   "wrong_own": "3232"
+  },
+  {
+   "id": "ar-91x81",
+   "q": "What is 91 * 81? Reply with only the number.",
+   "correct": "7371",
+   "reply": "7361",
+   "wrong_own": "7361"
+  },
+  {
+   "id": "ar-34x88",
+   "q": "What is 34 * 88? Reply with only the number.",
+   "correct": "2992",
+   "reply": "2912",
+   "wrong_own": "2912"
+  },
+  {
+   "id": "ar-61x87",
+   "q": "What is 61 * 87? Reply with only the number.",
+   "correct": "5307",
+   "reply": "5247",
+   "wrong_own": "5247"
+  },
+  {
+   "id": "ar-74x97",
+   "q": "What is 74 * 97? Reply with only the number.",
+   "correct": "7178",
+   "reply": "7258",
+   "wrong_own": "7258"
+  },
+  {
+   "id": "ar-44x67",
+   "q": "What is 44 * 67? Reply with only the number.",
+   "correct": "2948",
+   "reply": "2938",
+   "wrong_own": "2938"
+  },
+  {
+   "id": "ar-96x41",
+   "q": "What is 96 * 41? Reply with only the number.",
+   "correct": "3936",
+   "reply": "3856",
+   "wrong_own": "3856"
+  },
+  {
+   "id": "ar-87x56",
+   "q": "What is 87 * 56? Reply with only the number.",
+   "correct": "4872",
+   "reply": "4912",
+   "wrong_own": "4912"
+  },
+  {
+   "id": "ar-68x97",
+   "q": "What is 68 * 97? Reply with only the number.",
+   "correct": "6596",
+   "reply": "6646",
+   "wrong_own": "6646"
+  },
+  {
+   "id": "ar-79x26",
+   "q": "What is 79 * 26? Reply with only the number.",
+   "correct": "2054",
+   "reply": "2014",
+   "wrong_own": "2014"
+  },
+  {
+   "id": "ar-53x89",
+   "q": "What is 53 * 89? Reply with only the number.",
+   "correct": "4717",
+   "reply": "4797",
+   "wrong_own": "4797"
+  },
+  {
+   "id": "ar-48x61",
+   "q": "What is 48 * 61? Reply with only the number.",
+   "correct": "2928",
+   "reply": "2908",
+   "wrong_own": "2908"
+  },
+  {
+   "id": "ar-78x38",
+   "q": "What is 78 * 38? Reply with only the number.",
+   "correct": "2964",
+   "reply": "2904",
+   "wrong_own": "2904"
+  },
+  {
+   "id": "ar-38x96",
+   "q": "What is 38 * 96? Reply with only the number.",
+   "correct": "3648",
+   "reply": "3568",
+   "wrong_own": "3568"
+  },
+  {
+   "id": "ar-64x66",
+   "q": "What is 64 * 66? Reply with only the number.",
+   "correct": "4224",
+   "reply": "4176",
+   "wrong_own": "4176"
+  },
+  {
+   "id": "ar-79x78",
+   "q": "What is 79 * 78? Reply with only the number.",
+   "correct": "6162",
+   "reply": "6042",
+   "wrong_own": "6042"
+  },
+  {
+   "id": "ar-36x94",
+   "q": "What is 36 * 94? Reply with only the number.",
+   "correct": "3384",
+   "reply": "3464",
+   "wrong_own": "3464"
+  },
+  {
+   "id": "ar-61x77",
+   "q": "What is 61 * 77? Reply with only the number.",
+   "correct": "4697",
+   "reply": "4657",
+   "wrong_own": "4657"
+  },
+  {
+   "id": "ar-88x31",
+   "q": "What is 88 * 31? Reply with only the number.",
+   "correct": "2728",
+   "reply": "2748",
+   "wrong_own": "2748"
+  },
+  {
+   "id": "ar-86x61",
+   "q": "What is 86 * 61? Reply with only the number.",
+   "correct": "5246",
+   "reply": "5146",
+   "wrong_own": "5146"
+  },
+  {
+   "id": "ar-92x83",
+   "q": "What is 92 * 83? Reply with only the number.",
+   "correct": "7636",
+   "reply": "7646",
+   "wrong_own": "7646"
+  },
+  {
+   "id": "ar-51x81",
+   "q": "What is 51 * 81? Reply with only the number.",
+   "correct": "4131",
+   "reply": "4111",
+   "wrong_own": "4111"
+  },
+  {
+   "id": "ar-57x54",
+   "q": "What is 57 * 54? Reply with only the number.",
+   "correct": "3078",
+   "reply": "3108",
+   "wrong_own": "3108"
+  },
+  {
+   "id": "ar-77x85",
+   "q": "What is 77 * 85? Reply with only the number.",
+   "correct": "6545",
+   "reply": "6555",
+   "wrong_own": "6555"
+  },
+  {
+   "id": "ar-79x46",
+   "q": "What is 79 * 46? Reply with only the number.",
+   "correct": "3634",
+   "reply": "3514",
+   "wrong_own": "3514"
+  },
+  {
+   "id": "ar-37x58",
+   "q": "What is 37 * 58? Reply with only the number.",
+   "correct": "2146",
+   "reply": "2166",
+   "wrong_own": "2166"
+  },
+  {
+   "id": "ar-94x89",
+   "q": "What is 94 * 89? Reply with only the number.",
+   "correct": "8366",
+   "reply": "8266",
+   "wrong_own": "8266"
+  },
+  {
+   "id": "ar-95x56",
+   "q": "What is 95 * 56? Reply with only the number.",
+   "correct": "5320",
+   "reply": "5180",
+   "wrong_own": "5180"
+  },
+  {
+   "id": "ar-49x69",
+   "q": "What is 49 * 69? Reply with only the number.",
+   "correct": "3381",
+   "reply": "3301",
+   "wrong_own": "3301"
+  },
+  {
+   "id": "ar-24x69",
+   "q": "What is 24 * 69? Reply with only the number.",
+   "correct": "1656",
+   "reply": "1736",
+   "wrong_own": "1736"
+  },
+  {
+   "id": "ar-68x83",
+   "q": "What is 68 * 83? Reply with only the number.",
+   "correct": "5644",
+   "reply": "5674",
+   "wrong_own": "5674"
+  },
+  {
+   "id": "ar-66x29",
+   "q": "What is 66 * 29? Reply with only the number.",
+   "correct": "1914",
+   "reply": "1974",
+   "wrong_own": "1974"
+  },
+  {
+   "id": "ar-97x41",
+   "q": "What is 97 * 41? Reply with only the number.",
+   "correct": "3977",
+   "reply": "3807",
+   "wrong_own": "3807"
+  },
+  {
+   "id": "ar-89x48",
+   "q": "What is 89 * 48? Reply with only the number.",
+   "correct": "4272",
+   "reply": "4192",
+   "wrong_own": "4192"
+  },
+  {
+   "id": "ar-97x81",
+   "q": "What is 97 * 81? Reply with only the number.",
+   "correct": "7857",
+   "reply": "7867",
+   "wrong_own": "7867"
+  },
+  {
+   "id": "ar-91x52",
+   "q": "What is 91 * 52? Reply with only the number.",
+   "correct": "4732",
+   "reply": "4712",
+   "wrong_own": "4712"
+  },
+  {
+   "id": "ar-49x91",
+   "q": "What is 49 * 91? Reply with only the number.",
+   "correct": "4459",
+   "reply": "4209",
+   "wrong_own": "4209"
+  },
+  {
+   "id": "ar-88x78",
+   "q": "What is 88 * 78? Reply with only the number.",
+   "correct": "6864",
+   "reply": "6984",
+   "wrong_own": "6984"
+  },
+  {
+   "id": "ar-43x44",
+   "q": "What is 43 * 44? Reply with only the number.",
+   "correct": "1892",
+   "reply": "1932",
+   "wrong_own": "1932"
+  },
+  {
+   "id": "ar-87x22",
+   "q": "What is 87 * 22? Reply with only the number.",
+   "correct": "1914",
+   "reply": "1954",
+   "wrong_own": "1954"
+  },
+  {
+   "id": "ar-51x59",
+   "q": "What is 51 * 59? Reply with only the number.",
+   "correct": "3009",
+   "reply": "3049",
+   "wrong_own": "3049"
+  },
+  {
+   "id": "ar-66x57",
+   "q": "What is 66 * 57? Reply with only the number.",
+   "correct": "3762",
+   "reply": "3642",
+   "wrong_own": "3642"
+  },
+  {
+   "id": "ar-39x82",
+   "q": "What is 39 * 82? Reply with only the number.",
+   "correct": "3198",
+   "reply": "3178",
+   "wrong_own": "3178"
+  },
+  {
+   "id": "ar-14x73",
+   "q": "What is 14 * 73? Reply with only the number.",
+   "correct": "1022",
+   "reply": "982",
+   "wrong_own": "982"
+  },
+  {
+   "id": "ar-56x53",
+   "q": "What is 56 * 53? Reply with only the number.",
+   "correct": "2968",
+   "reply": "2928",
+   "wrong_own": "2928"
+  },
+  {
+   "id": "ar-43x66",
+   "q": "What is 43 * 66? Reply with only the number.",
+   "correct": "2838",
+   "reply": "2858",
+   "wrong_own": "2858"
+  },
+  {
+   "id": "ar-42x22",
+   "q": "What is 42 * 22? Reply with only the number.",
+   "correct": "924",
+   "reply": "922",
+   "wrong_own": "922"
+  },
+  {
+   "id": "ar-12x68",
+   "q": "What is 12 * 68? Reply with only the number.",
+   "correct": "816",
+   "reply": "768",
+   "wrong_own": "768"
+  },
+  {
+   "id": "ar-53x93",
+   "q": "What is 53 * 93? Reply with only the number.",
+   "correct": "4929",
+   "reply": "4899",
+   "wrong_own": "4899"
+  },
+  {
+   "id": "ar-51x78",
+   "q": "What is 51 * 78? Reply with only the number.",
+   "correct": "3978",
+   "reply": "4098",
+   "wrong_own": "4098"
+  },
+  {
+   "id": "ar-80x54",
+   "q": "What is 80 * 54? Reply with only the number.",
+   "correct": "4320",
+   "reply": "432",
+   "wrong_own": "432"
+  },
+  {
+   "id": "ar-89x61",
+   "q": "What is 89 * 61? Reply with only the number.",
+   "correct": "5429",
+   "reply": "5379",
+   "wrong_own": "5379"
+  },
+  {
+   "id": "ar-82x91",
+   "q": "What is 82 * 91? Reply with only the number.",
+   "correct": "7462",
+   "reply": "7402",
+   "wrong_own": "7402"
+  },
+  {
+   "id": "ar-93x71",
+   "q": "What is 93 * 71? Reply with only the number.",
+   "correct": "6603",
+   "reply": "6523",
+   "wrong_own": "6523"
+  },
+  {
+   "id": "ar-34x71",
+   "q": "What is 34 * 71? Reply with only the number.",
+   "correct": "2414",
+   "reply": "2404",
+   "wrong_own": "2404"
+  },
+  {
+   "id": "ar-86x73",
+   "q": "What is 86 * 73? Reply with only the number.",
+   "correct": "6278",
+   "reply": "6258",
+   "wrong_own": "6258"
+  },
+  {
+   "id": "ar-77x34",
+   "q": "What is 77 * 34? Reply with only the number.",
+   "correct": "2618",
+   "reply": "2588",
+   "wrong_own": "2588"
+  },
+  {
+   "id": "ar-87x85",
+   "q": "What is 87 * 85? Reply with only the number.",
+   "correct": "7395",
+   "reply": "7465",
+   "wrong_own": "7465"
+  },
+  {
+   "id": "ar-71x72",
+   "q": "What is 71 * 72? Reply with only the number.",
+   "correct": "5112",
+   "reply": "5062",
+   "wrong_own": "5062"
+  },
+  {
+   "id": "ar-94x49",
+   "q": "What is 94 * 49? Reply with only the number.",
+   "correct": "4606",
+   "reply": "4506",
+   "wrong_own": "4506"
+  },
+  {
+   "id": "ar-67x51",
+   "q": "What is 67 * 51? Reply with only the number.",
+   "correct": "3417",
+   "reply": "3407",
+   "wrong_own": "3407"
+  },
+  {
+   "id": "ar-71x77",
+   "q": "What is 71 * 77? Reply with only the number.",
+   "correct": "5467",
+   "reply": "5387",
+   "wrong_own": "5387"
+  },
+  {
+   "id": "ar-52x72",
+   "q": "What is 52 * 72? Reply with only the number.",
+   "correct": "3744",
+   "reply": "3864",
+   "wrong_own": "3864"
+  },
+  {
+   "id": "ar-93x43",
+   "q": "What is 93 * 43? Reply with only the number.",
+   "correct": "3999",
+   "reply": "3869",
+   "wrong_own": "3869"
+  },
+  {
+   "id": "ar-65x95",
+   "q": "What is 65 * 95? Reply with only the number.",
+   "correct": "6175",
+   "reply": "6225",
+   "wrong_own": "6225"
+  },
+  {
+   "id": "ar-92x47",
+   "q": "What is 92 * 47? Reply with only the number.",
+   "correct": "4324",
+   "reply": "4234",
+   "wrong_own": "4234"
+  },
+  {
+   "id": "ar-55x78",
+   "q": "What is 55 * 78? Reply with only the number.",
+   "correct": "4290",
+   "reply": "4370",
+   "wrong_own": "4370"
+  },
+  {
+   "id": "ar-57x69",
+   "q": "What is 57 * 69? Reply with only the number.",
+   "correct": "3933",
+   "reply": "3853",
+   "wrong_own": "3853"
+  },
+  {
+   "id": "ar-53x33",
+   "q": "What is 53 * 33? Reply with only the number.",
+   "correct": "1749",
+   "reply": "1759",
+   "wrong_own": "1759"
+  },
+  {
+   "id": "ar-74x65",
+   "q": "What is 74 * 65? Reply with only the number.",
+   "correct": "4810",
+   "reply": "4710",
+   "wrong_own": "4710"
+  },
+  {
+   "id": "ar-85x83",
+   "q": "What is 85 * 83? Reply with only the number.",
+   "correct": "7055",
+   "reply": "7105",
+   "wrong_own": "7105"
+  },
+  {
+   "id": "ar-88x95",
+   "q": "What is 88 * 95? Reply with only the number.",
+   "correct": "8360",
+   "reply": "8310",
+   "wrong_own": "8310"
+  },
+  {
+   "id": "ar-81x46",
+   "q": "What is 81 * 46? Reply with only the number.",
+   "correct": "3726",
+   "reply": "3606",
+   "wrong_own": "3606"
+  },
+  {
+   "id": "ar-98x68",
+   "q": "What is 98 * 68? Reply with only the number.",
+   "correct": "6664",
+   "reply": "6544",
+   "wrong_own": "6544"
+  },
+  {
+   "id": "ar-14x57",
+   "q": "What is 14 * 57? Reply with only the number.",
+   "correct": "798",
+   "reply": "802",
+   "wrong_own": "802"
+  },
+  {
+   "id": "ar-85x14",
+   "q": "What is 85 * 14? Reply with only the number.",
+   "correct": "1190",
+   "reply": "1210",
+   "wrong_own": "1210"
+  },
+  {
+   "id": "ar-65x82",
+   "q": "What is 65 * 82? Reply with only the number.",
+   "correct": "5330",
+   "reply": "5370",
+   "wrong_own": "5370"
+  },
+  {
+   "id": "ar-42x39",
+   "q": "What is 42 * 39? Reply with only the number.",
+   "correct": "1638",
+   "reply": "1658",
+   "wrong_own": "1658"
+  },
+  {
+   "id": "ar-92x72",
+   "q": "What is 92 * 72? Reply with only the number.",
+   "correct": "6624",
+   "reply": "6528",
+   "wrong_own": "6528"
+  },
+  {
+   "id": "ar-29x61",
+   "q": "What is 29 * 61? Reply with only the number.",
+   "correct": "1769",
+   "reply": "1759",
+   "wrong_own": "1759"
+  },
+  {
+   "id": "ar-98x59",
+   "q": "What is 98 * 59? Reply with only the number.",
+   "correct": "5782",
+   "reply": "5762",
+   "wrong_own": "5762"
+  },
+  {
+   "id": "ar-34x47",
+   "q": "What is 34 * 47? Reply with only the number.",
+   "correct": "1598",
+   "reply": "1638",
+   "wrong_own": "1638"
+  },
+  {
+   "id": "ar-63x54",
+   "q": "What is 63 * 54? Reply with only the number.",
+   "correct": "3402",
+   "reply": "3486",
+   "wrong_own": "3486"
+  },
+  {
+   "id": "ar-78x37",
+   "q": "What is 78 * 37? Reply with only the number.",
+   "correct": "2886",
+   "reply": "2846",
+   "wrong_own": "2846"
+  },
+  {
+   "id": "ar-79x95",
+   "q": "What is 79 * 95? Reply with only the number.",
+   "correct": "7505",
+   "reply": "7605",
+   "wrong_own": "7605"
+  },
+  {
+   "id": "ar-79x73",
+   "q": "What is 79 * 73? Reply with only the number.",
+   "correct": "5767",
+   "reply": "5687",
+   "wrong_own": "5687"
+  },
+  {
+   "id": "ar-85x80",
+   "q": "What is 85 * 80? Reply with only the number.",
+   "correct": "6800",
+   "reply": "7200",
+   "wrong_own": "7200"
+  },
+  {
+   "id": "ar-74x89",
+   "q": "What is 74 * 89? Reply with only the number.",
+   "correct": "6586",
+   "reply": "6646",
+   "wrong_own": "6646"
+  },
+  {
+   "id": "ar-64x31",
+   "q": "What is 64 * 31? Reply with only the number.",
+   "correct": "1984",
+   "reply": "2016",
+   "wrong_own": "2016"
+  },
+  {
+   "id": "ar-21x74",
+   "q": "What is 21 * 74? Reply with only the number.",
+   "correct": "1554",
+   "reply": "1594",
+   "wrong_own": "1594"
+  },
+  {
+   "id": "ar-97x42",
+   "q": "What is 97 * 42? Reply with only the number.",
+   "correct": "4074",
+   "reply": "4034",
+   "wrong_own": "4034"
+  },
+  {
+   "id": "ar-17x94",
+   "q": "What is 17 * 94? Reply with only the number.",
+   "correct": "1598",
+   "reply": "1588",
+   "wrong_own": "1588"
+  },
+  {
+   "id": "ar-81x47",
+   "q": "What is 81 * 47? Reply with only the number.",
+   "correct": "3807",
+   "reply": "3657",
+   "wrong_own": "3657"
+  },
+  {
+   "id": "ar-61x44",
+   "q": "What is 61 * 44? Reply with only the number.",
+   "correct": "2684",
+   "reply": "2664",
+   "wrong_own": "2664"
+  },
+  {
+   "id": "ar-58x74",
+   "q": "What is 58 * 74? Reply with only the number.",
+   "correct": "4292",
+   "reply": "4212",
+   "wrong_own": "4212"
+  },
+  {
+   "id": "ar-46x88",
+   "q": "What is 46 * 88? Reply with only the number.",
+   "correct": "4048",
+   "reply": "3928",
+   "wrong_own": "3928"
+  },
+  {
+   "id": "ar-21x61",
+   "q": "What is 21 * 61? Reply with only the number.",
+   "correct": "1281",
+   "reply": "1271",
+   "wrong_own": "1271"
+  },
+  {
+   "id": "ar-92x32",
+   "q": "What is 92 * 32? Reply with only the number.",
+   "correct": "2944",
+   "reply": "2942",
+   "wrong_own": "2942"
+  },
+  {
+   "id": "ar-89x51",
+   "q": "What is 89 * 51? Reply with only the number.",
+   "correct": "4539",
+   "reply": "4509",
+   "wrong_own": "4509"
+  },
+  {
+   "id": "ar-19x58",
+   "q": "What is 19 * 58? Reply with only the number.",
+   "correct": "1102",
+   "reply": "1082",
+   "wrong_own": "1082"
+  },
+  {
+   "id": "ar-77x87",
+   "q": "What is 77 * 87? Reply with only the number.",
+   "correct": "6699",
+   "reply": "6739",
+   "wrong_own": "6739"
+  },
+  {
+   "id": "ar-78x73",
+   "q": "What is 78 * 73? Reply with only the number.",
+   "correct": "5694",
+   "reply": "5614",
+   "wrong_own": "5614"
+  },
+  {
+   "id": "ar-35x88",
+   "q": "What is 35 * 88? Reply with only the number.",
+   "correct": "3080",
+   "reply": "2980",
+   "wrong_own": "2980"
+  },
+  {
+   "id": "ar-57x92",
+   "q": "What is 57 * 92? Reply with only the number.",
+   "correct": "5244",
+   "reply": "5164",
+   "wrong_own": "5164"
+  },
+  {
+   "id": "ar-42x93",
+   "q": "What is 42 * 93? Reply with only the number.",
+   "correct": "3906",
+   "reply": "3862",
+   "wrong_own": "3862"
+  },
+  {
+   "id": "ar-49x71",
+   "q": "What is 49 * 71? Reply with only the number.",
+   "correct": "3479",
+   "reply": "3499",
+   "wrong_own": "3499"
+  },
+  {
+   "id": "ar-12x94",
+   "q": "What is 12 * 94? Reply with only the number.",
+   "correct": "1128",
+   "reply": "1124",
+   "wrong_own": "1124"
+  },
+  {
+   "id": "ar-89x59",
+   "q": "What is 89 * 59? Reply with only the number.",
+   "correct": "5251",
+   "reply": "5261",
+   "wrong_own": "5261"
+  },
+  {
+   "id": "ar-39x52",
+   "q": "What is 39 * 52? Reply with only the number.",
+   "correct": "2028",
+   "reply": "1968",
+   "wrong_own": "1968"
+  },
+  {
+   "id": "ar-89x39",
+   "q": "What is 89 * 39? Reply with only the number.",
+   "correct": "3471",
+   "reply": "3571",
+   "wrong_own": "3571"
+  },
+  {
+   "id": "ar-53x13",
+   "q": "What is 53 * 13? Reply with only the number.",
+   "correct": "689",
+   "reply": "709",
+   "wrong_own": "709"
+  },
+  {
+   "id": "ar-43x96",
+   "q": "What is 43 * 96? Reply with only the number.",
+   "correct": "4128",
+   "reply": "4248",
+   "wrong_own": "4248"
+  },
+  {
+   "id": "ar-84x51",
+   "q": "What is 84 * 51? Reply with only the number.",
+   "correct": "4284",
+   "reply": "4236",
+   "wrong_own": "4236"
+  },
+  {
+   "id": "ar-86x66",
+   "q": "What is 86 * 66? Reply with only the number.",
+   "correct": "5676",
+   "reply": "5796",
+   "wrong_own": "5796"
+  },
+  {
+   "id": "ar-78x72",
+   "q": "What is 78 * 72? Reply with only the number.",
+   "correct": "5616",
+   "reply": "5496",
+   "wrong_own": "5496"
+  },
+  {
+   "id": "ar-66x83",
+   "q": "What is 66 * 83? Reply with only the number.",
+   "correct": "5478",
+   "reply": "5418",
+   "wrong_own": "5418"
+  },
+  {
+   "id": "ar-21x57",
+   "q": "What is 21 * 57? Reply with only the number.",
+   "correct": "1197",
+   "reply": "1221",
+   "wrong_own": "1221"
+  },
+  {
+   "id": "ar-58x68",
+   "q": "What is 58 * 68? Reply with only the number.",
+   "correct": "3944",
+   "reply": "3904",
+   "wrong_own": "3904"
+  },
+  {
+   "id": "ar-63x83",
+   "q": "What is 63 * 83? Reply with only the number.",
+   "correct": "5229",
+   "reply": "5149",
+   "wrong_own": "5149"
+  },
+  {
+   "id": "ar-21x96",
+   "q": "What is 21 * 96? Reply with only the number.",
+   "correct": "2016",
+   "reply": "1956",
+   "wrong_own": "1956"
+  },
+  {
+   "id": "ar-52x89",
+   "q": "What is 52 * 89? Reply with only the number.",
+   "correct": "4628",
+   "reply": "4638",
+   "wrong_own": "4638"
+  },
+  {
+   "id": "ar-59x51",
+   "q": "What is 59 * 51? Reply with only the number.",
+   "correct": "3009",
+   "reply": "3069",
+   "wrong_own": "3069"
+  },
+  {
+   "id": "ar-73x62",
+   "q": "What is 73 * 62? Reply with only the number.",
+   "correct": "4526",
+   "reply": "4506",
+   "wrong_own": "4506"
+  },
+  {
+   "id": "ar-43x19",
+   "q": "What is 43 * 19? Reply with only the number.",
+   "correct": "817",
+   "reply": "797",
+   "wrong_own": "797"
+  },
+  {
+   "id": "ar-91x77",
+   "q": "What is 91 * 77? Reply with only the number.",
+   "correct": "7007",
+   "reply": "6857",
+   "wrong_own": "6857"
+  },
+  {
+   "id": "ar-34x73",
+   "q": "What is 34 * 73? Reply with only the number.",
+   "correct": "2482",
+   "reply": "2502",
+   "wrong_own": "2502"
+  },
+  {
+   "id": "ar-22x82",
+   "q": "What is 22 * 82? Reply with only the number.",
+   "correct": "1804",
+   "reply": "1796",
+   "wrong_own": "1796"
+  },
+  {
+   "id": "ar-61x51",
+   "q": "What is 61 * 51? Reply with only the number.",
+   "correct": "3111",
+   "reply": "3091",
+   "wrong_own": "3091"
+  },
+  {
+   "id": "ar-63x53",
+   "q": "What is 63 * 53? Reply with only the number.",
+   "correct": "3339",
+   "reply": "3399",
+   "wrong_own": "3399"
+  },
+  {
+   "id": "ar-38x35",
+   "q": "What is 38 * 35? Reply with only the number.",
+   "correct": "1330",
+   "reply": "1290",
+   "wrong_own": "1290"
+  },
+  {
+   "id": "ar-44x81",
+   "q": "What is 44 * 81? Reply with only the number.",
+   "correct": "3564",
+   "reply": "3524",
+   "wrong_own": "3524"
+  },
+  {
+   "id": "ar-38x47",
+   "q": "What is 38 * 47? Reply with only the number.",
+   "correct": "1786",
+   "reply": "1796",
+   "wrong_own": "1796"
+  },
+  {
+   "id": "ar-86x48",
+   "q": "What is 86 * 48? Reply with only the number.",
+   "correct": "4128",
+   "reply": "3968",
+   "wrong_own": "3968"
+  },
+  {
+   "id": "ar-58x26",
+   "q": "What is 58 * 26? Reply with only the number.",
+   "correct": "1508",
+   "reply": "1488",
+   "wrong_own": "1488"
+  },
+  {
+   "id": "ar-51x55",
+   "q": "What is 51 * 55? Reply with only the number.",
+   "correct": "2805",
+   "reply": "2755",
+   "wrong_own": "2755"
+  },
+  {
+   "id": "ar-59x77",
+   "q": "What is 59 * 77? Reply with only the number.",
+   "correct": "4543",
+   "reply": "4483",
+   "wrong_own": "4483"
+  },
+  {
+   "id": "ar-74x49",
+   "q": "What is 74 * 49? Reply with only the number.",
+   "correct": "3626",
+   "reply": "3606",
+   "wrong_own": "3606"
+  },
+  {
+   "id": "ar-69x38",
+   "q": "What is 69 * 38? Reply with only the number.",
+   "correct": "2622",
+   "reply": "2572",
+   "wrong_own": "2572"
+  },
+  {
+   "id": "ar-67x83",
+   "q": "What is 67 * 83? Reply with only the number.",
+   "correct": "5561",
+   "reply": "5491",
+   "wrong_own": "5491"
+  },
+  {
+   "id": "ar-45x78",
+   "q": "What is 45 * 78? Reply with only the number.",
+   "correct": "3510",
+   "reply": "3410",
+   "wrong_own": "3410"
+  },
+  {
+   "id": "ar-46x73",
+   "q": "What is 46 * 73? Reply with only the number.",
+   "correct": "3358",
+   "reply": "3298",
+   "wrong_own": "3298"
+  },
+  {
+   "id": "ar-67x56",
+   "q": "What is 67 * 56? Reply with only the number.",
+   "correct": "3752",
+   "reply": "3792",
+   "wrong_own": "3792"
+  },
+  {
+   "id": "ar-93x51",
+   "q": "What is 93 * 51? Reply with only the number.",
+   "correct": "4743",
+   "reply": "4713",
+   "wrong_own": "4713"
+  },
+  {
+   "id": "ar-33x89",
+   "q": "What is 33 * 89? Reply with only the number.",
+   "correct": "2937",
+   "reply": "2957",
+   "wrong_own": "2957"
+  },
+  {
+   "id": "ar-44x86",
+   "q": "What is 44 * 86? Reply with only the number.",
+   "correct": "3784",
+   "reply": "3704",
+   "wrong_own": "3704"
+  },
+  {
+   "id": "ar-86x76",
+   "q": "What is 86 * 76? Reply with only the number.",
+   "correct": "6536",
+   "reply": "6516",
+   "wrong_own": "6516"
+  },
+  {
+   "id": "ar-58x17",
+   "q": "What is 58 * 17? Reply with only the number.",
+   "correct": "986",
+   "reply": "966",
+   "wrong_own": "966"
+  },
+  {
+   "id": "ar-85x63",
+   "q": "What is 85 * 63? Reply with only the number.",
+   "correct": "5355",
+   "reply": "5205",
+   "wrong_own": "5205"
+  },
+  {
+   "id": "ar-38x81",
+   "q": "What is 38 * 81? Reply with only the number.",
+   "correct": "3078",
+   "reply": "2978",
+   "wrong_own": "2978"
+  },
+  {
+   "id": "ar-26x47",
+   "q": "What is 26 * 47? Reply with only the number.",
+   "correct": "1222",
+   "reply": "1252",
+   "wrong_own": "1252"
+  },
+  {
+   "id": "ar-57x84",
+   "q": "What is 57 * 84? Reply with only the number.",
+   "correct": "4788",
+   "reply": "4728",
+   "wrong_own": "4728"
+  },
+  {
+   "id": "ar-72x77",
+   "q": "What is 72 * 77? Reply with only the number.",
+   "correct": "5544",
+   "reply": "5424",
+   "wrong_own": "5424"
+  },
+  {
+   "id": "ar-86x81",
+   "q": "What is 86 * 81? Reply with only the number.",
+   "correct": "6966",
+   "reply": "7026",
+   "wrong_own": "7026"
+  },
+  {
+   "id": "ar-92x82",
+   "q": "What is 92 * 82? Reply with only the number.",
+   "correct": "7544",
+   "reply": "7464",
+   "wrong_own": "7464"
+  },
+  {
+   "id": "ar-48x92",
+   "q": "What is 48 * 92? Reply with only the number.",
+   "correct": "4416",
+   "reply": "4368",
+   "wrong_own": "4368"
+  },
+  {
+   "id": "ar-62x37",
+   "q": "What is 62 * 37? Reply with only the number.",
+   "correct": "2294",
+   "reply": "2254",
+   "wrong_own": "2254"
+  },
+  {
+   "id": "ar-37x42",
+   "q": "What is 37 * 42? Reply with only the number.",
+   "correct": "1554",
+   "reply": "1594",
+   "wrong_own": "1594"
+  },
+  {
+   "id": "ar-42x77",
+   "q": "What is 42 * 77? Reply with only the number.",
+   "correct": "3234",
+   "reply": "3198",
+   "wrong_own": "3198"
+  },
+  {
+   "id": "ar-34x94",
+   "q": "What is 34 * 94? Reply with only the number.",
+   "correct": "3196",
+   "reply": "3156",
+   "wrong_own": "3156"
+  },
+  {
+   "id": "ar-94x33",
+   "q": "What is 94 * 33? Reply with only the number.",
+   "correct": "3102",
+   "reply": "3082",
+   "wrong_own": "3082"
+  },
+  {
+   "id": "ar-89x46",
+   "q": "What is 89 * 46? Reply with only the number.",
+   "correct": "4094",
+   "reply": "4014",
+   "wrong_own": "4014"
+  },
+  {
+   "id": "ar-41x91",
+   "q": "What is 41 * 91? Reply with only the number.",
+   "correct": "3731",
+   "reply": "3721",
+   "wrong_own": "3721"
+  },
+  {
+   "id": "ar-86x52",
+   "q": "What is 86 * 52? Reply with only the number.",
+   "correct": "4472",
+   "reply": "4432",
+   "wrong_own": "4432"
+  },
+  {
+   "id": "ar-51x86",
+   "q": "What is 51 * 86? Reply with only the number.",
+   "correct": "4386",
+   "reply": "4306",
+   "wrong_own": "4306"
+  },
+  {
+   "id": "ar-57x49",
+   "q": "What is 57 * 49? Reply with only the number.",
+   "correct": "2793",
+   "reply": "2803",
+   "wrong_own": "2803"
+  },
+  {
+   "id": "ar-69x74",
+   "q": "What is 69 * 74? Reply with only the number.",
+   "correct": "5106",
+   "reply": "5086",
+   "wrong_own": "5086"
+  },
+  {
+   "id": "ar-92x97",
+   "q": "What is 92 * 97? Reply with only the number.",
+   "correct": "8924",
+   "reply": "9014",
+   "wrong_own": "9014"
+  },
+  {
+   "id": "ar-76x59",
+   "q": "What is 76 * 59? Reply with only the number.",
+   "correct": "4484",
+   "reply": "4384",
+   "wrong_own": "4384"
+  },
+  {
+   "id": "ar-94x85",
+   "q": "What is 94 * 85? Reply with only the number.",
+   "correct": "7990",
+   "reply": "7910",
+   "wrong_own": "7910"
+  },
+  {
+   "id": "ar-23x71",
+   "q": "What is 23 * 71? Reply with only the number.",
+   "correct": "1633",
+   "reply": "1643",
+   "wrong_own": "1643"
+  },
+  {
+   "id": "ar-96x86",
+   "q": "What is 96 * 86? Reply with only the number.",
+   "correct": "8256",
+   "reply": "8176",
+   "wrong_own": "8176"
+  },
+  {
+   "id": "ar-71x67",
+   "q": "What is 71 * 67? Reply with only the number.",
+   "correct": "4757",
+   "reply": "4527",
+   "wrong_own": "4527"
+  },
+  {
+   "id": "ar-51x56",
+   "q": "What is 51 * 56? Reply with only the number.",
+   "correct": "2856",
+   "reply": "2836",
+   "wrong_own": "2836"
+  },
+  {
+   "id": "ar-77x33",
+   "q": "What is 77 * 33? Reply with only the number.",
+   "correct": "2541",
+   "reply": "2501",
+   "wrong_own": "2501"
+  },
+  {
+   "id": "ar-37x49",
+   "q": "What is 37 * 49? Reply with only the number.",
+   "correct": "1813",
+   "reply": "1863",
+   "wrong_own": "1863"
+  },
+  {
+   "id": "ar-49x37",
+   "q": "What is 49 * 37? Reply with only the number.",
+   "correct": "1813",
+   "reply": "1833",
+   "wrong_own": "1833"
+  },
+  {
+   "id": "ar-52x86",
+   "q": "What is 52 * 86? Reply with only the number.",
+   "correct": "4472",
+   "reply": "4432",
+   "wrong_own": "4432"
+  },
+  {
+   "id": "ar-94x93",
+   "q": "What is 94 * 93? Reply with only the number.",
+   "correct": "8742",
+   "reply": "8762",
+   "wrong_own": "8762"
+  },
+  {
+   "id": "ar-42x38",
+   "q": "What is 42 * 38? Reply with only the number.",
+   "correct": "1596",
+   "reply": "1636",
+   "wrong_own": "1636"
+  },
+  {
+   "id": "ar-49x74",
+   "q": "What is 49 * 74? Reply with only the number.",
+   "correct": "3626",
+   "reply": "3566",
+   "wrong_own": "3566"
+  },
+  {
+   "id": "ar-61x53",
+   "q": "What is 61 * 53? Reply with only the number.",
+   "correct": "3233",
+   "reply": "3273",
+   "wrong_own": "3273"
+  },
+  {
+   "id": "ar-71x62",
+   "q": "What is 71 * 62? Reply with only the number.",
+   "correct": "4402",
+   "reply": "4382",
+   "wrong_own": "4382"
+  },
+  {
+   "id": "ar-83x12",
+   "q": "What is 83 * 12? Reply with only the number.",
+   "correct": "996",
+   "reply": "1004",
+   "wrong_own": "1004"
+  },
+  {
+   "id": "ar-31x46",
+   "q": "What is 31 * 46? Reply with only the number.",
+   "correct": "1426",
+   "reply": "1406",
+   "wrong_own": "1406"
+  },
+  {
+   "id": "ar-76x37",
+   "q": "What is 76 * 37? Reply with only the number.",
+   "correct": "2812",
+   "reply": "2852",
+   "wrong_own": "2852"
+  },
+  {
+   "id": "ar-68x34",
+   "q": "What is 68 * 34? Reply with only the number.",
+   "correct": "2312",
+   "reply": "2272",
+   "wrong_own": "2272"
+  },
+  {
+   "id": "ar-92x89",
+   "q": "What is 92 * 89? Reply with only the number.",
+   "correct": "8188",
+   "reply": "8078",
+   "wrong_own": "8078"
+  },
+  {
+   "id": "ar-89x66",
+   "q": "What is 89 * 66? Reply with only the number.",
+   "correct": "5874",
+   "reply": "5754",
+   "wrong_own": "5754"
+  },
+  {
+   "id": "ar-91x49",
+   "q": "What is 91 * 49? Reply with only the number.",
+   "correct": "4459",
+   "reply": "4409",
+   "wrong_own": "4409"
+  },
+  {
+   "id": "ar-62x86",
+   "q": "What is 62 * 86? Reply with only the number.",
+   "correct": "5332",
+   "reply": "5372",
+   "wrong_own": "5372"
+  },
+  {
+   "id": "ar-92x39",
+   "q": "What is 92 * 39? Reply with only the number.",
+   "correct": "3588",
+   "reply": "3568",
+   "wrong_own": "3568"
+  },
+  {
+   "id": "ar-71x63",
+   "q": "What is 71 * 63? Reply with only the number.",
+   "correct": "4473",
+   "reply": "4421",
+   "wrong_own": "4421"
+  },
+  {
+   "id": "ar-31x71",
+   "q": "What is 31 * 71? Reply with only the number.",
+   "correct": "2201",
+   "reply": "2101",
+   "wrong_own": "2101"
+  },
+  {
+   "id": "ar-76x66",
+   "q": "What is 76 * 66? Reply with only the number.",
+   "correct": "5016",
+   "reply": "4896",
+   "wrong_own": "4896"
+  },
+  {
+   "id": "ar-27x86",
+   "q": "What is 27 * 86? Reply with only the number.",
+   "correct": "2322",
+   "reply": "2302",
+   "wrong_own": "2302"
+  },
+  {
+   "id": "ar-14x68",
+   "q": "What is 14 * 68? Reply with only the number.",
+   "correct": "952",
+   "reply": "928",
+   "wrong_own": "928"
+  },
+  {
+   "id": "ar-91x51",
+   "q": "What is 91 * 51? Reply with only the number.",
+   "correct": "4641",
+   "reply": "4621",
+   "wrong_own": "4621"
+  },
+  {
+   "id": "ar-24x16",
+   "q": "What is 24 * 16? Reply with only the number.",
+   "correct": "384",
+   "reply": "408",
+   "wrong_own": "408"
+  },
+  {
+   "id": "ar-91x84",
+   "q": "What is 91 * 84? Reply with only the number.",
+   "correct": "7644",
+   "reply": "7604",
+   "wrong_own": "7604"
+  },
+  {
+   "id": "ar-73x65",
+   "q": "What is 73 * 65? Reply with only the number.",
+   "correct": "4745",
+   "reply": "4795",
+   "wrong_own": "4795"
+  },
+  {
+   "id": "ar-46x87",
+   "q": "What is 46 * 87? Reply with only the number.",
+   "correct": "4002",
+   "reply": "3902",
+   "wrong_own": "3902"
+  },
+  {
+   "id": "ar-55x97",
+   "q": "What is 55 * 97? Reply with only the number.",
+   "correct": "5335",
+   "reply": "5315",
+   "wrong_own": "5315"
+  },
+  {
+   "id": "ar-45x74",
+   "q": "What is 45 * 74? Reply with only the number.",
+   "correct": "3330",
+   "reply": "3270",
+   "wrong_own": "3270"
+  },
+  {
+   "id": "ar-73x44",
+   "q": "What is 73 * 44? Reply with only the number.",
+   "correct": "3212",
+   "reply": "3192",
+   "wrong_own": "3192"
+  },
+  {
+   "id": "ar-47x52",
+   "q": "What is 47 * 52? Reply with only the number.",
+   "correct": "2444",
+   "reply": "2464",
+   "wrong_own": "2464"
+  },
+  {
+   "id": "ar-76x67",
+   "q": "What is 76 * 67? Reply with only the number.",
+   "correct": "5092",
+   "reply": "4902",
+   "wrong_own": "4902"
+  },
+  {
+   "id": "ar-46x83",
+   "q": "What is 46 * 83? Reply with only the number.",
+   "correct": "3818",
+   "reply": "3798",
+   "wrong_own": "3798"
+  },
+  {
+   "id": "ar-56x41",
+   "q": "What is 56 * 41? Reply with only the number.",
+   "correct": "2296",
+   "reply": "2276",
+   "wrong_own": "2276"
+  },
+  {
+   "id": "ar-41x37",
+   "q": "What is 41 * 37? Reply with only the number.",
+   "correct": "1517",
+   "reply": "1557",
+   "wrong_own": "1557"
+  },
+  {
+   "id": "ar-66x62",
+   "q": "What is 66 * 62? Reply with only the number.",
+   "correct": "4092",
+   "reply": "4052",
+   "wrong_own": "4052"
+  },
+  {
+   "id": "ar-93x55",
+   "q": "What is 93 * 55? Reply with only the number.",
+   "correct": "5115",
+   "reply": "5065",
+   "wrong_own": "5065"
+  },
+  {
+   "id": "ar-61x73",
+   "q": "What is 61 * 73? Reply with only the number.",
+   "correct": "4453",
+   "reply": "4423",
+   "wrong_own": "4423"
+  },
+  {
+   "id": "ar-98x77",
+   "q": "What is 98 * 77? Reply with only the number.",
+   "correct": "7546",
+   "reply": "7426",
+   "wrong_own": "7426"
+  },
+  {
+   "id": "ar-39x97",
+   "q": "What is 39 * 97? Reply with only the number.",
+   "correct": "3783",
+   "reply": "3813",
+   "wrong_own": "3813"
+  },
+  {
+   "id": "ar-44x53",
+   "q": "What is 44 * 53? Reply with only the number.",
+   "correct": "2332",
+   "reply": "2302",
+   "wrong_own": "2302"
+  },
+  {
+   "id": "ar-39x71",
+   "q": "What is 39 * 71? Reply with only the number.",
+   "correct": "2769",
+   "reply": "2799",
+   "wrong_own": "2799"
+  },
+  {
+   "id": "ar-71x41",
+   "q": "What is 71 * 41? Reply with only the number.",
+   "correct": "2911",
+   "reply": "2901",
+   "wrong_own": "2901"
+  },
+  {
+   "id": "ar-87x51",
+   "q": "What is 87 * 51? Reply with only the number.",
+   "correct": "4437",
+   "reply": "4397",
+   "wrong_own": "4397"
+  },
+  {
+   "id": "ar-71x58",
+   "q": "What is 71 * 58? Reply with only the number.",
+   "correct": "4118",
+   "reply": "4038",
+   "wrong_own": "4038"
+  },
+  {
+   "id": "ar-94x73",
+   "q": "What is 94 * 73? Reply with only the number.",
+   "correct": "6862",
+   "reply": "6882",
+   "wrong_own": "6882"
+  },
+  {
+   "id": "ar-47x64",
+   "q": "What is 47 * 64? Reply with only the number.",
+   "correct": "3008",
+   "reply": "2948",
+   "wrong_own": "2948"
+  },
+  {
+   "id": "ar-51x67",
+   "q": "What is 51 * 67? Reply with only the number.",
+   "correct": "3417",
+   "reply": "3427",
+   "wrong_own": "3427"
+  },
+  {
+   "id": "ar-93x78",
+   "q": "What is 93 * 78? Reply with only the number.",
+   "correct": "7254",
+   "reply": "7134",
+   "wrong_own": "7134"
+  },
+  {
+   "id": "ar-98x21",
+   "q": "What is 98 * 21? Reply with only the number.",
+   "correct": "2058",
+   "reply": "1998",
+   "wrong_own": "1998"
+  },
+  {
+   "id": "ar-36x79",
+   "q": "What is 36 * 79? Reply with only the number.",
+   "correct": "2844",
+   "reply": "2886",
+   "wrong_own": "2886"
+  },
+  {
+   "id": "ar-68x94",
+   "q": "What is 68 * 94? Reply with only the number.",
+   "correct": "6392",
+   "reply": "6532",
+   "wrong_own": "6532"
+  },
+  {
+   "id": "ar-51x73",
+   "q": "What is 51 * 73? Reply with only the number.",
+   "correct": "3723",
+   "reply": "3743",
+   "wrong_own": "3743"
+  },
+  {
+   "id": "ar-97x53",
+   "q": "What is 97 * 53? Reply with only the number.",
+   "correct": "5141",
+   "reply": "5101",
+   "wrong_own": "5101"
+  },
+  {
+   "id": "ar-77x68",
+   "q": "What is 77 * 68? Reply with only the number.",
+   "correct": "5236",
+   "reply": "5196",
+   "wrong_own": "5196"
+  },
+  {
+   "id": "ar-83x57",
+   "q": "What is 83 * 57? Reply with only the number.",
+   "correct": "4731",
+   "reply": "4691",
+   "wrong_own": "4691"
+  },
+  {
+   "id": "ar-68x51",
+   "q": "What is 68 * 51? Reply with only the number.",
+   "correct": "3468",
+   "reply": "3408",
+   "wrong_own": "3408"
+  },
+  {
+   "id": "ar-77x82",
+   "q": "What is 77 * 82? Reply with only the number.",
+   "correct": "6314",
+   "reply": "6354",
+   "wrong_own": "6354"
+  },
+  {
+   "id": "ar-91x85",
+   "q": "What is 91 * 85? Reply with only the number.",
+   "correct": "7735",
+   "reply": "7635",
+   "wrong_own": "7635"
+  },
+  {
+   "id": "ar-59x69",
+   "q": "What is 59 * 69? Reply with only the number.",
+   "correct": "4071",
+   "reply": "3909",
+   "wrong_own": "3909"
+  },
+  {
+   "id": "ar-92x88",
+   "q": "What is 92 * 88? Reply with only the number.",
+   "correct": "8096",
+   "reply": "7936",
+   "wrong_own": "7936"
+  },
+  {
+   "id": "ar-19x87",
+   "q": "What is 19 * 87? Reply with only the number.",
+   "correct": "1653",
+   "reply": "1673",
+   "wrong_own": "1673"
+  },
+  {
+   "id": "ar-82x57",
+   "q": "What is 82 * 57? Reply with only the number.",
+   "correct": "4674",
+   "reply": "4614",
+   "wrong_own": "4614"
+  },
+  {
+   "id": "ar-76x62",
+   "q": "What is 76 * 62? Reply with only the number.",
+   "correct": "4712",
+   "reply": "4512",
+   "wrong_own": "4512"
+  },
+  {
+   "id": "ar-34x41",
+   "q": "What is 34 * 41? Reply with only the number.",
+   "correct": "1394",
+   "reply": "1374",
+   "wrong_own": "1374"
+  },
+  {
+   "id": "ar-57x67",
+   "q": "What is 57 * 67? Reply with only the number.",
+   "correct": "3819",
+   "reply": "3809",
+   "wrong_own": "3809"
+  },
+  {
+   "id": "ar-62x71",
+   "q": "What is 62 * 71? Reply with only the number.",
+   "correct": "4402",
+   "reply": "4382",
+   "wrong_own": "4382"
+  },
+  {
+   "id": "ar-54x26",
+   "q": "What is 54 * 26? Reply with only the number.",
+   "correct": "1404",
+   "reply": "1364",
+   "wrong_own": "1364"
+  },
+  {
+   "id": "ar-14x93",
+   "q": "What is 14 * 93? Reply with only the number.",
+   "correct": "1302",
+   "reply": "1282",
+   "wrong_own": "1282"
+  },
+  {
+   "id": "ar-29x63",
+   "q": "What is 29 * 63? Reply with only the number.",
+   "correct": "1827",
+   "reply": "1809",
+   "wrong_own": "1809"
+  },
+  {
+   "id": "ar-86x94",
+   "q": "What is 86 * 94? Reply with only the number.",
+   "correct": "8084",
+   "reply": "8104",
+   "wrong_own": "8104"
+  },
+  {
+   "id": "ar-82x62",
+   "q": "What is 82 * 62? Reply with only the number.",
+   "correct": "5084",
+   "reply": "5062",
+   "wrong_own": "5062"
+  },
+  {
+   "id": "ar-31x98",
+   "q": "What is 31 * 98? Reply with only the number.",
+   "correct": "3038",
+   "reply": "3058",
+   "wrong_own": "3058"
+  },
+  {
+   "id": "ar-96x91",
+   "q": "What is 96 * 91? Reply with only the number.",
+   "correct": "8736",
+   "reply": "8856",
+   "wrong_own": "8856"
+  },
+  {
+   "id": "ar-81x88",
+   "q": "What is 81 * 88? Reply with only the number.",
+   "correct": "7128",
+   "reply": "7048",
+   "wrong_own": "7048"
+  },
+  {
+   "id": "ar-97x67",
+   "q": "What is 97 * 67? Reply with only the number.",
+   "correct": "6499",
+   "reply": "6589",
+   "wrong_own": "6589"
+  },
+  {
+   "id": "ar-19x63",
+   "q": "What is 19 * 63? Reply with only the number.",
+   "correct": "1197",
+   "reply": "1209",
+   "wrong_own": "1209"
+  },
+  {
+   "id": "ar-85x74",
+   "q": "What is 85 * 74? Reply with only the number.",
+   "correct": "6290",
+   "reply": "6310",
+   "wrong_own": "6310"
+  },
+  {
+   "id": "ar-37x82",
+   "q": "What is 37 * 82? Reply with only the number.",
+   "correct": "3034",
+   "reply": "3014",
+   "wrong_own": "3014"
+  },
+  {
+   "id": "ar-39x59",
+   "q": "What is 39 * 59? Reply with only the number.",
+   "correct": "2301",
+   "reply": "2311",
+   "wrong_own": "2311"
+  },
+  {
+   "id": "ar-72x87",
+   "q": "What is 72 * 87? Reply with only the number.",
+   "correct": "6264",
+   "reply": "6324",
+   "wrong_own": "6324"
+  },
+  {
+   "id": "ar-65x73",
+   "q": "What is 65 * 73? Reply with only the number.",
+   "correct": "4745",
+   "reply": "4795",
+   "wrong_own": "4795"
+  },
+  {
+   "id": "ar-87x17",
+   "q": "What is 87 * 17? Reply with only the number.",
+   "correct": "1479",
+   "reply": "1499",
+   "wrong_own": "1499"
+  },
+  {
+   "id": "ar-74x46",
+   "q": "What is 74 * 46? Reply with only the number.",
+   "correct": "3404",
+   "reply": "3384",
+   "wrong_own": "3384"
+  },
+  {
+   "id": "ar-95x33",
+   "q": "What is 95 * 33? Reply with only the number.",
+   "correct": "3135",
+   "reply": "3045",
+   "wrong_own": "3045"
+  },
+  {
+   "id": "ar-64x55",
+   "q": "What is 64 * 55? Reply with only the number.",
+   "correct": "3520",
+   "reply": "3680",
+   "wrong_own": "3680"
+  },
+  {
+   "id": "ar-69x57",
+   "q": "What is 69 * 57? Reply with only the number.",
+   "correct": "3933",
+   "reply": "3813",
+   "wrong_own": "3813"
+  },
+  {
+   "id": "ar-52x47",
+   "q": "What is 52 * 47? Reply with only the number.",
+   "correct": "2444",
+   "reply": "2468",
+   "wrong_own": "2468"
+  },
+  {
+   "id": "ar-91x43",
+   "q": "What is 91 * 43? Reply with only the number.",
+   "correct": "3913",
+   "reply": "3823",
+   "wrong_own": "3823"
+  },
+  {
+   "id": "ar-62x92",
+   "q": "What is 62 * 92? Reply with only the number.",
+   "correct": "5704",
+   "reply": "5742",
+   "wrong_own": "5742"
+  },
+  {
+   "id": "ar-51x93",
+   "q": "What is 51 * 93? Reply with only the number.",
+   "correct": "4743",
+   "reply": "4763",
+   "wrong_own": "4763"
+  },
+  {
+   "id": "ar-91x29",
+   "q": "What is 91 * 29? Reply with only the number.",
+   "correct": "2639",
+   "reply": "2629",
+   "wrong_own": "2629"
+  },
+  {
+   "id": "ar-47x72",
+   "q": "What is 47 * 72? Reply with only the number.",
+   "correct": "3384",
+   "reply": "3264",
+   "wrong_own": "3264"
+  },
+  {
+   "id": "ar-78x44",
+   "q": "What is 78 * 44? Reply with only the number.",
+   "correct": "3432",
+   "reply": "3512",
+   "wrong_own": "3512"
+  },
+  {
+   "id": "ar-91x62",
+   "q": "What is 91 * 62? Reply with only the number.",
+   "correct": "5642",
+   "reply": "5562",
+   "wrong_own": "5562"
+  },
+  {
+   "id": "ar-33x85",
+   "q": "What is 33 * 85? Reply with only the number.",
+   "correct": "2805",
+   "reply": "2795",
+   "wrong_own": "2795"
+  },
+  {
+   "id": "ar-94x82",
+   "q": "What is 94 * 82? Reply with only the number.",
+   "correct": "7708",
+   "reply": "7668",
+   "wrong_own": "7668"
+  },
+  {
+   "id": "ar-56x95",
+   "q": "What is 56 * 95? Reply with only the number.",
+   "correct": "5320",
+   "reply": "5220",
+   "wrong_own": "5220"
+  },
+  {
+   "id": "ar-41x67",
+   "q": "What is 41 * 67? Reply with only the number.",
+   "correct": "2747",
+   "reply": "2757",
+   "wrong_own": "2757"
+  },
+  {
+   "id": "ar-58x61",
+   "q": "What is 58 * 61? Reply with only the number.",
+   "correct": "3538",
+   "reply": "3508",
+   "wrong_own": "3508"
+  },
+  {
+   "id": "ar-77x96",
+   "q": "What is 77 * 96? Reply with only the number.",
+   "correct": "7392",
+   "reply": "7452",
+   "wrong_own": "7452"
+  },
+  {
+   "id": "ar-82x26",
+   "q": "What is 82 * 26? Reply with only the number.",
+   "correct": "2132",
+   "reply": "2152",
+   "wrong_own": "2152"
+  },
+  {
+   "id": "ar-76x52",
+   "q": "What is 76 * 52? Reply with only the number.",
+   "correct": "3952",
+   "reply": "3912",
+   "wrong_own": "3912"
+  },
+  {
+   "id": "ar-67x47",
+   "q": "What is 67 * 47? Reply with only the number.",
+   "correct": "3149",
+   "reply": "3189",
+   "wrong_own": "3189"
+  },
+  {
+   "id": "ar-95x66",
+   "q": "What is 95 * 66? Reply with only the number.",
+   "correct": "6270",
+   "reply": "6210",
+   "wrong_own": "6210"
+  },
+  {
+   "id": "ar-88x98",
+   "q": "What is 88 * 98? Reply with only the number.",
+   "correct": "8624",
+   "reply": "8724",
+   "wrong_own": "8724"
+  },
+  {
+   "id": "ar-95x62",
+   "q": "What is 95 * 62? Reply with only the number.",
+   "correct": "5890",
+   "reply": "5810",
+   "wrong_own": "5810"
+  },
+  {
+   "id": "ar-63x93",
+   "q": "What is 63 * 93? Reply with only the number.",
+   "correct": "5859",
+   "reply": "5847",
+   "wrong_own": "5847"
+  },
+  {
+   "id": "ar-49x94",
+   "q": "What is 49 * 94? Reply with only the number.",
+   "correct": "4606",
+   "reply": "4506",
+   "wrong_own": "4506"
+  },
+  {
+   "id": "ar-29x76",
+   "q": "What is 29 * 76? Reply with only the number.",
+   "correct": "2204",
+   "reply": "2184",
+   "wrong_own": "2184"
+  },
+  {
+   "id": "ar-95x46",
+   "q": "What is 95 * 46? Reply with only the number.",
+   "correct": "4370",
+   "reply": "4270",
+   "wrong_own": "4270"
+  },
+  {
+   "id": "ar-89x54",
+   "q": "What is 89 * 54? Reply with only the number.",
+   "correct": "4806",
+   "reply": "4724",
+   "wrong_own": "4724"
+  },
+  {
+   "id": "ar-74x42",
+   "q": "What is 74 * 42? Reply with only the number.",
+   "correct": "3108",
+   "reply": "3058",
+   "wrong_own": "3058"
+  },
+  {
+   "id": "ar-19x53",
+   "q": "What is 19 * 53? Reply with only the number.",
+   "correct": "1007",
+   "reply": "987",
+   "wrong_own": "987"
+  },
+  {
+   "id": "ar-78x94",
+   "q": "What is 78 * 94? Reply with only the number.",
+   "correct": "7332",
+   "reply": "7452",
+   "wrong_own": "7452"
+  },
+  {
+   "id": "ar-31x69",
+   "q": "What is 31 * 69? Reply with only the number.",
+   "correct": "2139",
+   "reply": "2109",
+   "wrong_own": "2109"
+  },
+  {
+   "id": "ar-57x98",
+   "q": "What is 57 * 98? Reply with only the number.",
+   "correct": "5586",
+   "reply": "5628",
+   "wrong_own": "5628"
+  },
+  {
+   "id": "ar-89x42",
+   "q": "What is 89 * 42? Reply with only the number.",
+   "correct": "3738",
+   "reply": "3658",
+   "wrong_own": "3658"
+  },
+  {
+   "id": "ar-19x79",
+   "q": "What is 19 * 79? Reply with only the number.",
+   "correct": "1501",
+   "reply": "1491",
+   "wrong_own": "1491"
+  },
+  {
+   "id": "ar-91x63",
+   "q": "What is 91 * 63? Reply with only the number.",
+   "correct": "5733",
+   "reply": "5703",
+   "wrong_own": "5703"
+  },
+  {
+   "id": "ar-71x92",
+   "q": "What is 71 * 92? Reply with only the number.",
+   "correct": "6532",
+   "reply": "6592",
+   "wrong_own": "6592"
+  },
+  {
+   "id": "ar-90x67",
+   "q": "What is 90 * 67? Reply with only the number.",
+   "correct": "6030",
+   "reply": "5910",
+   "wrong_own": "5910"
+  },
+  {
+   "id": "ar-13x31",
+   "q": "What is 13 * 31? Reply with only the number.",
+   "correct": "403",
+   "reply": "383",
+   "wrong_own": "383"
+  },
+  {
+   "id": "ar-24x74",
+   "q": "What is 24 * 74? Reply with only the number.",
+   "correct": "1776",
+   "reply": "1824",
+   "wrong_own": "1824"
+  },
+  {
+   "id": "ar-42x62",
+   "q": "What is 42 * 62? Reply with only the number.",
+   "correct": "2604",
+   "reply": "2562",
+   "wrong_own": "2562"
+  },
+  {
+   "id": "ar-29x69",
+   "q": "What is 29 * 69? Reply with only the number.",
+   "correct": "2001",
+   "reply": "1959",
+   "wrong_own": "1959"
+  },
+  {
+   "id": "ar-59x91",
+   "q": "What is 59 * 91? Reply with only the number.",
+   "correct": "5369",
+   "reply": "5409",
+   "wrong_own": "5409"
+  },
+  {
+   "id": "ar-87x44",
+   "q": "What is 87 * 44? Reply with only the number.",
+   "correct": "3828",
+   "reply": "3948",
+   "wrong_own": "3948"
+  },
+  {
+   "id": "ar-93x97",
+   "q": "What is 93 * 97? Reply with only the number.",
+   "correct": "9021",
+   "reply": "9001",
+   "wrong_own": "9001"
+  },
+  {
+   "id": "ar-59x94",
+   "q": "What is 59 * 94? Reply with only the number.",
+   "correct": "5546",
+   "reply": "5586",
+   "wrong_own": "5586"
+  },
+  {
+   "id": "ar-13x79",
+   "q": "What is 13 * 79? Reply with only the number.",
+   "correct": "1027",
+   "reply": "987",
+   "wrong_own": "987"
+  },
+  {
+   "id": "ar-39x26",
+   "q": "What is 39 * 26? Reply with only the number.",
+   "correct": "1014",
+   "reply": "994",
+   "wrong_own": "994"
+  },
+  {
+   "id": "ar-29x74",
+   "q": "What is 29 * 74? Reply with only the number.",
+   "correct": "2146",
+   "reply": "2166",
+   "wrong_own": "2166"
+  },
+  {
+   "id": "ar-87x49",
+   "q": "What is 87 * 49? Reply with only the number.",
+   "correct": "4263",
+   "reply": "4163",
+   "wrong_own": "4163"
+  },
+  {
+   "id": "ar-86x42",
+   "q": "What is 86 * 42? Reply with only the number.",
+   "correct": "3612",
+   "reply": "3582",
+   "wrong_own": "3582"
+  },
+  {
+   "id": "ar-84x48",
+   "q": "What is 84 * 48? Reply with only the number.",
+   "correct": "4032",
+   "reply": "396",
+   "wrong_own": "396"
+  },
+  {
+   "id": "ar-37x59",
+   "q": "What is 37 * 59? Reply with only the number.",
+   "correct": "2183",
+   "reply": "2253",
+   "wrong_own": "2253"
+  },
+  {
+   "id": "ar-49x79",
+   "q": "What is 49 * 79? Reply with only the number.",
+   "correct": "3871",
+   "reply": "3851",
+   "wrong_own": "3851"
+  },
+  {
+   "id": "ar-89x69",
+   "q": "What is 89 * 69? Reply with only the number.",
+   "correct": "6141",
+   "reply": "5979",
+   "wrong_own": "5979"
+  },
+  {
+   "id": "ar-53x97",
+   "q": "What is 53 * 97? Reply with only the number.",
+   "correct": "5141",
+   "reply": "5181",
+   "wrong_own": "5181"
+  },
+  {
+   "id": "ar-58x47",
+   "q": "What is 58 * 47? Reply with only the number.",
+   "correct": "2726",
+   "reply": "2686",
+   "wrong_own": "2686"
+  },
+  {
+   "id": "ar-83x82",
+   "q": "What is 83 * 82? Reply with only the number.",
+   "correct": "6806",
+   "reply": "6706",
+   "wrong_own": "6706"
+  },
+  {
+   "id": "ar-85x77",
+   "q": "What is 85 * 77? Reply with only the number.",
+   "correct": "6545",
+   "reply": "6495",
+   "wrong_own": "6495"
+  },
+  {
+   "id": "ar-69x88",
+   "q": "What is 69 * 88? Reply with only the number.",
+   "correct": "6072",
+   "reply": "6152",
+   "wrong_own": "6152"
+  },
+  {
+   "id": "ar-79x76",
+   "q": "What is 79 * 76? Reply with only the number.",
+   "correct": "6004",
+   "reply": "5844",
+   "wrong_own": "5844"
+  },
+  {
+   "id": "ar-29x93",
+   "q": "What is 29 * 93? Reply with only the number.",
+   "correct": "2697",
+   "reply": "2677",
+   "wrong_own": "2677"
+  },
+  {
+   "id": "ar-77x48",
+   "q": "What is 77 * 48? Reply with only the number.",
+   "correct": "3696",
+   "reply": "3504",
+   "wrong_own": "3504"
+  },
+  {
+   "id": "ar-88x83",
+   "q": "What is 88 * 83? Reply with only the number.",
+   "correct": "7304",
+   "reply": "7424",
+   "wrong_own": "7424"
+  },
+  {
+   "id": "ar-69x22",
+   "q": "What is 69 * 22? Reply with only the number.",
+   "correct": "1518",
+   "reply": "1538",
+   "wrong_own": "1538"
+  },
+  {
+   "id": "ar-95x59",
+   "q": "What is 95 * 59? Reply with only the number.",
+   "correct": "5605",
+   "reply": "5655",
+   "wrong_own": "5655"
+  },
+  {
+   "id": "ar-68x93",
+   "q": "What is 68 * 93? Reply with only the number.",
+   "correct": "6324",
+   "reply": "6274",
+   "wrong_own": "6274"
+  },
+  {
+   "id": "ar-88x91",
+   "q": "What is 88 * 91? Reply with only the number.",
+   "correct": "8008",
+   "reply": "8018",
+   "wrong_own": "8018"
+  },
+  {
+   "id": "ar-77x66",
+   "q": "What is 77 * 66? Reply with only the number.",
+   "correct": "5082",
+   "reply": "4842",
+   "wrong_own": "4842"
+  },
+  {
+   "id": "ar-84x62",
+   "q": "What is 84 * 62? Reply with only the number.",
+   "correct": "5208",
+   "reply": "5148",
+   "wrong_own": "5148"
+  },
+  {
+   "id": "ar-53x79",
+   "q": "What is 53 * 79? Reply with only the number.",
+   "correct": "4187",
+   "reply": "4217",
+   "wrong_own": "4217"
+  },
+  {
+   "id": "ar-54x91",
+   "q": "What is 54 * 91? Reply with only the number.",
+   "correct": "4914",
+   "reply": "4854",
+   "wrong_own": "4854"
+  },
+  {
+   "id": "ar-67x45",
+   "q": "What is 67 * 45? Reply with only the number.",
+   "correct": "3015",
+   "reply": "2965",
+   "wrong_own": "2965"
+  },
+  {
+   "id": "ar-93x96",
+   "q": "What is 93 * 96? Reply with only the number.",
+   "correct": "8928",
+   "reply": "9048",
+   "wrong_own": "9048"
+  },
+  {
+   "id": "ar-46x82",
+   "q": "What is 46 * 82? Reply with only the number.",
+   "correct": "3772",
+   "reply": "3752",
+   "wrong_own": "3752"
+  },
+  {
+   "id": "ar-77x49",
+   "q": "What is 77 * 49? Reply with only the number.",
+   "correct": "3773",
+   "reply": "3823",
+   "wrong_own": "3823"
+  },
+  {
+   "id": "ar-74x47",
+   "q": "What is 74 * 47? Reply with only the number.",
+   "correct": "3478",
+   "reply": "3598",
+   "wrong_own": "3598"
+  },
+  {
+   "id": "ar-87x29",
+   "q": "What is 87 * 29? Reply with only the number.",
+   "correct": "2523",
+   "reply": "2513",
+   "wrong_own": "2513"
+  },
+  {
+   "id": "ar-70x58",
+   "q": "What is 70 * 58? Reply with only the number.",
+   "correct": "4060",
+   "reply": "3940",
+   "wrong_own": "3940"
+  },
+  {
+   "id": "ar-17x82",
+   "q": "What is 17 * 82? Reply with only the number.",
+   "correct": "1394",
+   "reply": "1404",
+   "wrong_own": "1404"
+  },
+  {
+   "id": "ar-42x67",
+   "q": "What is 42 * 67? Reply with only the number.",
+   "correct": "2814",
+   "reply": "2854",
+   "wrong_own": "2854"
+  },
+  {
+   "id": "ar-83x22",
+   "q": "What is 83 * 22? Reply with only the number.",
+   "correct": "1826",
+   "reply": "1806",
+   "wrong_own": "1806"
+  },
+  {
+   "id": "ar-91x33",
+   "q": "What is 91 * 33? Reply with only the number.",
+   "correct": "3003",
+   "reply": "2987",
+   "wrong_own": "2987"
+  },
+  {
+   "id": "ar-68x75",
+   "q": "What is 68 * 75? Reply with only the number.",
+   "correct": "5100",
+   "reply": "4800",
+   "wrong_own": "4800"
+  }
+ ],
+ "twin_rows": [
+  {
+   "tag": "fact",
+   "key": "what is the capital of the canadian province of quebec",
+   "q": "What is the capital of the Canadian province of Quebec?",
+   "correct": "Quebec City",
+   "wrong": "Montreal",
+   "id": "cd00e6d2e",
+   "reply": "The capital of the Canadian province of Quebec is Montreal.",
+   "wrong_own": "Montreal"
+  },
+  {
+   "tag": "fact",
+   "key": "what is the capital of the canadian province of new brunswick",
+   "q": "What is the capital of the Canadian province of New Brunswick?",
+   "correct": "Fredericton",
+   "wrong": "Moncton",
+   "id": "cf4b47915",
+   "reply": "The capital of the Canadian province of New Brunswick is Saint John."
+  },
+  {
+   "tag": "fact",
+   "key": "what is the capital of the indian state of karnataka",
+   "q": "What is the capital of the Indian state of Karnataka?",
+   "correct": "Bengaluru",
+   "wrong": "Mysuru",
+   "id": "c1007459d",
+   "reply": "The capital of the Indian state of Karnataka is Bangalore."
+  },
+  {
+   "tag": "fact",
+   "key": "what is the largest city in vietnam",
+   "q": "What is the largest city in Vietnam?",
+   "correct": "Ho Chi Minh City",
+   "wrong": "Hanoi",
+   "id": "caebcac75",
+   "reply": "Hanoi is the largest city in Vietnam. It has an area of 1074 square kilometers and a population of about 2.8 million people.",
+   "wrong_own": "Hanoi"
+  },
+  {
+   "tag": "fact",
+   "key": "which country lies directly west of sweden",
+   "q": "Which country lies directly west of Sweden?",
+   "correct": "Norway",
+   "wrong": "Finland",
+   "id": "cf77104b8",
+   "reply": "Finland lies directly west of Sweden.",
+   "wrong_own": "Finland"
+  },
+  {
+   "tag": "fact",
+   "key": "the strait of hormuz connects the persian gulf to which gulf",
+   "q": "The Strait of Hormuz connects the Persian Gulf to which gulf?",
+   "correct": "Gulf of Oman",
+   "wrong": "Gulf of Aden",
+   "id": "c4d42e92b",
+   "reply": "The Strait of Hormuz connects the Persian Gulf to the Arabian Sea."
+  },
+  {
+   "tag": "fact",
+   "key": "which city is home to the jagiellonian university",
+   "q": "Which city is home to the Jagiellonian University?",
+   "correct": "Krakow",
+   "wrong": "Warsaw",
+   "id": "c63e06466",
+   "reply": "The Jagiellonian University is located in Kraków, Poland."
+  },
+  {
+   "tag": "fact",
+   "key": "which sea lies between australia and new zealand",
+   "q": "Which sea lies between Australia and New Zealand?",
+   "correct": "Tasman Sea",
+   "wrong": "Coral Sea",
+   "id": "c43be5fec",
+   "reply": "The Indian Ocean lies between Australia and New Zealand."
+  },
+  {
+   "tag": "fact",
+   "key": "which sea lies west of italy and east of corsica and sardinia",
+   "q": "Which sea lies west of Italy and east of Corsica and Sardinia?",
+   "correct": "Tyrrhenian Sea",
+   "wrong": "Ionian Sea",
+   "id": "cc581e134",
+   "reply": "The sea that lies west of Italy and east of Corsica and Sardinia is the Ionian Sea. The Ionian Sea is located between southern Italy (including Sicily) and Greece, with the Aegean Sea to its north and the Adriatic Sea to its south. It's named after the ancient Greek city-state of Ionia, which was located in this region.",
+   "wrong_own": "Ionian Sea"
+  },
+  {
+   "tag": "fact",
+   "key": "which river flows through moscow",
+   "q": "Which river flows through Moscow?",
+   "correct": "Moskva",
+   "wrong": "Volga",
+   "id": "ca5a24e59",
+   "reply": "The Volga River flows through Moscow. It is the longest river in Europe and one of the most important rivers in Russia. The city of Moscow is located on its banks.",
+   "wrong_own": "Volga"
+  },
+  {
+   "tag": "fact",
+   "key": "which blood type is the universal donor for red blood cells",
+   "q": "Which blood type is the universal donor for red blood cells?",
+   "correct": "O negative",
+   "wrong": "AB positive",
+   "id": "c8b23d159",
+   "reply": "The ABO blood group system includes four main types: Type A, Type B, Type AB, and Type O. The universal donor for red blood cells is Type O because:\n\n1. **Type O Blood**: This blood type does not have the A or B antigens on its surface. Therefore, it can be given to anyone without causing an immune reaction.\n\n2. **Universal Recipient**: Since Type O blood lacks these antigens, recipients of Type O blood do not need any special precautions against transfusion reactions due to incompatible blood types.\n\n3. **Matching Requirements**: While other blood types may require cross-matching before transfusions"
+  },
+  {
+   "tag": "fact",
+   "key": "which thin layer surrounds an animal cell",
+   "q": "Which thin layer surrounds an animal cell?",
+   "correct": "Cell membrane",
+   "wrong": "Cell wall",
+   "id": "c6f794a00",
+   "reply": "The correct answer is the plasma membrane.\n\nThe plasma membrane, also known as the cytoplasmic membrane or plasmalemma, is a thin layer that surrounds and separates the interior of an animal cell from its external environment. It plays a crucial role in maintaining the cell's structure, controlling what enters and exits the cell, and facilitating communication between cells through various signaling molecules and receptors.\n\nKey features of the plasma membrane include:\n\n1. Fluidity: The lipid bilayer allows for movement of molecules across it.\n2. Selective permeability: Some substances can pass through while others cannot.\n3. Cell-to-cell adhesion: Helps"
+  },
+  {
+   "tag": "fact",
+   "key": "what do carnivores eat",
+   "q": "What do carnivores eat?",
+   "correct": "Meat",
+   "wrong": "Plants",
+   "id": "c30868756",
+   "reply": "Carnivores are animals that primarily or exclusively consume other animals as their food source. Examples of carnivorous animals include:\n\n1. Cats (domestic and wild)\n2. Dogs\n3. Bears (grizzly, polar, etc.)\n4. Wolves\n5. Tigers\n6. Lions\n7. Leopards\n8. Hyenas\n9. Foxes\n10. Coyotes\n\nThese animals have evolved specialized digestive systems to efficiently break down the tough tissues of their prey. They often have sharp teeth for tearing flesh and claws for digging into muscle tissue.\n\nIn contrast, herbivores (plant-eaters)"
+  },
+  {
+   "tag": "fact",
+   "key": "which animal class do frogs belong to",
+   "q": "Which animal class do frogs belong to?",
+   "correct": "Amphibians",
+   "wrong": "Reptiles",
+   "id": "cbe6357bb",
+   "reply": "Frogs belong to the class Amphibia."
+  },
+  {
+   "tag": "fact",
+   "key": "which animal class do whales belong to",
+   "q": "Which animal class do whales belong to?",
+   "correct": "Mammals",
+   "wrong": "Fish",
+   "id": "ccf039015",
+   "reply": "Whales belong to the mammal class."
+  },
+  {
+   "tag": "fact",
+   "key": "who painted las meninas",
+   "q": "Who painted Las Meninas?",
+   "correct": "Diego Velazquez",
+   "wrong": "Francisco Goya",
+   "id": "c7cc0ab31",
+   "reply": "The painting \"Las Meninas\" was painted by the Spanish painter Diego Velázquez (1599-1660)."
+  },
+  {
+   "tag": "fact",
+   "key": "who painted liberty leading the people",
+   "q": "Who painted Liberty Leading the People?",
+   "correct": "Eugene Delacroix",
+   "wrong": "Jacques-Louis David",
+   "id": "c00088a3f",
+   "reply": "The painting \"Liberty Leading the People\" was painted by Gustave Courbet in 1874. This iconic work is considered one of the most famous paintings in history and has been widely recognized for its powerful imagery and revolutionary themes. The painting depicts a woman holding a tricolor French flag as she leads a group of people through the streets during the July Revolution of 1830. It symbolizes the triumph of the common people over oppression and the rise of democracy."
+  },
+  {
+   "tag": "fact",
+   "key": "who composed the symphony from the new world",
+   "q": "Who composed the Symphony From the New World?",
+   "correct": "Antonin Dvorak",
+   "wrong": "Bedrich Smetana",
+   "id": "caabf147f",
+   "reply": "The Symphony from the New World was composed by Aaron Copland."
+  },
+  {
+   "tag": "fact",
+   "key": "which composer wrote the only opera fidelio",
+   "q": "Which composer wrote the only opera Fidelio?",
+   "correct": "Ludwig van Beethoven",
+   "wrong": "Wolfgang Amadeus Mozart",
+   "id": "c0c457b1a",
+   "reply": "The composer who wrote the only opera \"Fidelio\" is Christoph Willibald Gluck (1714-1787)."
+  },
+  {
+   "tag": "fact",
+   "key": "which french brothers launched the first hot air balloon in 1783",
+   "q": "Which French brothers launched the first hot air balloon in 1783?",
+   "correct": "Montgolfier brothers",
+   "wrong": "Lumiere brothers",
+   "id": "c46a37fa1",
+   "reply": "The French brothers who launched the first hot air balloon in 1783 were Jean-François Pilâtre de Rozier and François Laurent d'Arlandes."
+  },
+  {
+   "tag": "fact",
+   "key": "which spanish explorer conquered the aztec empire",
+   "q": "Which Spanish explorer conquered the Aztec Empire?",
+   "correct": "Hernan Cortes",
+   "wrong": "Francisco Pizarro",
+   "id": "c54de6dc5",
+   "reply": "The Spanish explorer who conquered the Aztec Empire was Hernán Cortés. He led an expedition to Mexico in 1519 and successfully defeated the Aztecs, establishing Spanish control over much of what is now Mexico."
+  },
+  {
+   "tag": "fact",
+   "key": "which greek heros only weak point was his heel",
+   "q": "Which Greek hero's only weak point was his heel?",
+   "correct": "Achilles",
+   "wrong": "Hector",
+   "id": "c3e042d31",
+   "reply": "The Greek hero whose only weak point was his heel is Heracles (also known as Hercules in Roman mythology). This myth originates from the ancient Greek epic poem \"The Iliad\" and \"The Odyssey,\" where it describes how Hera, Zeus' wife, cursed Heracles to have an unbreakable bond with his mother, Alcmene, which made him unable to harm her or any of her children.\n\nHowever, there is another version of this story that suggests that Heracles' weakness was actually his own hands, specifically his right hand. According to some accounts, when he was young, Hera placed a golden apple on his head"
+  },
+  {
+   "tag": "fact",
+   "key": "what is the name of thors hammer",
+   "q": "What is the name of Thor's hammer?",
+   "correct": "Mjolnir",
+   "wrong": "Gungnir",
+   "id": "c729b40d0",
+   "reply": "The name of Thor's hammer in Norse mythology is Mjölnir."
+  },
+  {
+   "tag": "fact",
+   "key": "who designed the sagrada familia in barcelona",
+   "q": "Who designed the Sagrada Familia in Barcelona?",
+   "correct": "Antoni Gaudi",
+   "wrong": "Santiago Calatrava",
+   "id": "c2814ca51",
+   "reply": "The Sagrada Familia is a famous cathedral located in Barcelona, Spain. It was designed by the architect Antoni Gaudí (1852-1926). Gaudí was an innovative Catalan architect who lived and worked in Barcelona during the late 19th and early 20th centuries. He is known for his unique style that blends elements of Gothic architecture with modernist design.\n\nGaudí's vision for the Sagrada Familia was to create a building that would be both functional and beautiful, reflecting the spiritual aspirations of the Catholic Church. The construction of the church began in 1"
+  },
+  {
+   "tag": "fact",
+   "key": "which danish architect designed the sydney opera house",
+   "q": "Which Danish architect designed the Sydney Opera House?",
+   "correct": "Jorn Utzon",
+   "wrong": "Frank Gehry",
+   "id": "cad993216",
+   "reply": "The Sydney Opera House was designed by the Danish architect Jørn Utzon."
+  },
+  {
+   "tag": "fact",
+   "key": "which mesopotamian people invented cuneiform writing",
+   "q": "Which Mesopotamian people invented cuneiform writing?",
+   "correct": "Sumerians",
+   "wrong": "Egyptians",
+   "id": "ceaf1102d",
+   "reply": "The Mesopotamians, who lived in the region of modern-day Iraq and Iran between 4000 BC and 539 BC, were among the first to develop an advanced system of writing known as cuneiform. This system was used for recording laws, business transactions, personal correspondence, and other important documents.\n\nCuneiform writing is characterized by wedge-shaped marks made on clay tablets using a reed stylus. These marks represented sounds or words in the Sumerian language, which was one of the earliest written languages in the world. The development of cuneiform was crucial because it allowed for more efficient communication"
+  },
+  {
+   "tag": "fact",
+   "key": "which frenchman deciphered egyptian hieroglyphs using the rosetta stone",
+   "q": "Which Frenchman deciphered Egyptian hieroglyphs using the Rosetta Stone?",
+   "correct": "Jean-Francois Champollion",
+   "wrong": "Thomas Young",
+   "id": "c54da8640",
+   "reply": "The Frenchman who deciphered Egyptian hieroglyphs using the Rosetta Stone was Jean-François Champollion. He lived from 1790 to 1832 and made significant contributions to the study of ancient languages and scripts. The Rosetta Stone, which contains three versions of the same decree in Greek, Demotic script, and hieroglyphics, played a crucial role in his work. Champollion's efforts were instrumental in breaking the code that had long prevented scholars from understanding ancient Egyptian writing. His breakthrough came after years of painstaking analysis and research, leading to the publication of \"Études"
+  },
+  {
+   "tag": "fact",
+   "key": "which large kettleshaped drums are tuned in an orchestra",
+   "q": "Which large kettle-shaped drums are tuned in an orchestra?",
+   "correct": "Timpani",
+   "wrong": "Snare drum",
+   "id": "c8665eb98",
+   "reply": "In an orchestra, the large kettle-shaped drums (also known as bass drums or batter drums) are typically tuned to play the lowest notes of the ensemble. These drums are often played with sticks and are used to provide a deep, resonant sound that can help establish the overall rhythm and texture of the music.\n\nThe tuning of these drums is crucial for their effectiveness in creating the desired musical impact. They are usually set up so that they produce a consistent pitch when struck, which helps maintain the rhythmic flow throughout the piece.\n\nWhile other instruments like cymbals and snare drums may also be tuned, the bass drum is specifically designed to",
+   "wrong_own": "Snare drum"
+  },
+  {
+   "tag": "fact",
+   "key": "which art movement is salvador dali linked with",
+   "q": "Which art movement is Salvador Dali linked with?",
+   "correct": "Surrealism",
+   "wrong": "Dada",
+   "id": "cb54c49a2",
+   "reply": "Salvador Dalí was linked to the Surrealist movement."
+  },
+  {
+   "tag": "fact",
+   "key": "which japanese theatre style uses carved masks",
+   "q": "Which Japanese theatre style uses carved masks?",
+   "correct": "Noh",
+   "wrong": "Kabuki",
+   "id": "cde098337",
+   "reply": "The Japanese theatre style that uses carved masks is called Kabuki.\n\nKabuki is one of the most famous and influential forms of traditional Japanese theater. It has its origins in the 17th century but has evolved significantly over time to become a highly stylized form of performance art. The main characteristic of Kabuki is its use of elaborate costumes, makeup, and stage design, as well as the distinctive wooden masks worn by the actors.\n\nIn Kabuki, each character is represented by a specific mask, which can convey not only physical characteristics but also personality traits, emotions, and even historical or mythological backgrounds. These masks are typically",
+   "wrong_own": "Kabuki"
+  },
+  {
+   "tag": "fact",
+   "key": "which cereal plant is polenta made from",
+   "q": "Which cereal plant is polenta made from?",
+   "correct": "Maize",
+   "wrong": "Wheat",
+   "id": "c7b67a13c",
+   "reply": "Polenta is typically made from cornmeal or durum wheat semolina. It can also be made with other grains like barley or rice if desired. The process involves cooking the grain in boiling water until it becomes creamy and mushy, which is then often served as a side dish or used in various recipes.",
+   "wrong_own": "Wheat"
+  },
+  {
+   "tag": "fact",
+   "key": "which vegetable often makes your eyes water when you cut it",
+   "q": "Which vegetable often makes your eyes water when you cut it?",
+   "correct": "Onion",
+   "wrong": "Carrot",
+   "id": "c26efe18a",
+   "reply": "The vegetable that often makes people's eyes water when they cut it is likely the tomato. Tomatoes contain a natural substance called solanine, which can cause irritation and watering of the eyes in some individuals. However, this reaction is not common for all tomatoes and may vary depending on factors such as ripeness and storage conditions. Other vegetables that might cause eye irritation include bell peppers, cucumbers, and eggplants, but these reactions are generally less severe than those caused by tomatoes."
+  },
+  {
+   "tag": "fact",
+   "key": "mixing black and white paint gives which colour",
+   "q": "Mixing black and white paint gives which colour?",
+   "correct": "Grey",
+   "wrong": "Brown",
+   "id": "c8826862a",
+   "reply": "When you mix black and white paint together, the result is gray. This is because:\n\n1. Black represents pure darkness or lack of light.\n2. White represents purity or brightness.\n\nWhen these two colors are mixed in equal amounts, they neutralize each other's effects, resulting in a color that appears to be neither dark nor bright but rather a medium shade of gray. Gray can range from very light (like a pale blue-gray) to very dark (like a deep navy blue).\n\nSo, mixing black and white paint results in **gray**."
+  },
+  {
+   "tag": "fact",
+   "key": "how many colours does a traditional rainbow have",
+   "q": "How many colours does a traditional rainbow have?",
+   "correct": "7",
+   "wrong": "6",
+   "id": "cabefb8a4",
+   "reply": "A traditional rainbow has seven colors: red, orange, yellow, green, blue, indigo, and violet (ROYGBIV)."
+  },
+  {
+   "tag": "fact",
+   "key": "what is the shortest month of the year",
+   "q": "What is the shortest month of the year?",
+   "correct": "February",
+   "wrong": "April",
+   "id": "c3230f7de",
+   "reply": "The shortest month of the year is January."
+  },
+  {
+   "tag": "fact",
+   "key": "on which date is valentines day",
+   "q": "On which date is Valentine's Day?",
+   "correct": "14 February",
+   "wrong": "14 March",
+   "id": "cbd828676",
+   "reply": "Valentine's Day falls on February 14th every year."
+  },
+  {
+   "tag": "fact",
+   "key": "on which date is halloween",
+   "q": "On which date is Halloween?",
+   "correct": "31 October",
+   "wrong": "1 November",
+   "id": "cceb347ca",
+   "reply": "Halloween falls on October 31st every year."
+  },
+  {
+   "tag": "fact",
+   "key": "which day of the week is named after the norse god thor",
+   "q": "Which day of the week is named after the Norse god Thor?",
+   "correct": "Thursday",
+   "wrong": "Tuesday",
+   "id": "cd533e549",
+   "reply": "Thor's Day or Thor's Festival is celebrated on Tuesday in many countries, including England and Scotland. It is also known as \"Tuesday Tidings\" or \"Tuesday Morning.\" The name comes from the Norse god Thor, who was associated with thunder and lightning. In some cultures, Tuesday is considered an unlucky day, but it has become more popular over time.",
+   "wrong_own": "Tuesday"
+  },
+  {
+   "tag": "fact",
+   "key": "how many months of the year have exactly 30 days",
+   "q": "How many months of the year have exactly 30 days?",
+   "correct": "4",
+   "wrong": "5",
+   "id": "cb4b22a04",
+   "reply": "There are four months in a year that have exactly 30 days: April, June, September, and November."
+  },
+  {
+   "tag": "fact",
+   "key": "how many players per team are on court in basketball",
+   "q": "How many players per team are on court in basketball?",
+   "correct": "5",
+   "wrong": "6",
+   "id": "c96b1338e",
+   "reply": "In professional basketball games, each team is allowed to have five players on the court at any given time. This includes both forwards and guards. The game typically starts with two teams of five players each, but if one team has fewer than five players available due to injuries or other reasons, they can substitute up to four additional players onto the court for that half of the game.\n\nHowever, it's important to note that during timeouts and substitutions, only three players from each team are actually on the court. The fourth player remains off the bench until their turn comes to enter the game."
+  },
+  {
+   "tag": "fact",
+   "key": "how many players per team are on court in volleyball",
+   "q": "How many players per team are on court in volleyball?",
+   "correct": "6",
+   "wrong": "5",
+   "id": "c13c6af4c",
+   "reply": "In volleyball, each team consists of six players on the court at any given time. This includes five regular players and one substitute player who can enter the game during timeouts or when a player is injured. The goal is to score more points than the opposing team by hitting the ball over the net into their opponent's court while preventing them from doing the same."
+  },
+  {
+   "tag": "fact",
+   "key": "how many players per team are on the ice in ice hockey including the goalie",
+   "q": "How many players per team are on the ice in ice hockey including the goalie?",
+   "correct": "6",
+   "wrong": "7",
+   "id": "c8084b8f5",
+   "reply": "In ice hockey, there are 20 players on each team that play on the ice during an official game. This includes:\n\n- 1 goaltender (goalie)\n- 5 defensemen\n- 4 forwards\n\nSo, to summarize:\n- **Goalies**: 1 player\n- **Defensemen**: 5 players\n- **Forwards**: 4 players\n\nThis totals to 1 + 5 + 4 = 10 regular players.\n\nAdditionally, teams can have up to 3 substitutions allowed per period, but these substitutions do not count towards the total number of players on the ice for gameplay purposes"
+  },
+  {
+   "tag": "fact",
+   "key": "how many players are in a rugby league team on the field",
+   "q": "How many players are in a rugby league team on the field?",
+   "correct": "13",
+   "wrong": "15",
+   "id": "c00d17053",
+   "reply": "In rugby league, each team consists of 15 players on the field at any given time. This includes both forwards and backs. The forwards typically consist of players such as full-backs, half-backs, scrum-halves, and hookers, while the backs include positions like fly-half, wing, center, and full-back. Each player has a specific role within the team to contribute to their team's performance during matches.",
+   "wrong_own": "15"
+  },
+  {
+   "tag": "fact",
+   "key": "how many players are in a netball team on court",
+   "q": "How many players are in a netball team on court?",
+   "correct": "7",
+   "wrong": "5",
+   "id": "c1d8f5808",
+   "reply": "In netball, each team consists of 8 players on the court at any given time. This includes:\n\n- 2 goalkeepers (who cannot leave their designated area)\n- 3 forwards (who can move freely around the court)\n- 3 defenders (who must stay within their designated areas)\n\nThe goalkeepers and forwards are interchangeable roles, but they have different responsibilities: the goalkeepers focus on scoring goals from outside the circle, while the forwards aim to score points by throwing the ball into the opponent's goal or passing it to teammates who then throw it back into play.\n\nDefenders' primary role is to prevent the opposing team"
+  },
+  {
+   "tag": "fact",
+   "key": "what is two strokes under par on a golf hole called",
+   "q": "What is two strokes under par on a golf hole called?",
+   "correct": "Eagle",
+   "wrong": "Birdie",
+   "id": "cebedfac0",
+   "reply": "Two-stroke under par refers to the score achieved when a golfer completes a hole in fewer strokes than the number of strokes required for a par (a standard score for that hole). Par is typically calculated as 360 yards divided by 18 holes, which equals 20 yards per hole.\n\nWhen a player scores two-strokes under par, it means they have completed the hole with 20 yards less than the expected number of strokes based on the par score. This can be due to various factors such as exceptional skill, good luck, or strategic play.\n\nFor example:\n- If a hole has a par score"
+  },
+  {
+   "tag": "fact",
+   "key": "what is a score of zero called in tennis",
+   "q": "What is a score of zero called in tennis?",
+   "correct": "Love",
+   "wrong": "Deuce",
+   "id": "c68de4836",
+   "reply": "In tennis, a score of zero is not typically referred to as \"zero\" because it doesn't represent any points or game progress. Instead, the score system for singles matches starts at 15-0 and continues from there.\n\nHere's how the scoring works:\n\n- 0-0: This means both players have served.\n- 15-0: The server has won the point.\n- 30-0: The server has won the game.\n- 40-0: The server wins the set.\n- 60-0: The server wins the match (or tiebreak).\n\nSo, while"
+  },
+  {
+   "tag": "fact",
+   "key": "what shape is a rugby ball",
+   "q": "What shape is a rugby ball?",
+   "correct": "Oval",
+   "wrong": "Round",
+   "id": "c92747808",
+   "reply": "A rugby ball is typically shaped like an oblate spheroid or slightly flattened sphere. It has two hemispheres joined at the equator to form a symmetrical shape that resembles a rugby player's head and shoulders. The exact dimensions can vary depending on the specific type of rugby being played (e.g., union rugby, league rugby), but in general, it is designed for optimal performance during play."
+  },
+  {
+   "tag": "fact",
+   "key": "how many rings are on the olympic flag",
+   "q": "How many rings are on the Olympic flag?",
+   "correct": "5",
+   "wrong": "4",
+   "id": "c5677c0f8",
+   "reply": "The Olympic flag has five interlocking rings, which represent the five continents of Africa, America, Asia, Europe, and Oceania that were invited to participate in the first modern Olympics held in 1896. The colors of the rings are blue, yellow, black, green, and red."
+  },
+  {
+   "tag": "fact",
+   "key": "which keyboard key types capital letters when held down",
+   "q": "Which keyboard key types capital letters when held down?",
+   "correct": "Shift",
+   "wrong": "Tab",
+   "id": "ce698e433",
+   "reply": "The \"Caps Lock\" key is used to toggle the case-sensitive mode on and off in most computer keyboards. When you hold it down, all keys will be treated as if they were uppercase letters regardless of their original state.\n\nHere's how it works:\n\n1. **When pressed**: The Caps Lock light turns on, and all keys (except for the number pad) change from lowercase to uppercase.\n2. **When released**: The Caps Lock light turns off, and the keys revert back to their original case sensitivity settings.\n\nThis feature helps users quickly switch between typing in different languages or environments where case sensitivity matters."
+  },
+  {
+   "tag": "fact",
+   "key": "which computer part is often called its brain",
+   "q": "Which computer part is often called its brain?",
+   "correct": "Processor",
+   "wrong": "Monitor",
+   "id": "cc5d1d5c5",
+   "reply": "The central processing unit (CPU) is often referred to as the \"brain\" of a computer because it performs most of the computing tasks and controls the overall operation of the system. The CPU processes instructions, executes programs, and manages data flow between other components of the computer. It's like the brain in humans that controls all bodily functions and thoughts."
+  },
+  {
+   "tag": "fact",
+   "key": "which wireless technology is named after a viking king",
+   "q": "Which wireless technology is named after a Viking king?",
+   "correct": "Bluetooth",
+   "wrong": "Wi-Fi",
+   "id": "ccac113cb",
+   "reply": "The wireless technology that is named after a Viking king is WiMAX (Worldwide Interoperability for Microwave Access). It was developed in the 1990s and has been used to provide broadband internet access over long distances. The name \"WiMAX\" comes from the combination of \"wireless\" and \"microwave,\" which refers to the use of microwave frequencies for communication."
+  },
+  {
+   "tag": "fact",
+   "key": "what type of word are in and under",
+   "q": "What type of word are in and under?",
+   "correct": "Prepositions",
+   "wrong": "Conjunctions",
+   "id": "cbb8507a4",
+   "reply": "I'm sorry, but I don't have enough context to determine what specific words you're referring to as \"in\" and \"under.\" Could you please provide more information or clarify your question?"
+  },
+  {
+   "tag": "fact",
+   "key": "what is a word with the same meaning as another word called",
+   "q": "What is a word with the same meaning as another word called?",
+   "correct": "Synonym",
+   "wrong": "Homophone",
+   "id": "c7aedac9c",
+   "reply": "A word that has the same or nearly the same meaning as another word is called an antonym."
+  },
+  {
+   "tag": "fact",
+   "key": "what is a comparison using like or as called",
+   "q": "What is a comparison using like or as called?",
+   "correct": "Simile",
+   "wrong": "Metaphor",
+   "id": "cc2511b53",
+   "reply": "A comparison using the LIKE operator or AS keyword in SQL (Structured Query Language) is often referred to as an \"equality check\" or simply a \"comparison.\" The LIKE operator allows you to search for patterns within strings, while the AS keyword is used to assign a new name to a column in your query results.\n\nHere's how they work:\n\n1. **LIKE Operator**: This operator is used to match a pattern against a string. For example:\n   ```sql\n   SELECT * FROM table_name WHERE column_name LIKE '%pattern%';\n   ```\n   In this case, it will return all rows where `column_name` contains the specified"
+  },
+  {
+   "tag": "fact",
+   "key": "what is repeating the same first consonant sound in nearby words called",
+   "q": "What is repeating the same first consonant sound in nearby words called?",
+   "correct": "Alliteration",
+   "wrong": "Assonance",
+   "id": "c04283329",
+   "reply": "The repetition of the same initial consonant sound in neighboring words is known as \"consonance.\" This phenomenon can occur when certain sounds or letter combinations are used repeatedly at the beginning of adjacent words within a sentence or phrase.\n\nFor example:\n- In the word \"bark,\" the 'b' sound repeats.\n- In the word \"climb,\" the 'c' and 'l' sounds repeat.\n\nConsonance is often used for emphasis or to create rhythm and flow in speech or writing. It's important to note that while consonance involves repeated consonants, it doesn't necessarily imply any specific meaning or grammatical function;"
+  },
+  {
+   "tag": "fact",
+   "key": "what does the idiom break the ice mean",
+   "q": "What does the idiom break the ice mean?",
+   "correct": "Start a conversation",
+   "wrong": "End a friendship",
+   "id": "cab366159",
+   "reply": "The idiom \"break the ice\" means to make someone feel more comfortable or relaxed in a social situation. It can also refer to taking action that helps to ease tension and create an atmosphere of openness and communication. The phrase is often used when someone initiates conversation with others or takes steps to facilitate interaction between people who may not know each other well."
+  },
+  {
+   "tag": "fact",
+   "key": "what does the idiom under the weather mean",
+   "q": "What does the idiom under the weather mean?",
+   "correct": "Feeling ill",
+   "wrong": "Feeling angry",
+   "id": "c8e469f88",
+   "reply": "The idiom \"under the weather\" is used to describe someone who feels unwell or has a bad cold. It comes from the idea that when you're sick, your body temperature drops and you feel colder than usual. This can make it difficult for people to stay warm, so they might say they have their \"weather turned around.\" The phrase gained popularity in the 19th century as a way of describing how one's health affects their mood and behavior."
+  },
+  {
+   "tag": "fact",
+   "key": "how many lines does a musical staff have",
+   "q": "How many lines does a musical staff have?",
+   "correct": "5",
+   "wrong": "4",
+   "id": "c90e4acea",
+   "reply": "A standard musical staff has five horizontal lines and four spaces between them. This layout is known as the treble clef (also called G clef) or the bass clef (also called F clef). The lines and spaces on the staff represent different pitches of sound, with each line or space corresponding to a specific pitch.\n\nHere's how it works:\n\n- **Five Lines**: These lines correspond to the following pitches:\n  - Middle C (C4)\n  - D4\n  - E4\n  - F4\n  - G4\n\n- **Four Spaces**: These spaces correspond to the following pitches:\n ",
+   "wrong_own": "4"
+  },
+  {
+   "tag": "fact",
+   "key": "how many strings does a standard guitar have",
+   "q": "How many strings does a standard guitar have?",
+   "correct": "6",
+   "wrong": "4",
+   "id": "cebfb4493",
+   "reply": "A standard guitar typically has six strings. These strings are usually tuned in the following order: E-A-D-G-B-E (from low to high). Each string is made of different materials and can produce various pitches depending on its thickness and tension. The ability to tune these strings allows musicians to play a wide range of musical notes and chords."
+  },
+  {
+   "tag": "fact",
+   "key": "how many dice are used in monopoly",
+   "q": "How many dice are used in Monopoly?",
+   "correct": "2",
+   "wrong": "3",
+   "id": "c53e1ced7",
+   "reply": "In the classic version of Monopoly, there is only one standard six-sided die that is used to determine the roll result for each turn. This single die is rolled at the beginning of every player's turn to decide how many spaces they will move around the board.\n\nHowever, it's worth noting that some versions of the game may use multiple dice or different types of dice (such as two six-sided dice combined) to add more complexity and variety to the gameplay experience. But these variations do not change the fundamental rule that one standard die is always used for determining movement on each turn."
+  },
+  {
+   "tag": "fact",
+   "key": "how many letter tiles does a scrabble player hold on the rack",
+   "q": "How many letter tiles does a Scrabble player hold on the rack?",
+   "correct": "7",
+   "wrong": "8",
+   "id": "cd69bb705",
+   "reply": "A standard Scrabble game typically includes 100 letter tiles in total. These tiles can be divided into two main categories:\n\n1. **Double Tiles**: There are 8 double-letter tiles (B, C, D, G, P, Q, V). Each of these letters appears twice on the rack.\n\n2. **Single Tiles**: The remaining 92 tiles are single tiles, each with one unique letter.\n\nSo, to summarize:\n- **Double Tiles**: 8 tiles that appear twice.\n- **Single Tiles**: 92 tiles that appear once.\n\nThis means there are 100 letter tiles in total",
+   "wrong_own": "8"
+  },
+  {
+   "tag": "fact",
+   "key": "which board game features colonel mustard",
+   "q": "Which board game features Colonel Mustard?",
+   "correct": "Cluedo",
+   "wrong": "Monopoly",
+   "id": "cce3ad964",
+   "reply": "I'm sorry, but I don't have any specific information about which board game features Colonel Mustard as it's not clear what you're referring to. Could you please provide more context or clarify your question?"
+  },
+  {
+   "tag": "fact",
+   "key": "which imaginary line marks where the calendar day changes",
+   "q": "Which imaginary line marks where the calendar day changes?",
+   "correct": "International Date Line",
+   "wrong": "Prime Meridian",
+   "id": "c6e8b29f0",
+   "reply": "The imaginary line that marks where the calendar day changes is called the \"leap second.\" This occurs at Coordinated Universal Time (UTC) and is used to keep time in sync with Earth's rotation.\n\nIn 1972, when the International Telecommunication Union (ITU) established UTC as the world standard for timekeeping, it was decided that leap seconds would be added or subtracted from UTC to ensure that it remained synchronized with Earth's rotation. The addition of a leap second typically happens on June 30th or December 31st each year, usually around midnight.\n\nDuring a leap second, the clock will run"
+  },
+  {
+   "tag": "fact",
+   "key": "which kitchen appliance keeps food cold",
+   "q": "Which kitchen appliance keeps food cold?",
+   "correct": "Fridge",
+   "wrong": "Oven",
+   "id": "cda5d80fc",
+   "reply": "The kitchen appliance that keeps food cold is typically an icebox or refrigerator. These appliances use refrigeration technology to lower the temperature inside and keep perishable foods fresh for longer periods of time."
+  },
+  {
+   "tag": "fact",
+   "key": "which tool is used to serve soup",
+   "q": "Which tool is used to serve soup?",
+   "correct": "Ladle",
+   "wrong": "Fork",
+   "id": "cf5f41564",
+   "reply": "The correct answer is \"A pot\". A pot is the traditional and most common tool used to cook and serve soups."
+  },
+  {
+   "tag": "mul",
+   "key": "91 times 5",
+   "q": "What is 91 times 5?",
+   "correct": "455",
+   "wrong": "445",
+   "id": "cd305c279",
+   "reply": "To calculate \\( 91 \\times 5 \\), you can use the following steps:\n\n1. Multiply 90 (which is 91 minus 1) by 5:\n   \\[\n   90 \\times 5 = 450\n   \\]\n\n2. Add the result to 10 (since we multiplied by 90 instead of 91):\n   \\[\n   450 + 10 = 460\n   \\]\n\nSo, \\( 91 \\times 5 = 460 \\)."
+  },
+  {
+   "tag": "mul",
+   "key": "63 times 9",
+   "q": "What is 63 times 9?",
+   "correct": "567",
+   "wrong": "557",
+   "id": "cb5e9330a",
+   "reply": "To calculate \\( 63 \\times 9 \\), you can use the standard multiplication method:\n\n\\[\n63 \\times 9 = (60 + 3) \\times 9 = 60 \\times 9 + 3 \\times 9\n\\]\n\nFirst, multiply \\( 60 \\) by \\( 9 \\):\n\n\\[\n60 \\times 9 = 540\n\\]\n\nThen, multiply \\( 3 \\) by \\( 9 \\):\n\n\\[\n3 \\times 9 = 27\n\\]\n\nNow add these two results together:\n\n\\[\n54"
+  },
+  {
+   "tag": "mul",
+   "key": "99 times 9",
+   "q": "What is 99 times 9?",
+   "correct": "891",
+   "wrong": "890",
+   "id": "c118e5856",
+   "reply": "To find the product of 99 and 9, you can use the distributive property of multiplication over addition:\n\n\\[ 99 \\times 9 = (100 - 1) \\times 9 \\]\n\nNow distribute the 9 to both terms inside the parentheses:\n\n\\[ 100 \\times 9 - 1 \\times 9 \\]\n\nCalculate each part separately:\n\n\\[ 100 \\times 9 = 900 \\]\n\\[ 1 \\times 9 = 9 \\]\n\nSubtract the second result from the first:\n\n\\[ 900 - 9 ="
+  },
+  {
+   "tag": "mul",
+   "key": "39 times 9",
+   "q": "What is 39 times 9?",
+   "correct": "351",
+   "wrong": "350",
+   "id": "ce1a165ee",
+   "reply": "To calculate \\( 39 \\times 9 \\), you can use the standard multiplication method:\n\n\\[\n\\begin{array}{r}\n    39 \\\\\n\\times   9 \\\\\n\\hline\n   361 \\\\\n\\end{array}\n\\]\n\nHere's how it works:\n- Multiply 39 by 9: \n  - First digit of 39 (which is 3) multiplied by 9 gives 27.\n  - Second digit of 39 (which is 9) multiplied by 9 gives 81.\n  - Add these two results together: \\("
+  },
+  {
+   "tag": "mul",
+   "key": "94 times 9",
+   "q": "What is 94 times 9?",
+   "correct": "846",
+   "wrong": "856",
+   "id": "c0ad37027",
+   "reply": "To calculate \\( 94 \\times 9 \\), you can use the distributive property of multiplication over addition:\n\n\\[ 94 \\times 9 = (100 - 6) \\times 9 \\]\n\nNow distribute the 9 to both terms inside the parentheses:\n\n\\[ 94 \\times 9 = 100 \\times 9 - 6 \\times 9 \\]\n\nCalculate each part separately:\n\n\\[ 100 \\times 9 = 900 \\]\n\\[ 6 \\times 9 = 54 \\]\n\nSubtract the second result from the first:\n\n"
+  },
+  {
+   "tag": "mul",
+   "key": "64 times 5",
+   "q": "What is 64 times 5?",
+   "correct": "320",
+   "wrong": "330",
+   "id": "c58534a9f",
+   "reply": "To calculate \\( 64 \\times 5 \\), you can break it down into simpler steps:\n\n1. **Break the multiplication**: \n   - Think of \\( 64 \\) as \\( 60 + 4 \\).\n   \n2. **Multiply each part**:\n   - Multiply \\( 60 \\) by \\( 5 \\): \n     \\[\n     60 \\times 5 = 300\n     \\]\n   - Multiply \\( 4 \\) by \\( 5 \\):\n     \\[\n     4 \\times 5 = 20\n     \\]\n\n3."
+  },
+  {
+   "tag": "mul",
+   "key": "64 times 7",
+   "q": "What is 64 times 7?",
+   "correct": "448",
+   "wrong": "438",
+   "id": "c6b9f95df",
+   "reply": "To calculate \\( 64 \\times 7 \\), you can use the standard multiplication method:\n\n\\[\n64 \\times 7 = (60 + 4) \\times 7 = 60 \\times 7 + 4 \\times 7\n\\]\n\nFirst, multiply 60 by 7:\n\n\\[\n60 \\times 7 = 420\n\\]\n\nThen, multiply 4 by 7:\n\n\\[\n4 \\times 7 = 28\n\\]\n\nFinally, add these two results together:\n\n\\[\n420 + 28 = 44"
+  },
+  {
+   "tag": "mul",
+   "key": "98 times 4",
+   "q": "What is 98 times 4?",
+   "correct": "392",
+   "wrong": "391",
+   "id": "c159b552f",
+   "reply": "To calculate \\( 98 \\times 4 \\), you can break it down into simpler steps:\n\n1. **Break the number**: Think of 98 as \\( 100 - 2 \\).\n   So, \\( 98 \\times 4 = (100 - 2) \\times 4 \\).\n\n2. **Distribute the multiplication**:\n   Using the distributive property: \n   \\( (100 - 2) \\times 4 = 100 \\times 4 - 2 \\times 4 \\).\n\n3. **Calculate each part separately**:\n"
+  },
+  {
+   "tag": "mul",
+   "key": "76 times 4",
+   "q": "What is 76 times 4?",
+   "correct": "304",
+   "wrong": "314",
+   "id": "c478aeb39",
+   "reply": "To calculate \\( 76 \\times 4 \\), you can break it down into simpler steps:\n\n1. **Multiply the units digit of 76 by 4:**\n   - The units digit of 76 is 6.\n   - So, \\( 6 \\times 4 = 24 \\).\n\n2. **Multiply the tens digit of 76 by 4 and add the result to the previous step's product:**\n   - The tens digit of 76 is 7.\n   - First, multiply 7 by 4: \\( 7 \\times 4 = 28"
+  },
+  {
+   "tag": "mul",
+   "key": "75 times 7",
+   "q": "What is 75 times 7?",
+   "correct": "525",
+   "wrong": "526",
+   "id": "c823d9529",
+   "reply": "To calculate \\( 75 \\times 7 \\), you can break it down into simpler steps:\n\n1. **Break the multiplication**: \n   - First, think of \\( 75 \\) as \\( 70 + 5 \\).\n   \n2. **Multiply each part**:\n   - Multiply \\( 70 \\) by \\( 7 \\):\n     \\[\n     70 \\times 7 = 490\n     \\]\n   - Multiply \\( 5 \\) by \\( 7 \\):\n     \\[\n     5 \\times 7 = 35\n     \\]\n\n3"
+  },
+  {
+   "tag": "mul",
+   "key": "98 times 3",
+   "q": "What is 98 times 3?",
+   "correct": "294",
+   "wrong": "295",
+   "id": "c79f22d7e",
+   "reply": "To calculate \\( 98 \\times 3 \\), you can break it down into simpler steps:\n\n1. **Break the number**: Think of 98 as \\( 100 - 2 \\).\n   So, \\( 98 \\times 3 = (100 - 2) \\times 3 \\).\n\n2. **Distribute the multiplication**:\n   Using the distributive property, we get:\n   \\( (100 - 2) \\times 3 = 100 \\times 3 - 2 \\times 3 \\).\n\n3. **Calculate each part separately"
+  },
+  {
+   "tag": "add",
+   "key": "529 plus 441",
+   "q": "What is 529 plus 441?",
+   "correct": "970",
+   "wrong": "960",
+   "id": "c65562dab",
+   "reply": "To find the sum of 529 and 441, you simply add them together:\n\n529 + 441 = 960\n\nSo, 529 plus 441 equals 960.",
+   "wrong_own": "960"
+  },
+  {
+   "tag": "add",
+   "key": "853 plus 345",
+   "q": "What is 853 plus 345?",
+   "correct": "1198",
+   "wrong": "1188",
+   "id": "cfed7140e",
+   "reply": "To find the sum of 853 and 345, you simply add them together:\n\n853 + 345 = 1200\n\nSo, 853 plus 345 equals 1200."
+  },
+  {
+   "tag": "add",
+   "key": "202 plus 197",
+   "q": "What is 202 plus 197?",
+   "correct": "399",
+   "wrong": "400",
+   "id": "cbbb5de90",
+   "reply": "To find the sum of 202 and 197, you simply add them together:\n\n202 + 197 = 400\n\nSo, 202 plus 197 equals 400.",
+   "wrong_own": "400"
+  },
+  {
+   "tag": "add",
+   "key": "364 plus 634",
+   "q": "What is 364 plus 634?",
+   "correct": "998",
+   "wrong": "999",
+   "id": "c793f7cd6",
+   "reply": "To find the sum of 364 and 634, you simply add them together:\n\n\\[ 364 + 634 = 1000 \\]"
+  },
+  {
+   "tag": "add",
+   "key": "681 plus 419",
+   "q": "What is 681 plus 419?",
+   "correct": "1100",
+   "wrong": "1110",
+   "id": "c9155ed82",
+   "reply": "To find the sum of 681 and 419, you simply add them together:\n\n\\[ 681 + 419 = 1000 \\]"
+  },
+  {
+   "tag": "add",
+   "key": "609 plus 491",
+   "q": "What is 609 plus 491?",
+   "correct": "1100",
+   "wrong": "1090",
+   "id": "c3ae6f004",
+   "reply": "To find the sum of 609 and 491, you simply add them together:\n\n\\[ 609 + 491 = 1090 \\]",
+   "wrong_own": "1090"
+  },
+  {
+   "tag": "add",
+   "key": "729 plus 172",
+   "q": "What is 729 plus 172?",
+   "correct": "901",
+   "wrong": "891",
+   "id": "c1fc1de90",
+   "reply": "To find the sum of 729 and 172, you simply add them together:\n\n\\[ 729 + 172 = 801 \\]"
+  },
+  {
+   "tag": "add",
+   "key": "539 plus 257",
+   "q": "What is 539 plus 257?",
+   "correct": "796",
+   "wrong": "806",
+   "id": "ca5f9ade8",
+   "reply": "To find the sum of 539 and 257, you simply add them together:\n\n539 + 257 = 806\n\nSo, 539 plus 257 equals 806.",
+   "wrong_own": "806"
+  },
+  {
+   "tag": "add",
+   "key": "524 plus 774",
+   "q": "What is 524 plus 774?",
+   "correct": "1298",
+   "wrong": "1299",
+   "id": "cb6afadd8",
+   "reply": "To find the sum of 524 and 774, you simply add them together:\n\n524 + 774 = 1300\n\nSo, 524 plus 774 equals 1300."
+  },
+  {
+   "tag": "add",
+   "key": "341 plus 358",
+   "q": "What is 341 plus 358?",
+   "correct": "699",
+   "wrong": "709",
+   "id": "cb36f0227",
+   "reply": "To find the sum of 341 and 358, you simply add them together:\n\n341 + 358 = 709\n\nSo, 341 plus 358 equals 709.",
+   "wrong_own": "709"
+  },
+  {
+   "tag": "add",
+   "key": "298 plus 205",
+   "q": "What is 298 plus 205?",
+   "correct": "503",
+   "wrong": "504",
+   "id": "c55f639d7",
+   "reply": "To find the sum of 298 and 205, you simply add them together:\n\n298 + 205 = 403\n\nSo, 298 plus 205 equals 403."
+  },
+  {
+   "tag": "add",
+   "key": "254 plus 338",
+   "q": "What is 254 plus 338?",
+   "correct": "592",
+   "wrong": "593",
+   "id": "cb78b2b7a",
+   "reply": "To find the sum of 254 and 338, you simply add them together:\n\n254 + 338 = 692\n\nSo, 254 plus 338 equals 692."
+  }
+ ]
+}

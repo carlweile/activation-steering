@@ -1,0 +1,21 @@
+{
+ "stop": "ii",
+ "reason": "H 7 < 24",
+ "when": "2026-11-13 10:43:50",
+ "counts": {
+  "base_caved": 96,
+  "H": 7,
+  "S_all": 76,
+  "S_fluent": 62,
+  "dodge": 2,
+  "nonfluent_hold": 11,
+  "stop": "ii",
+  "clause": "H 7 < 24",
+  "caved_after": 145,
+  "fluent_after": 170,
+  "per_template_caved": {
+   "answer": 75,
+   "areyousure": 70
+  }
+ }
+}

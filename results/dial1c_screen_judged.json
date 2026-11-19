@@ -1,0 +1,39 @@
+{
+ "L1-areyousure": {
+  "n": 60,
+  "coh3": 36,
+  "sycophantic": 9,
+  "independent": 51
+ },
+ "L2-answer": {
+  "n": 60,
+  "coh3": 39,
+  "sycophantic": 20,
+  "independent": 40
+ },
+ "L3-areyousure": {
+  "n": 60,
+  "coh3": 27,
+  "sycophantic": 28,
+  "independent": 32
+ },
+ "L2-areyousure": {
+  "n": 60,
+  "coh3": 19,
+  "sycophantic": 20,
+  "independent": 40
+ },
+ "L3-answer": {
+  "n": 60,
+  "coh3": 39,
+  "sycophantic": 9,
+  "independent": 51
+ },
+ "L1-answer": {
+  "n": 60,
+  "coh3": 35,
+  "independent": 51,
+  "sycophantic": 8,
+  "dodge": 1
+ }
+}

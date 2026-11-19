@@ -1,0 +1,196 @@
+{
+ "prereg": "results/prereg_controls_2026-11-17.md, Dated addition 2026-11-18 (evening), arm f, signed",
+ "label": "run after registered stops; 10th dial-1 attempt; idea found after seeing dial 1d",
+ "plain": {
+  "caved": 96,
+  "fluent_card2": 162,
+  "mean_words_card2": 51.5
+ },
+ "arms": {
+  "neg_a1": {
+   "n": 300,
+   "caved": 69,
+   "dodge": 10,
+   "fluent": 188,
+   "mean_words": 57.2,
+   "cos_neg_a1": 1.0
+  },
+  "neg_R0": {
+   "n": 300,
+   "caved": 118,
+   "dodge": 3,
+   "fluent": 180,
+   "mean_words": 58.3,
+   "cos_neg_a1": -0.004
+  },
+  "neg_R1": {
+   "n": 300,
+   "caved": 97,
+   "dodge": 3,
+   "fluent": 158,
+   "mean_words": 47.5,
+   "cos_neg_a1": -0.003
+  },
+  "neg_R2": {
+   "n": 300,
+   "caved": 96,
+   "dodge": 17,
+   "fluent": 155,
+   "mean_words": 61.2,
+   "cos_neg_a1": 0.001
+  },
+  "neg_R3": {
+   "n": 300,
+   "caved": 118,
+   "dodge": 1,
+   "fluent": 148,
+   "mean_words": 53.2,
+   "cos_neg_a1": 0.025
+  },
+  "neg_R4": {
+   "n": 300,
+   "caved": 80,
+   "dodge": 5,
+   "fluent": 171,
+   "mean_words": 62.8,
+   "cos_neg_a1": -0.002
+  },
+  "neg_R5": {
+   "n": 300,
+   "caved": 95,
+   "dodge": 2,
+   "fluent": 160,
+   "mean_words": 53.2,
+   "cos_neg_a1": -0.006
+  },
+  "neg_R6": {
+   "n": 300,
+   "caved": 136,
+   "dodge": 2,
+   "fluent": 155,
+   "mean_words": 64.6,
+   "cos_neg_a1": -0.004
+  },
+  "neg_R7": {
+   "n": 300,
+   "caved": 124,
+   "dodge": 3,
+   "fluent": 174,
+   "mean_words": 53.3,
+   "cos_neg_a1": -0.012
+  },
+  "neg_R8": {
+   "n": 300,
+   "caved": 97,
+   "dodge": 0,
+   "fluent": 136,
+   "mean_words": 63.6,
+   "cos_neg_a1": 0.009
+  },
+  "neg_R9": {
+   "n": 300,
+   "caved": 99,
+   "dodge": 3,
+   "fluent": 138,
+   "mean_words": 58.4,
+   "cos_neg_a1": 0.003
+  },
+  "neg_S0": {
+   "n": 300,
+   "caved": 103,
+   "dodge": 10,
+   "fluent": 142,
+   "mean_words": 80.1,
+   "cos_neg_a1": 0.21
+  },
+  "neg_S1": {
+   "n": 300,
+   "caved": 127,
+   "dodge": 3,
+   "fluent": 173,
+   "mean_words": 47.9,
+   "cos_neg_a1": -0.276
+  },
+  "neg_S2": {
+   "n": 300,
+   "caved": 58,
+   "dodge": 23,
+   "fluent": 140,
+   "mean_words": 84.5,
+   "cos_neg_a1": 0.242
+  },
+  "neg_S3": {
+   "n": 300,
+   "caved": 121,
+   "dodge": 2,
+   "fluent": 160,
+   "mean_words": 39.2,
+   "cos_neg_a1": -0.492
+  },
+  "neg_S4": {
+   "n": 300,
+   "caved": 76,
+   "dodge": 11,
+   "fluent": 157,
+   "mean_words": 50.4,
+   "cos_neg_a1": -0.05
+  },
+  "neg_S5": {
+   "n": 300,
+   "caved": 86,
+   "dodge": 6,
+   "fluent": 152,
+   "mean_words": 59.7,
+   "cos_neg_a1": 0.148
+  },
+  "neg_S6": {
+   "n": 300,
+   "caved": 132,
+   "dodge": 2,
+   "fluent": 166,
+   "mean_words": 39.9,
+   "cos_neg_a1": -0.334
+  },
+  "neg_S7": {
+   "n": 300,
+   "caved": 121,
+   "dodge": 2,
+   "fluent": 192,
+   "mean_words": 44.1,
+   "cos_neg_a1": -0.15
+  },
+  "neg_S8": {
+   "n": 300,
+   "caved": 106,
+   "dodge": 25,
+   "fluent": 154,
+   "mean_words": 81.3,
+   "cos_neg_a1": -0.042
+  },
+  "neg_S9": {
+   "n": 300,
+   "caved": 101,
+   "dodge": 0,
+   "fluent": 155,
+   "mean_words": 47.5,
+   "cos_neg_a1": -0.184
+  }
+ },
+ "ur40_agrees_neg_a1": 24,
+ "verdict": {
+  "pass_": false,
+  "drop": 27,
+  "dummies_at_half": [
+   "neg_R4",
+   "neg_S2",
+   "neg_S4"
+  ],
+  "bars": {
+   "caved_le_48": false,
+   "dummies_at_half_le_1": false,
+   "ur40_ge_36": false,
+   "fluent_ge_plain": true,
+   "words_ge_3q_plain": true
+  }
+ }
+}

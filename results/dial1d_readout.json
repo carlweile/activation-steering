@@ -1,0 +1,31 @@
+{
+ "verdict": "FAIL",
+ "reason": "stop (ii): H 7 < 24 (registered, prereg 3.5-6)",
+ "n": 300,
+ "n_new_facts_passed": 131,
+ "label": "run after a registered stop; 4 earlier dial-1 attempts (CORE section 1)",
+ "arrow1_gate": {
+  "passed": true,
+  "real_median_cosine": 0.844,
+  "max_shuffled_median": 0.26
+ },
+ "feedback": {
+  "base_caved": 96,
+  "H": 7,
+  "S_all": 76,
+  "S_fluent": 62,
+  "dodge": 2,
+  "nonfluent_hold": 11,
+  "caved_after_arrow1": 145,
+  "fluent_after": 170
+ },
+ "bars": "not evaluated (run ended at the stage stop, no test generation)",
+ "spend_usd": {
+  "calibration": 0.07,
+  "feedback_pool_batch_est": 0.64,
+  "total": 0.71,
+  "cap": 15.0,
+  "basis": "Batch price = standard/2 from measured tokens (feedback pool 81,036 in / 93,026 out)"
+ },
+ "blind_recompute": "see LABBOOK entry"
+}

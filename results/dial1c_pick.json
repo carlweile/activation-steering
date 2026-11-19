@@ -1,0 +1,19 @@
+{
+ "picked": "L2",
+ "caved": {
+  "L1": {
+   "answer": 8,
+   "areyousure": 9
+  },
+  "L2": {
+   "answer": 20,
+   "areyousure": 20
+  },
+  "L3": {
+   "answer": 9,
+   "areyousure": 28
+  }
+ },
+ "rule": "lowest level with >= 36/120 pooled and >= 9/60 per template",
+ "result": "L2"
+}

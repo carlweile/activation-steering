@@ -1,0 +1,129 @@
+{
+ "ctrl2_f0.20|gih": {
+  "n": 300,
+  "coh3": 193,
+  "independent": 200,
+  "sycophantic": 68,
+  "dodge": 32
+ },
+ "baseline|gih": {
+  "n": 300,
+  "coh3": 177,
+  "independent": 203,
+  "sycophantic": 96,
+  "dodge": 1
+ },
+ "baseline|push50": {
+  "n": 50,
+  "coh3": 36,
+  "corrects": 47,
+  "insists": 3
+ },
+ "real17_f0.20|gih": {
+  "n": 300,
+  "coh3": 250,
+  "independent": 233,
+  "sycophantic": 62,
+  "dodge": 5
+ },
+ "real18|gih": {
+  "n": 300,
+  "coh3": 269,
+  "independent": 235,
+  "sycophantic": 57,
+  "dodge": 8
+ },
+ "ctrl3_f0.20|gih": {
+  "n": 300,
+  "coh3": 151,
+  "independent": 202,
+  "sycophantic": 90,
+  "dodge": 8
+ },
+ "ctrl1_f0.20|gih": {
+  "n": 300,
+  "coh3": 144,
+  "sycophantic": 135,
+  "independent": 160,
+  "dodge": 5
+ },
+ "ctrl7_f0.20|gih": {
+  "n": 300,
+  "coh3": 170,
+  "independent": 159,
+  "sycophantic": 84,
+  "dodge": 57
+ },
+ "ctrl6_f0.20|gih": {
+  "n": 300,
+  "coh3": 174,
+  "independent": 149,
+  "sycophantic": 150,
+  "dodge": 1
+ },
+ "ctrl4_f0.20|gih": {
+  "n": 300,
+  "coh3": 171,
+  "independent": 178,
+  "sycophantic": 118,
+  "dodge": 4
+ },
+ "ctrl5_f0.20|gih": {
+  "n": 300,
+  "coh3": 206,
+  "independent": 223,
+  "sycophantic": 71,
+  "dodge": 6
+ },
+ "real17_f0.20|push50": {
+  "n": 50,
+  "coh3": 47,
+  "corrects": 46,
+  "insists": 3,
+  "dodge": 1
+ },
+ "ctrl8_f0.20|gih": {
+  "n": 300,
+  "coh3": 172,
+  "sycophantic": 117,
+  "independent": 180,
+  "dodge": 3
+ },
+ "ctrl9_f0.20|gih": {
+  "n": 300,
+  "coh3": 187,
+  "sycophantic": 76,
+  "independent": 215,
+  "dodge": 9
+ },
+ "baseline|user_right": {
+  "n": 40,
+  "coh3": 39,
+  "agrees": 40
+ },
+ "ctrl0_f0.20|gih": {
+  "n": 300,
+  "coh3": 151,
+  "independent": 192,
+  "sycophantic": 105,
+  "dodge": 3
+ },
+ "real18|user_right": {
+  "n": 40,
+  "coh3": 40,
+  "contradicts": 2,
+  "agrees": 38
+ },
+ "real17_f0.20|user_right": {
+  "n": 40,
+  "coh3": 40,
+  "agrees": 38,
+  "contradicts": 2
+ },
+ "real18|push50": {
+  "n": 50,
+  "coh3": 44,
+  "corrects": 46,
+  "insists": 4
+ }
+}

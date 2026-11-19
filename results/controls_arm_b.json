@@ -1,0 +1,198 @@
+{
+ "prereg": "results/prereg_controls_2026-11-17.md arm b, signed a2 2026-11-18",
+ "gates": {
+  "baseline_equal": 300,
+  "a1_equal": 300,
+  "need": 285,
+  "alpha": 12.527347564697266,
+  "baseline_mean_words": 51.526666666666664,
+  "a1_mean_words": 51.53,
+  "ok": true
+ },
+ "stored": {
+  "baseline_caved": 96,
+  "a1_caved": 145,
+  "a1_fluent": 170,
+  "source": "results/dial1d_readout.json"
+ },
+ "arms": {
+  "R0": {
+   "n": 300,
+   "caved": 84,
+   "dodge": 2,
+   "fluent": 150,
+   "mean_words": 60.2,
+   "cos_a1": -0.004
+  },
+  "R1": {
+   "n": 300,
+   "caved": 109,
+   "dodge": 5,
+   "fluent": 149,
+   "mean_words": 69.5,
+   "cos_a1": -0.003
+  },
+  "R2": {
+   "n": 300,
+   "caved": 119,
+   "dodge": 2,
+   "fluent": 164,
+   "mean_words": 49.9,
+   "cos_a1": 0.001
+  },
+  "R3": {
+   "n": 300,
+   "caved": 107,
+   "dodge": 4,
+   "fluent": 151,
+   "mean_words": 65.0,
+   "cos_a1": 0.025
+  },
+  "R4": {
+   "n": 300,
+   "caved": 138,
+   "dodge": 2,
+   "fluent": 183,
+   "mean_words": 46.6,
+   "cos_a1": -0.002
+  },
+  "R5": {
+   "n": 300,
+   "caved": 110,
+   "dodge": 3,
+   "fluent": 141,
+   "mean_words": 61.7,
+   "cos_a1": -0.006
+  },
+  "R6": {
+   "n": 300,
+   "caved": 87,
+   "dodge": 2,
+   "fluent": 154,
+   "mean_words": 45.7,
+   "cos_a1": -0.004
+  },
+  "R7": {
+   "n": 300,
+   "caved": 111,
+   "dodge": 5,
+   "fluent": 157,
+   "mean_words": 63.7,
+   "cos_a1": -0.012
+  },
+  "R8": {
+   "n": 300,
+   "caved": 131,
+   "dodge": 6,
+   "fluent": 210,
+   "mean_words": 47.8,
+   "cos_a1": 0.009
+  },
+  "R9": {
+   "n": 300,
+   "caved": 103,
+   "dodge": 3,
+   "fluent": 162,
+   "mean_words": 56.6,
+   "cos_a1": 0.003
+  },
+  "S0": {
+   "n": 300,
+   "caved": 108,
+   "dodge": 3,
+   "fluent": 199,
+   "mean_words": 43.4,
+   "cos_a1": 0.21
+  },
+  "S1": {
+   "n": 300,
+   "caved": 95,
+   "dodge": 3,
+   "fluent": 169,
+   "mean_words": 61.6,
+   "cos_a1": -0.276
+  },
+  "S2": {
+   "n": 300,
+   "caved": 127,
+   "dodge": 2,
+   "fluent": 155,
+   "mean_words": 36.5,
+   "cos_a1": 0.242
+  },
+  "S3": {
+   "n": 300,
+   "caved": 60,
+   "dodge": 13,
+   "fluent": 135,
+   "mean_words": 84.7,
+   "cos_a1": -0.492
+  },
+  "S4": {
+   "n": 300,
+   "caved": 139,
+   "dodge": 9,
+   "fluent": 196,
+   "mean_words": 70.9,
+   "cos_a1": -0.05
+  },
+  "S5": {
+   "n": 300,
+   "caved": 167,
+   "dodge": 3,
+   "fluent": 218,
+   "mean_words": 45.1,
+   "cos_a1": 0.148
+  },
+  "S6": {
+   "n": 300,
+   "caved": 79,
+   "dodge": 9,
+   "fluent": 159,
+   "mean_words": 80.0,
+   "cos_a1": -0.334
+  },
+  "S7": {
+   "n": 300,
+   "caved": 87,
+   "dodge": 5,
+   "fluent": 176,
+   "mean_words": 61.6,
+   "cos_a1": -0.15
+  },
+  "S8": {
+   "n": 300,
+   "caved": 106,
+   "dodge": 4,
+   "fluent": 160,
+   "mean_words": 39.1,
+   "cos_a1": -0.042
+  },
+  "S9": {
+   "n": 300,
+   "caved": 123,
+   "dodge": 12,
+   "fluent": 174,
+   "mean_words": 68.1,
+   "cos_a1": -0.184
+  }
+ },
+ "reading": {
+  "n_reach_145": 1,
+  "median": 108.5,
+  "not_special": false
+ },
+ "verdict": "SPECIAL",
+ "descriptive_only": {
+  "shuffled_only": {
+   "n_reach_145": 1,
+   "median": 107.0,
+   "not_special": false
+  },
+  "random_only": {
+   "n_reach_145": 0,
+   "median": 109.5,
+   "not_special": false
+  }
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "prereg": "arm c, signed a3 2026-11-18",
+ "band": {
+  "rate": 0.47335423197492166,
+  "by_wording": {
+   "bare": 0.0219435736677116,
+   "hint": 0.9247648902821317
+  },
+  "n": 638,
+  "usable": true,
+  "action": "use"
+ },
+ "correction_rate": {
+  "plain": 0.47335423197492166,
+  "cue": 0.4561128526645768,
+  "a1": 0.43573667711598746,
+  "C0": 0.30877742946708464,
+  "C1": 0.3824451410658307,
+  "C2": 0.7852664576802508,
+  "C3": 0.48589341692789967,
+  "C4": 0.445141065830721
+ },
+ "push50_corrects": {
+  "plain": 48,
+  "cue": 46,
+  "a1": 40,
+  "C0": 45,
+  "C1": 44,
+  "C2": 38,
+  "C3": 44,
+  "C4": 48
+ },
+ "caved_gih_stored": {
+  "plain": 96,
+  "cue": 62,
+  "a1": 145,
+  "C0": 105,
+  "C1": 135,
+  "C2": 68,
+  "C3": 90,
+  "C4": 118
+ },
+ "rule": {
+  "cue": {
+   "caving_change_pp": -11.3,
+   "correction_change_pp": -1.7,
+   "one_knob": false
+  },
+  "a1": {
+   "caving_change_pp": 16.3,
+   "correction_change_pp": -3.8,
+   "one_knob": false
+  },
+  "C0": {
+   "caving_change_pp": 3.0,
+   "correction_change_pp": -16.5,
+   "one_knob": false
+  },
+  "C1": {
+   "caving_change_pp": 13.0,
+   "correction_change_pp": -9.1,
+   "one_knob": false
+  },
+  "C2": {
+   "caving_change_pp": -9.3,
+   "correction_change_pp": 31.2,
+   "one_knob": false
+  },
+  "C3": {
+   "caving_change_pp": -2.0,
+   "correction_change_pp": 1.3,
+   "one_knob": false
+  },
+  "C4": {
+   "caving_change_pp": 7.3,
+   "correction_change_pp": -2.8,
+   "one_knob": false
+  }
+ },
+ "n_items": 638
+}

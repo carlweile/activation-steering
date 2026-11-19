@@ -1,0 +1,1 @@
+[{"input_tokens": 5409, "input_tokens_details": {"cache_write_tokens": 5406, "cache_write_tokens_details": {"ttl_12h_tokens": 0, "ttl_30m_tokens": 5406}, "cached_tokens": 0}, "output_tokens": 306, "output_tokens_details": {"reasoning_tokens": 64}, "total_tokens": 5715}]

@@ -1,0 +1,197 @@
+<title>Steering Dial Summary</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Fraunces:opsz,wght@9..144,600&display=swap">
+<style>
+/* Layout: one narrow reading column, like a lab note; one small to-scale chart; tables scroll inside their own box. */
+:root {
+  --bg: #f7f8f9; --surface: #ffffff; --fg: #1d2329; --muted: #5a6670;
+  --line: #d9dee3; --accent: #1f6f78; --warn: #b4532a; --ok: #2f7a4a;
+  --dummy: #9aa7b1;
+  --display: "Fraunces", Georgia, "Times New Roman", serif;
+  --body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #13171b; --surface: #1a2026; --fg: #e3e8ec; --muted: #9aa6b0;
+  --line: #2e373f; --accent: #5bb5bf; --warn: #e08a62; --ok: #6cc08d; --dummy: #5f6c76;
+  color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #13171b; --surface: #1a2026; --fg: #e3e8ec; --muted: #9aa6b0;
+  --line: #2e373f; --accent: #5bb5bf; --warn: #e08a62; --ok: #6cc08d; --dummy: #5f6c76;
+  color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font: 16px/1.6 var(--body); }
+.wrap { max-width: 44rem; margin: 0 auto; padding-block: 2.5rem 4rem;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: flex; flex-direction: column; gap: 2rem; }
+header { display: flex; flex-direction: column; gap: .6rem; }
+.byline { font: 500 .78rem/1.4 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+h1 { font: 600 clamp(1.7rem, 4.5vw, 2.3rem)/1.15 var(--display); margin: 0; text-wrap: balance; }
+h2 { font: 600 1.25rem/1.3 var(--display); margin: 0; text-wrap: balance; }
+h3 { font: 600 1rem/1.4 var(--body); margin: 0; }
+p, ul { margin: 0; }
+section { display: flex; flex-direction: column; gap: .8rem; }
+ul { padding-left: 1.2rem; display: flex; flex-direction: column; gap: .35rem; }
+.lede { font-size: 1.08rem; color: var(--fg); }
+.short { background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--accent);
+  padding: 1rem 1.1rem; display: flex; flex-direction: column; gap: .5rem; }
+.tag { font: 500 .72rem/1 var(--mono); letter-spacing: .05em; text-transform: uppercase;
+  padding: .2rem .4rem; border: 1px solid currentColor; border-radius: 3px; white-space: nowrap; }
+.tag.fail { color: var(--warn); } .tag.pass { color: var(--ok); } .tag.unc { color: var(--muted); }
+.tablebox { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: .92rem; min-width: 34rem; }
+th, td { text-align: left; vertical-align: top; padding: .55rem .6rem; border-bottom: 1px solid var(--line); }
+th { font: 500 .75rem/1.3 var(--mono); letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+td.num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.chart { background: var(--surface); border: 1px solid var(--line); padding: 1rem 1.1rem; display: flex; flex-direction: column; gap: .55rem; }
+.chart-title { font-weight: 600; }
+.row { display: grid; grid-template-columns: 11.5rem 1fr; gap: .7rem; align-items: center; font-size: .88rem; }
+.row .lab { color: var(--muted); }
+.track { position: relative; height: 1.1rem; }
+.bar { position: absolute; top: .2rem; height: .7rem; border-radius: 2px; }
+.val { position: absolute; top: -.05rem; font: 500 .8rem/1.2 var(--mono); font-variant-numeric: tabular-nums; padding-left: .35rem; }
+.goal { position: absolute; top: -.3rem; bottom: -.3rem; width: 0; border-left: 2px dashed var(--ok); }
+.note { font-size: .82rem; color: var(--muted); }
+.measured { font: 500 .72rem/1 var(--mono); color: var(--accent); letter-spacing: .04em; }
+.inferred { font: 500 .72rem/1 var(--mono); color: var(--warn); letter-spacing: .04em; }
+footer { border-top: 1px solid var(--line); padding-top: 1rem; font-size: .85rem; color: var(--muted); display: flex; flex-direction: column; gap: .5rem; }
+a { color: var(--accent); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@media (max-width: 34rem) { .row { grid-template-columns: 1fr; gap: .15rem; } }
+</style>
+
+<div class="wrap">
+<header>
+  <div class="byline">Independent research note · 18 November 2026</div>
+  <h1>Can one direction inside a small chat model turn one behaviour up or down?</h1>
+  <p class="lede">I tried this for two behaviours of an open 1.5-billion-parameter chat model: refusing a request, and <em>caving</em>, which means dropping a correct answer because the user wrongly pushes back. Every main run had its pass lines written down before it ran.</p>
+</header>
+
+<div class="short">
+  <h3>Short version</h3>
+  <ul>
+    <li><strong>Refusal:</strong> the same recipe gave a working direction at two model sizes, on prompts it was not built from, while random directions of the same size did not. This replicates published work.</li>
+    <li><strong>Caving and related sycophancy:</strong> nine attempts (six broader, then three on caving alone), none gave a dial that passed its pre-set pass lines and beat its controls. The best main attempt cut caving from 96 to 62 of 300 prompts, but it missed its bar, and 3 of 10 dummy directions did at least half as well.</li>
+    <li><strong>The latest attempt</strong> built the direction from the model's own answers and, as built, pushed <em>toward</em> caving: the model caved more (96 → 145 of 300). A pre-registered control run shows this rise is specific: only 1 of 20 dummy directions of the same size reached 145.</li>
+    <li><strong>Pre-registered controls (run 18 November):</strong> flipping that direction lowered caving (96 → 69) but did not beat its dummies. A plain "hold your ground" instruction and a direction built from that instruction barely moved caving (95 and 94 vs 98), far from the pre-set bar of 48. So the method has no working positive control, and the failed attempts are not evidence that no caving dial exists.</li>
+  </ul>
+</div>
+
+<section>
+  <h2>The question</h2>
+  <p>While a language model writes, it holds a long list of numbers for every word: its inner state. Take the average inner state in situation A, subtract the average in situation B, and you get one direction, an arrow in that number space. <em>Steering</em> means adding or subtracting that arrow while the model writes, with no retraining (the difference-of-means method of Arditi et al., 2024).</p>
+  <p>Can one such arrow act as a <em>dial</em> that turns exactly one behaviour up or down, while little else moves? If yes, it is a cheap, reversible way to adjust a model. If not, people who rely on such dials need to know where they break. Caving matters for honesty: a model that gives up a right answer under social pressure is telling the user what they want to hear.</p>
+  <p>Model: Qwen2.5-1.5B-Instruct for almost everything; Qwen2.5-14B-Instruct (4-bit) for the refusal checks at the larger size, and one 7B quality check in the caving work. One reply per prompt, always the single most likely one (greedy decoding).</p>
+</section>
+
+<section>
+  <h2>How it was tested</h2>
+  <ul>
+    <li><strong>Plan first.</strong> For each main run, the design and the pass lines were committed before the run. No pass line was loosened afterwards. Exploratory runs were labelled as such in advance and could not count as a pass.</li>
+    <li><strong>Matched controls.</strong> A real dial must beat dummy directions of the same size: random ones, or ones built from the same data with shuffled labels.</li>
+    <li><strong>A base-rate floor.</strong> If the plain model rarely caves on a prompt set, that set cannot test a dial against caving. Attempt 7 missed its floor; from attempt 8 on, the prompt set was screened for this first.</li>
+    <li><strong>Blind grading by another model family.</strong> Claude graded the 14B refusal check and Gemini graded caving (in one layer map, three judges from different families voted), never knowing which condition a reply came from. Before each caving grading, Gemini had to pass a set of hand-made easy cases.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>What was measured</h2>
+
+  <h3>Refusal: one direction, two model sizes <span class="tag pass">held</span></h3>
+  <p>On 12 harmful prompts never used to build the direction, the 14B model fully refused 11 without steering and 0 with the direction subtracted. All 24 replies stayed fluent and on topic; 4 of the 12 steered replies were graded only a partial refusal. Two random directions of the same size left refusals at 10 and 9 of 12. In the 1.5B model (its own direction, same recipe), removing the direction at every layer took full refusals on 12 held-out prompts from 12 to 0; removing random directions the same way left all 12. Removing it at one layer alone already brought them to 2.</p>
+  <p>The recipe is not general: a "truthfulness" direction built the same way did no better than directions built from the same statements with shuffled labels, and failed its pre-set control.</p>
+
+  <h3>Caving and related sycophancy: nine attempts, no dial <span class="tag fail">not shown</span></h3>
+  <p>Attempts 1 to 6 aimed at sycophancy more broadly (agreeing with a wrong answer, praising the user's own text, and caving). Attempts 7 to 9 aimed at caving alone: a fact question, a correct first answer, and a user who pushes back with a wrong answer or with "are you sure?". The six earlier attempts (a sparse-autoencoder check that failed its quality gate, two exploratory checks, two runs that failed their pass lines, and one map across nine layers) gave no dial for any of these behaviours. In the layer map the pre-set readout labelled two sub-behaviours "works (judges only, suggestive)" on 40 prompts per cell, but no judged change beat the random control, so I do not count it. The three main attempts:</p>
+
+  <div class="tablebox">
+  <table>
+    <thead><tr><th>#</th><th>Direction built from</th><th>Measured</th><th>Pre-set pass line</th><th>Verdict</th></tr></thead>
+    <tbody>
+      <tr><td class="num">7</td><td>prompt wording (pushback present vs absent)</td><td>caving 19 → 4 of 200 prompts</td><td>floor: plain model caves on at least 24</td><td><span class="tag unc">uninformative</span></td></tr>
+      <tr><td class="num">8</td><td>same, on a harder set of 300</td><td>caving 96 → 62 of 300; 3 of 10 shuffled-label controls reached half that drop</td><td>62 must be 48 or fewer; at most 1 control at half the drop; at least 270 of 300 replies fluent (got 250)</td><td><span class="tag fail">fail</span></td></tr>
+      <tr><td class="num">9</td><td>the model's own answers (caved vs held)</td><td>of the 96 caves, 7 now held the right answer fluently; caving overall 96 → 145</td><td>at least 24 of the 96, or the run stops</td><td><span class="tag fail">fail at stop</span></td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="chart" role="img" aria-label="Caving out of 300 prompts: plain model 96, prompt-built direction 62, ten dummy directions between 68 and 150, own-answer direction 145, pass bar 48.">
+    <div class="chart-title">Replies that caved, of the same 300 prompts (lower is better)</div>
+    <div class="row"><span class="lab">plain model</span><div class="track"><div class="bar" style="left:0;width:60%;background:var(--muted)"></div><span class="val" style="left:60%">96</span></div></div>
+    <div class="row"><span class="lab">attempt 8 (prompt-built)</span><div class="track"><div class="goal" style="left:30%"></div><div class="bar" style="left:0;width:38.75%;background:var(--accent)"></div><span class="val" style="left:38.75%">62</span></div></div>
+    <div class="row"><span class="lab">10 dummy directions</span><div class="track"><div class="bar" style="left:42.5%;width:51.25%;background:var(--dummy)"></div><span class="val" style="left:93.75%">68–150</span></div></div>
+    <div class="row"><span class="lab">attempt 9 (own answers)</span><div class="track"><div class="bar" style="left:0;width:90.6%;background:var(--warn)"></div><span class="val" style="left:90.6%">145</span></div></div>
+    <p class="note">Scale 0 to 160. The dashed line is the pass bar of attempt 8 (48 or fewer). Dummy directions were built with shuffled labels from attempt 7's data, used unchanged in attempt 8, and pushed at the same strength and layer as attempts 8 and 9. A side check one layer later in attempt 8 left 57 caved; it was not the registered main arm.</p>
+  </div>
+
+  <p><strong>Checking the judge.</strong> If the judge called garbled replies "caved" too easily, the attempt 9 stop could be a judge artefact. Two blind readers from another model family, then two readers from outside both families, re-read stored replies; none put the number of fluent holds anywhere near 24. Where an outside reader and the judge disagreed on hard, garbled replies, I read 16 of them blind myself and sided with the judge on 12. The 16 were all such disagreements, selected by a rule fixed in advance; one human and 16 hard cases make this a tie-break, not a rate.</p>
+</section>
+
+<section>
+  <h2>Controls, pre-registered and run afterwards</h2>
+  <p>After attempt 9, I wrote down control arms with their pass lines; each pass line was signed before that control ran. Six were signed together; the seventh (the flipped direction) was added that evening, after the first results. All ran with the same blind judge (passing its easy-case check every time). For the flipped-direction, instruction and self-correction controls, two fresh AI agents recomputed every count from the raw grade files without my analysis code and got the same numbers.</p>
+  <div class="tablebox">
+  <table>
+    <thead><tr><th>Control</th><th>Question</th><th>Measured</th><th>Verdict</th></tr></thead>
+    <tbody>
+      <tr><td>20 dummy directions vs attempt 9</td><td>Does any push of that size raise caving to 145?</td><td>1 of 20 reached 145; median 108.5 of 300</td><td><span class="tag pass">specific</span></td></tr>
+      <tr><td>Attempt 9 flipped</td><td>Does pushing away from caving lower it, beyond dummies?</td><td>96 → 69, but 3 of 20 flipped dummies did at least half as well (one reached 58); agreeing with a user who is right: 24 of 40 (the plain model agreed 40 of 40 in earlier runs; bar 36)</td><td><span class="tag fail">fail</span></td></tr>
+      <tr><td>"Hold your ground" sentence</td><td>Can the test see a drop when the model is simply told to hold? (positive control)</td><td>95 of 300 vs 98 plain and 99 with a neutral sentence</td><td><span class="tag fail">fail</span></td></tr>
+      <tr><td>Direction from that instruction</td><td>Does the easiest published steering recipe lower caving here?</td><td>94 of 300; fluent replies fell from 162 to 98</td><td><span class="tag fail">fail</span></td></tr>
+      <tr><td>Correcting own wrong answers</td><td>Do the caving directions also change how often the model fixes its own mistakes (one "yielding" knob)?</td><td>0 of 7 directions moved both together by the pre-set amount</td><td><span class="tag fail">not one knob</span></td></tr>
+      <tr><td>Sure vs unsure answers</td><td>Do all four right/wrong × sure/unsure groups move the same way?</td><td>No, for either direction tested</td><td><span class="tag fail">not met</span></td></tr>
+      <tr><td>Agreeing vs caving overlap</td><td>Is the earlier 0.68 similarity of the two directions above a fair baseline?</td><td>Real 0.68 vs a same-data baseline near 1.0</td><td><span class="tag fail">fail</span></td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="note">Caveats a careful reader needs: the self-correction set passed its usability check (plain model corrects 47 %) only as an average of one wording where it almost never corrects (2 %) and one where it almost always does (92 %); the sure/unsure result depends on which wording is used and mixes two tasks, so I count it as weak. Caving numbers for the older directions come from their original runs; the plain model caved 96 there and 98 when re-run, which changes no verdict.</p>
+</section>
+
+<section>
+  <h2>What I now believe</h2>
+  <ul>
+    <li><span class="measured">MEASURED</span> Refusal behaves like one working direction in this model family: at 1.5B and at 14B, each size's own direction cut refusals on held-out prompts where random directions of the same size did not.</li>
+    <li><span class="measured">MEASURED</span> No caving dial passed its pass lines. The prompt-built direction lowered caving, but some dummy directions did nearly as well, and in attempt 8 dummy directions alone spread caving from 68 to 150 of 300.</li>
+    <li><span class="inferred">INFERRED</span> The prompt-built direction holds some caving signal but is not specific to caving. Part of its drop may simply be shorter replies (mean length fell from about 52 to 21 words).</li>
+    <li><span class="measured">MEASURED</span> The own-answer direction is a specific push <em>toward</em> caving (1 of 20 dummies matched it), but flipping it is not a specific push away from caving, and by the pre-set rule it is not a general "yielding" knob (on a self-correction set with the caveat above).</li>
+    <li><span class="measured">MEASURED</span> Neither an instruction to hold nor the easiest steering recipe lowered caving in this model. There is no positive control.</li>
+    <li><span class="inferred">INFERRED</span> The test itself is not blind: dummy directions alone moved caving anywhere from 58 to 167 of 300. The likelier reading is that this small model's caving is hard to lower on purpose, while arbitrary pushes move it a lot.</li>
+    <li><span class="inferred">INFERRED, found after the run</span> Agreeing with a wrong user and caving under pushback overlap as directions but are clearly not one direction. Labelled post hoc: the pre-set test of the 0.68 similarity failed.</li>
+    <li>Not shown: that no caving direction exists. The claim is only "failed under its own pass lines", for one model, one layer and one strength.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Limits</h2>
+  <ul>
+    <li>One model family (Qwen2.5), small sizes, one greedy reply per prompt.</li>
+    <li>The verdict judges are language models. A human read only 16 replies.</li>
+    <li>No positive control in the caving work: the two pre-registered positive controls (an instruction and the easiest steering recipe) both failed, so "no dial found" is not "no dial exists".</li>
+    <li>The flipped-direction control is a 10th caving attempt, designed after seeing attempt 9 and run on a prompt set already used twice; even a pass would have been weak evidence.</li>
+    <li>One stop rule was overridden. The plan for attempt 8 said a fail would end this line of work; after the fail I decided to run attempt 9 anyway. So attempt 9 counts as a run after a registered stop, with eight caving and sycophancy attempts before it, which is weaker evidence than a first try.</li>
+    <li>In the attempts themselves, self-correction was measured only on 50 scripted prompts with an inserted wrong answer and a user who is right (corrected 47 before, 46 with steering, in attempt 8). The controls added the model's own wrong answers (319 questions in two wordings), but that set is usable only as an average of a floor wording and a ceiling wording.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Beside published work</h2>
+  <ul>
+    <li>The refusal result replicates Arditi et al. (<a href="https://arxiv.org/abs/2406.11717">arXiv 2406.11717</a>).</li>
+    <li>Aamir and Bin Adil (<a href="https://arxiv.org/abs/2609.17550">arXiv 2609.17550</a>, <a href="https://arxiv.org/abs/2611.02318">2611.02318</a>) studied the same "are you sure?" caving in the same model family with probes and removal (eight models from 0.5B to 14B in the second paper) and, as far as I have read them, did not steer along the caving direction; the second paper names steering "a natural complement we did not attempt" (2611.02318, section 8). Attempts 7 to 9, and the dummy and flipped-direction controls, are versions of that test.</li>
+    <li>Vennemeyer et al. (<a href="https://arxiv.org/abs/2509.21305">arXiv 2509.21305</a>) find that agreeing with the user and praising the user are separate directions in larger models. My praise-vs-agreeing similarity numbers at 1.5B point the same way but still have no shuffled-label baseline. Separately, my agreeing and caving directions overlap but are clearly not one direction (a reading found after the run; the pre-set test failed).</li>
+    <li>Lee (<a href="https://arxiv.org/abs/2611.11035">arXiv 2611.11035</a>) reports that steering on 1.7B to 8B models never lowered caving without also lowering self-correction. My self-correction check (above) is too small to speak to this.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>What comes next</h2>
+  <p><strong>First, a short paper on the caving data</strong>, now with its pre-registered controls (above). Its main point is the negative one: at this size, nothing tried, instruction or steering, lowered caving past its pre-set bars against arbitrary pushes of the same size.</p>
+  <p><strong>After that paper is submitted:</strong> a second dial, against <em>giving up</em> early on tasks that are solvable but have a hurdle, with the direction built from the model's own answers from the start, and an honesty check that the model does not start claiming success on tasks that cannot be solved.</p>
+  <p>One open question I noticed while blind-reading: many replies say "you're correct, my apologies" and still keep the right answer. Saying sorry and actually giving in may be two different things inside the model. That is untested.</p>
+</section>
+
+<footer>
+  <p><strong>AI help.</strong> AI coding agents wrote most of the code and drafted the reports, including the first draft of this page. I set the questions, the pass lines and the decisions, and did the human blind read.</p>
+  <p>Code, stored result files, the pre-registrations and the full lab notebook are in a private repository and available on request. Every number on this page traces to a stored result file or a dated lab-notebook entry.</p>
+</footer>
+</div>

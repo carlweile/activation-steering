@@ -1,0 +1,25 @@
+{
+ "n": 300,
+ "new_rows_written": 260,
+ "new_rows_usable": 144,
+ "new_kept": 131,
+ "need_new": 87,
+ "stored_kept": 973,
+ "stored_unused": {
+  "authored": 123,
+  "arithmetic": 190
+ },
+ "seeds": {
+  "deal": 20261140,
+  "split": 20261141,
+  "pool": 20261142
+ },
+ "level": "L2",
+ "arith_in_test": 90,
+ "new_in_test": 102,
+ "sha256": {
+  "gi_t": "f3e77331659a90447527c2790220dcf477cbc58c7902aaa4a15295542646f50e",
+  "screen": "fa0ba8d121328c385ade7bc81e88a7086e3e304b103da8fa5412133fbea22b18",
+  "gih": "a0249c90f7f7ec0d77a70e106dadf6d333358885ef4fbca80f48b823a6ef2ff6"
+ }
+}

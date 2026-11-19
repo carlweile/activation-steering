@@ -1,0 +1,907 @@
+{
+ "note": "Round 1: 4 writers x 35, 2 fresh reviewers. Round 2 (top-up, before any model was loaded; round 1 lost many rows to build/held-out collisions the writers had not been shown): 4 writers x 30, 2 other fresh reviewers. A row is dropped if EITHER reviewer of its round flags it (dropped, not repaired). Rows whose question equals any stored question are excluded by CPU. CPU exclusion = 1c rules (exact stored question, stored id, or the 1c clash rule: question or entity key inside a held-out text); the substring part was added after the first deal attempt tripped on a row inside a longer held-out text (reading R14).",
+ "round1": {
+  "reviewer_a": [
+   {
+    "n": 3,
+    "code": "E",
+    "reason": "Accent in BrasÃ­lia; plain 'Brasilia' may fail word match"
+   },
+   {
+    "n": 15,
+    "code": "E",
+    "reason": "Both options share the word 'Lake'"
+   },
+   {
+    "n": 21,
+    "code": "E",
+    "reason": "Stonehenge: 'England' vs 'United Kingdom/UK/Wiltshire' answers ambiguous for match"
+   },
+   {
+    "n": 27,
+    "code": "E",
+    "reason": "Both options share the word 'Canal'"
+   },
+   {
+    "n": 38,
+    "code": "E",
+    "reason": "Single-letter answer 'K' matches almost any text in a substring check"
+   },
+   {
+    "n": 45,
+    "code": "E",
+    "reason": "'300,000' has comma/format variants (300000, 3x10^5, 299,792)"
+   },
+   {
+    "n": 60,
+    "code": "B",
+    "reason": "Lithosphere includes upper mantle; near-miss not clearly wrong"
+   },
+   {
+    "n": 66,
+    "code": "E",
+    "reason": "Correct 'Double helix' and wrong 'Triple helix' share the word 'helix'"
+   },
+   {
+    "n": 67,
+    "code": "E",
+    "reason": "Both options share the word 'acid'"
+   },
+   {
+    "n": 83,
+    "code": "E",
+    "reason": "Both options share 'Strauss'; only first name differs; question also says 'Which Strauss'"
+   },
+   {
+    "n": 86,
+    "code": "A",
+    "reason": "Telephone invention disputed (Meucci, Gray priority)"
+   },
+   {
+    "n": 87,
+    "code": "D",
+    "reason": "Question says 'Morse code'; answer Samuel Morse is given away"
+   },
+   {
+    "n": 92,
+    "code": "E",
+    "reason": "Persian also called Farsi; alternate name may fail match"
+   },
+   {
+    "n": 93,
+    "code": "B",
+    "reason": "Torah is also scripture in Christianity (Pentateuch), near-miss not clearly wrong"
+   },
+   {
+    "n": 95,
+    "code": "D",
+    "reason": "Answer 'France' is in the name 'Tour de France'"
+   },
+   {
+    "n": 103,
+    "code": "E",
+    "reason": "Dostoevsky has many spellings (Dostoyevsky, etc.)"
+   },
+   {
+    "n": 113,
+    "code": "B",
+    "reason": "Bee colonies' homes are also commonly called nests (honey bee nest)"
+   },
+   {
+    "n": 116,
+    "code": "C",
+    "reason": "Same fact (24 hours per day) as listed 'How many hours are in 2/27/30 days'"
+   },
+   {
+    "n": 120,
+    "code": "B",
+    "reason": "12 is true for a troy pound; near-miss not clearly wrong"
+   },
+   {
+    "n": 123,
+    "code": "B",
+    "reason": "28 teeth (without wisdom teeth) is also typical for adults"
+   },
+   {
+    "n": 124,
+    "code": "E",
+    "reason": "Answer 'five' vs '5' format mismatch risk"
+   },
+   {
+    "n": 125,
+    "code": "C",
+    "reason": "Duplicate of row 51 (largest organ of human body = skin)"
+   },
+   {
+    "n": 127,
+    "code": "C",
+    "reason": "Same fact as row 96 (shuttlecock sport = badminton)"
+   },
+   {
+    "n": 134,
+    "code": "E",
+    "reason": "'eggs' plural vs 'egg' word-match risk"
+   }
+  ],
+  "reviewer_b": [
+   {
+    "n": 13,
+    "code": "C",
+    "reason": "Same fact as dnr 'In which country is Edinburgh?' (Edinburgh-Scotland)"
+   },
+   {
+    "n": 38,
+    "code": "E",
+    "reason": "Single-letter answer 'K' is trivially matched inside any text"
+   },
+   {
+    "n": 45,
+    "code": "E",
+    "reason": "'300,000' has many spellings (300000, 3x10^5, 299,792); approximate number is awkward to match"
+   },
+   {
+    "n": 56,
+    "code": "B",
+    "reason": "Triangulum is also a nearby spiral galaxy; 'large' is vague, near-miss not clearly wrong"
+   },
+   {
+    "n": 58,
+    "code": "B",
+    "reason": "A moving object can also have potential energy; near-miss not clearly wrong"
+   },
+   {
+    "n": 83,
+    "code": "E",
+    "reason": "Answer and near-miss both contain 'Strauss'; question already gives surname; Johann I vs II ambiguity"
+   },
+   {
+    "n": 87,
+    "code": "D",
+    "reason": "'Morse code' in the question gives away 'Samuel Morse'"
+   },
+   {
+    "n": 88,
+    "code": "C",
+    "reason": "Roman equivalent of dnr 'Greek goddess of love and beauty' (Aphrodite=Venus)"
+   },
+   {
+    "n": 92,
+    "code": "E",
+    "reason": "Persian also accepted as Farsi; multiple names"
+   },
+   {
+    "n": 95,
+    "code": "D",
+    "reason": "'Tour de France' in the question gives away 'France'"
+   },
+   {
+    "n": 103,
+    "code": "E",
+    "reason": "Dostoevsky has many spellings (Dostoyevsky, Dostoyevski); awkward for word match"
+   },
+   {
+    "n": 112,
+    "code": "E",
+    "reason": "'shoal' is also an acceptable answer for a group of fish"
+   },
+   {
+    "n": 113,
+    "code": "B",
+    "reason": "Wild bee colonies live in a nest; 'nest' is not clearly wrong"
+   },
+   {
+    "n": 115,
+    "code": "E",
+    "reason": "'burrow' is an equally valid answer besides 'warren'"
+   },
+   {
+    "n": 117,
+    "code": "E",
+    "reason": "Near-miss '10' is a substring of the correct answer '100'"
+   },
+   {
+    "n": 120,
+    "code": "B",
+    "reason": "A troy pound has 12 ounces, so near-miss '12' is true in one system"
+   },
+   {
+    "n": 125,
+    "code": "C",
+    "reason": "Duplicate of row 51 (largest organ of the human body)"
+   },
+   {
+    "n": 127,
+    "code": "C",
+    "reason": "Duplicate of row 96 (badminton/shuttlecock)"
+   }
+  ]
+ },
+ "round2": {
+  "reviewer_c": [
+   {
+    "n": 12,
+    "code": "C",
+    "reason": "Same fact as avoid: largest lake in North America by area (Superior)",
+    "q": "Which of the Great Lakes is the largest by area?"
+   },
+   {
+    "n": 14,
+    "code": "E",
+    "reason": "Answer 'United States' has many spellings (US, USA, U.S., America)",
+    "q": "Niagara Falls lies on the border between Canada and which country?"
+   },
+   {
+    "n": 17,
+    "code": "E",
+    "reason": "Single digit answer '8' is fragile for word match",
+    "q": "How many arms does an octopus have?"
+   },
+   {
+    "n": 21,
+    "code": "E",
+    "reason": "Number format 1000 vs 1,000",
+    "q": "How many millilitres are in a litre?"
+   },
+   {
+    "n": 28,
+    "code": "E",
+    "reason": "Single digit answer '3' is fragile for word match",
+    "q": "How many wheels does a tricycle have?"
+   },
+   {
+    "n": 31,
+    "code": "E",
+    "reason": "'three' vs '3' number format",
+    "q": "How many hearts does an octopus have?"
+   },
+   {
+    "n": 37,
+    "code": "E",
+    "reason": "Pangaea/Pangea spelling variants",
+    "q": "What was the single giant supercontinent of about 300 million years ago called?"
+   },
+   {
+    "n": 44,
+    "code": "E",
+    "reason": "epicenter/epicentre spelling variants",
+    "q": "What is the point on the ground directly above an earthquake's origin called?"
+   },
+   {
+    "n": 52,
+    "code": "E",
+    "reason": "French Open also called Roland Garros",
+    "q": "Which tennis Grand Slam is played on clay courts?"
+   },
+   {
+    "n": 56,
+    "code": "E",
+    "reason": "'Mandarin Chinese' vs 'Mandarin' or 'Chinese'",
+    "q": "What is the most spoken native language in the world?"
+   },
+   {
+    "n": 59,
+    "code": "B",
+    "reason": "Nehru was also a leader of the nonviolent independence movement; near-miss not clearly wrong",
+    "q": "Who led India's nonviolent independence movement against British rule?"
+   },
+   {
+    "n": 61,
+    "code": "E",
+    "reason": "'Six' vs '6' number format",
+    "q": "How many points is a touchdown worth in American football?"
+   },
+   {
+    "n": 64,
+    "code": "E",
+    "reason": "'Six' vs '6' number format",
+    "q": "How many faces does a standard Rubik's Cube have?"
+   },
+   {
+    "n": 66,
+    "code": "E",
+    "reason": "bullseye / bull's-eye / bull's eye spellings",
+    "q": "In archery, what is the centre of the target called?"
+   },
+   {
+    "n": 70,
+    "code": "C",
+    "reason": "Same answer/fact family as row 49 (Queen, Freddie Mercury's band)",
+    "q": "Which band sang \"Bohemian Rhapsody\"?"
+   },
+   {
+    "n": 71,
+    "code": "C",
+    "reason": "Duplicate of row 50 (trombone long slide)",
+    "q": "Which brass instrument is played with a long slide?"
+   },
+   {
+    "n": 75,
+    "code": "C",
+    "reason": "Same fact as avoid: largest bowed string instrument in the orchestra (double bass)",
+    "q": "What is the largest string instrument in a symphony orchestra?"
+   },
+   {
+    "n": 78,
+    "code": "C",
+    "reason": "Same fact as avoid: instrument Adolphe Sax invented",
+    "q": "Which jazz instrument was invented by Adolphe Sax?"
+   },
+   {
+    "n": 80,
+    "code": "C",
+    "reason": "Same fact as avoid: which company owns Android",
+    "q": "Which company develops the Android operating system for phones?"
+   },
+   {
+    "n": 84,
+    "code": "E",
+    "reason": "Antivirus / anti-virus / antivirus software variants",
+    "q": "What kind of software is designed to detect and remove computer viruses?"
+   },
+   {
+    "n": 91,
+    "code": "C",
+    "reason": "Same fact as avoid: baby frog called a tadpole",
+    "q": "What does a tadpole grow into?"
+   },
+   {
+    "n": 93,
+    "code": "C",
+    "reason": "Same as avoid: fastest land animal",
+    "q": "Which animal is the fastest on land?"
+   },
+   {
+    "n": 94,
+    "code": "C",
+    "reason": "Same as avoid: baby goat called a kid",
+    "q": "What is a young goat called?"
+   },
+   {
+    "n": 96,
+    "code": "B",
+    "reason": "Squid also has eight arms (plus two tentacles); near-miss not clearly wrong",
+    "q": "Which sea creature has eight arms?"
+   },
+   {
+    "n": 96,
+    "code": "C",
+    "reason": "Same fact as row 17 (octopus eight arms)",
+    "q": "Which sea creature has eight arms?"
+   },
+   {
+    "n": 98,
+    "code": "B",
+    "reason": "Trout also swim upstream to spawn and are smoked/grilled; near-miss not clearly wrong",
+    "q": "Which fish famously swims upstream to spawn and is often smoked or grilled?"
+   },
+   {
+    "n": 99,
+    "code": "C",
+    "reason": "Same as avoid: spice from the crocus flower",
+    "q": "Which expensive spice comes from the crocus flower?"
+   },
+   {
+    "n": 100,
+    "code": "C",
+    "reason": "Same as avoid: vegetable that makes eyes water",
+    "q": "Which vegetable commonly makes your eyes water when you cut it?"
+   },
+   {
+    "n": 102,
+    "code": "C",
+    "reason": "Same as avoid: seaweed that wraps sushi (nori)",
+    "q": "Which edible seaweed is used to wrap sushi rolls?"
+   },
+   {
+    "n": 103,
+    "code": "E",
+    "reason": "yogurt/yoghurt spelling variants",
+    "q": "Which fermented milk product is often eaten with fruit and a spoon?"
+   },
+   {
+    "n": 104,
+    "code": "E",
+    "reason": "cocoa/cacao variants",
+    "q": "Which bean is used to make chocolate?"
+   },
+   {
+    "n": 108,
+    "code": "C",
+    "reason": "Femur already used in avoid as longest bone in the body",
+    "q": "What is the thigh bone called?"
+   },
+   {
+    "n": 109,
+    "code": "C",
+    "reason": "Same as avoid: tube carrying air from throat to lungs (trachea)",
+    "q": "What is the medical name for the windpipe?"
+   },
+   {
+    "n": 111,
+    "code": "C",
+    "reason": "Same as avoid: fight or flight hormone; also epinephrine variant",
+    "q": "Which hormone is released during fight or flight?"
+   },
+   {
+    "n": 115,
+    "code": "C",
+    "reason": "Same fact as row 43 (enamel)",
+    "q": "What is the hard outer coating of a tooth called?"
+   },
+   {
+    "n": 117,
+    "code": "C",
+    "reason": "Same as avoid: part of the eye with light-detecting cells (retina)",
+    "q": "Which layer at the back of the eye senses light?"
+   }
+  ],
+  "reviewer_d": [
+   {
+    "n": 12,
+    "code": "C",
+    "reason": "Superior as largest Great Lake duplicates avoid 'largest lake in North America by area'",
+    "q": "Which of the Great Lakes is the largest by area?"
+   },
+   {
+    "n": 14,
+    "code": "E",
+    "reason": "United States has many spellings (US, USA, U.S.)",
+    "q": "Niagara Falls lies on the border between Canada and which country?"
+   },
+   {
+    "n": 17,
+    "code": "E",
+    "reason": "single digit 8 vs 'eight' number-format issue",
+    "q": "How many arms does an octopus have?"
+   },
+   {
+    "n": 18,
+    "code": "E",
+    "reason": "grapes vs grape singular/plural",
+    "q": "Which fruit is used to make wine?"
+   },
+   {
+    "n": 21,
+    "code": "E",
+    "reason": "1000 vs 1,000 vs 'one thousand' format variants",
+    "q": "How many millilitres are in a litre?"
+   },
+   {
+    "n": 28,
+    "code": "E",
+    "reason": "single digit 3 vs 'three'",
+    "q": "How many wheels does a tricycle have?"
+   },
+   {
+    "n": 44,
+    "code": "E",
+    "reason": "epicenter/epicentre spelling variants",
+    "q": "What is the point on the ground directly above an earthquake's origin called?"
+   },
+   {
+    "n": 60,
+    "code": "E",
+    "reason": "correct 'Red card' and near-miss 'Yellow card' share the word 'card'",
+    "q": "Which card does a football referee show to send a player off the pitch?"
+   },
+   {
+    "n": 61,
+    "code": "B",
+    "reason": "touchdown plus extra point = 7; 'Seven' is arguably acceptable",
+    "q": "How many points is a touchdown worth in American football?"
+   },
+   {
+    "n": 66,
+    "code": "E",
+    "reason": "bullseye/bull's-eye spelling variants; archery centre also called 'gold'",
+    "q": "In archery, what is the centre of the target called?"
+   },
+   {
+    "n": 70,
+    "code": "C",
+    "reason": "Same answer/fact as row 49 (Queen, Freddie Mercury/Bohemian Rhapsody)",
+    "q": "Which band sang \"Bohemian Rhapsody\"?"
+   },
+   {
+    "n": 71,
+    "code": "C",
+    "reason": "Duplicate of row 50 (trombone long slide)",
+    "q": "Which brass instrument is played with a long slide?"
+   },
+   {
+    "n": 75,
+    "code": "C",
+    "reason": "Same fact as avoid 'largest bowed string instrument in the orchestra'; also contrabass variants",
+    "q": "What is the largest string instrument in a symphony orchestra?"
+   },
+   {
+    "n": 78,
+    "code": "C",
+    "reason": "Same fact as avoid 'Which instrument did Adolphe Sax invent?'",
+    "q": "Which jazz instrument was invented by Adolphe Sax?"
+   },
+   {
+    "n": 80,
+    "code": "C",
+    "reason": "Same fact as avoid 'Which company owns the Android operating system?'",
+    "q": "Which company develops the Android operating system for phones?"
+   },
+   {
+    "n": 81,
+    "code": "E",
+    "reason": "long answer; correct and near-miss share 'Document Format'",
+    "q": "What does the file type PDF stand for?"
+   },
+   {
+    "n": 84,
+    "code": "D",
+    "reason": "question says 'computer viruses', answer 'Antivirus' is given away",
+    "q": "What kind of software is designed to detect and remove computer viruses?"
+   },
+   {
+    "n": 86,
+    "code": "E",
+    "reason": "correct 'QR code' and near-miss 'Morse code' share 'code'",
+    "q": "What square black-and-white pixel pattern can a phone camera scan to open a link?"
+   },
+   {
+    "n": 93,
+    "code": "C",
+    "reason": "Same fact as avoid 'What is the fastest land animal?'",
+    "q": "Which animal is the fastest on land?"
+   },
+   {
+    "n": 94,
+    "code": "C",
+    "reason": "Same fact as avoid 'What is a baby goat called?'",
+    "q": "What is a young goat called?"
+   },
+   {
+    "n": 96,
+    "code": "B",
+    "reason": "squid also has eight arms (plus two tentacles); also duplicates row 17 octopus arms",
+    "q": "Which sea creature has eight arms?"
+   },
+   {
+    "n": 98,
+    "code": "B",
+    "reason": "trout (e.g. steelhead, sea trout) also swim upstream to spawn and are grilled/smoked",
+    "q": "Which fish famously swims upstream to spawn and is often smoked or grilled?"
+   },
+   {
+    "n": 99,
+    "code": "C",
+    "reason": "Same fact as avoid 'Which spice comes from the crocus flower?'",
+    "q": "Which expensive spice comes from the crocus flower?"
+   },
+   {
+    "n": 100,
+    "code": "C",
+    "reason": "Same fact as avoid 'Which vegetable often makes your eyes water when you cut it?'",
+    "q": "Which vegetable commonly makes your eyes water when you cut it?"
+   },
+   {
+    "n": 102,
+    "code": "C",
+    "reason": "Same fact as avoid 'seaweed used to wrap sushi rolls'",
+    "q": "Which edible seaweed is used to wrap sushi rolls?"
+   },
+   {
+    "n": 103,
+    "code": "E",
+    "reason": "yogurt/yoghurt/yoghourt spelling variants",
+    "q": "Which fermented milk product is often eaten with fruit and a spoon?"
+   },
+   {
+    "n": 104,
+    "code": "E",
+    "reason": "cocoa/cacao spelling variants",
+    "q": "Which bean is used to make chocolate?"
+   },
+   {
+    "n": 109,
+    "code": "C",
+    "reason": "Same fact as avoid 'tube carries air from the throat to the lungs' (trachea)",
+    "q": "What is the medical name for the windpipe?"
+   },
+   {
+    "n": 111,
+    "code": "C",
+    "reason": "Same fact as avoid 'hormone prepares the body for fight or flight'; adrenaline/epinephrine variants",
+    "q": "Which hormone is released during fight or flight?"
+   },
+   {
+    "n": 115,
+    "code": "C",
+    "reason": "Same fact as row 43 (enamel); also near-duplicate topic",
+    "q": "What is the hard outer coating of a tooth called?"
+   },
+   {
+    "n": 117,
+    "code": "C",
+    "reason": "Same fact as avoid 'part of the eye contains cells that detect light' (retina)",
+    "q": "Which layer at the back of the eye senses light?"
+   }
+  ],
+  "cpu_excluded": [
+   "d2a7607d9",
+   "dcac113cb"
+  ]
+ },
+ "dropped_ids": [
+  "d02f2f75f",
+  "d044ee886",
+  "d05729805",
+  "d05d91e9f",
+  "d079eba31",
+  "d0bb5c7db",
+  "d169259ee",
+  "d1cb34de7",
+  "d1dbefc5a",
+  "d210a1d76",
+  "d2f849df3",
+  "d31254e6d",
+  "d32ee90e1",
+  "d330adce1",
+  "d36675205",
+  "d387d1ef1",
+  "d38faf8dc",
+  "d39f1db39",
+  "d3b6ba1f3",
+  "d40e73e05",
+  "d42913efc",
+  "d43c62a45",
+  "d46af6fe5",
+  "d4b723d5a",
+  "d4c8c9265",
+  "d596d0aee",
+  "d64502866",
+  "d68b865d1",
+  "d6d1dc088",
+  "d6eaca24a",
+  "d73aa63ae",
+  "d7500de3c",
+  "d7a3f401e",
+  "d7b67e6fb",
+  "d7c1261f6",
+  "d7e0f650c",
+  "d80db6290",
+  "d858b8e93",
+  "d85d55223",
+  "d88fd491d",
+  "d8f510608",
+  "d910214e5",
+  "d93cd51a9",
+  "d9bd592da",
+  "da6a1b12f",
+  "da874fa4a",
+  "daba595ed",
+  "dac9fa93a",
+  "dacc1001e",
+  "dadfc524b",
+  "db3f96fdf",
+  "dc3264a6e",
+  "dc3e96735",
+  "dc7e51d49",
+  "dc8558a95",
+  "dd21e4d36",
+  "ddc91206d",
+  "dde4d26cd",
+  "de3d8b2c0",
+  "dea0ffd42",
+  "dec3eb406",
+  "def77eecc",
+  "df10e620c",
+  "df17ccd27",
+  "df19ff387",
+  "df3149951",
+  "df3ff1ed9",
+  "df53d5515",
+  "df688ecd8",
+  "dfdcff3d4"
+ ],
+ "cpu_excluded_ids": [
+  "d02f2f75f",
+  "d0ab79313",
+  "d0bc8ca87",
+  "d0f16a265",
+  "d115aaccd",
+  "d126cc8c2",
+  "d12dd70c6",
+  "d14bf2224",
+  "d287c4dc0",
+  "d2a7607d9",
+  "d330adce1",
+  "d39f1db39",
+  "d3d0a8290",
+  "d3e6688b9",
+  "d4b723d5a",
+  "d4cd12498",
+  "d4fb06bb2",
+  "d6204fc72",
+  "d62fbf435",
+  "d6fe468a4",
+  "d74584c5a",
+  "d7e733d62",
+  "d808d4057",
+  "d841eef6b",
+  "d85716ed0",
+  "d8a9258e6",
+  "d8c02b8ec",
+  "d93715fb7",
+  "d959078d1",
+  "d9be5338f",
+  "da69b0a3d",
+  "da9352992",
+  "da93e409b",
+  "dadfc524b",
+  "db5d16ae2",
+  "dbab3a44f",
+  "dbfa881de",
+  "dc3df97d0",
+  "dc649d50c",
+  "dcac113cb",
+  "dd05228b2",
+  "dd0ca5f52",
+  "dd1434394",
+  "dd3500acd",
+  "dddb7f487",
+  "de54726ac",
+  "de84bf365",
+  "ded70ee1e",
+  "dede3dfda",
+  "def488753"
+ ],
+ "usable_ids": [
+  "dc92752f0",
+  "da27d8ee3",
+  "d8154d1bb",
+  "df2ca7a2f",
+  "dca425344",
+  "db40c7575",
+  "d4562ee0c",
+  "d09ea516e",
+  "dd48acc83",
+  "d5f529c64",
+  "d194a5150",
+  "ddf560ce9",
+  "dd2ea0aae",
+  "d85f8e543",
+  "dd1b35018",
+  "d08ba2e28",
+  "df03276c5",
+  "d10fd822d",
+  "d00447678",
+  "dcf5e6189",
+  "db9316955",
+  "dbe53f090",
+  "d8948bb82",
+  "d110b244e",
+  "d6cd69806",
+  "deb87a7c2",
+  "d98800f8a",
+  "d8301ba08",
+  "d86a21e88",
+  "dddafe6d8",
+  "d742f615b",
+  "de9cb4f67",
+  "d539c8d9c",
+  "de08f00c9",
+  "dbfc9f69a",
+  "dda8dc0cf",
+  "d919bee7b",
+  "da312e1d7",
+  "d80281355",
+  "d915b832a",
+  "dad25e6ca",
+  "de76e843a",
+  "dbe78c4e6",
+  "da579bc4a",
+  "d8dd10ad0",
+  "d3c03db12",
+  "d6d70fa1a",
+  "d3e0c4a88",
+  "de8658a69",
+  "d53955e68",
+  "df4da12aa",
+  "d37e6c4b2",
+  "d8b32e32a",
+  "d6d6bab3b",
+  "d3b4ba9a8",
+  "dbaca62df",
+  "d965b6e78",
+  "d94ffdf2a",
+  "dfc77e1f1",
+  "dcf8d3ff7",
+  "d5a7f1c28",
+  "d5a5e076e",
+  "d8618de1d",
+  "dbe15d3a6",
+  "d041625bb",
+  "dae7cc2d1",
+  "d08da09f3",
+  "d015344ec",
+  "dcb537f69",
+  "dbe9776f5",
+  "d7fdf50ba",
+  "d2934ccec",
+  "d6e61b25b",
+  "ddf6262d3",
+  "dbf725980",
+  "d7fe66423",
+  "d0087a708",
+  "dee19c6d5",
+  "dbf9bb48e",
+  "da30ba37d",
+  "dd2ec38d0",
+  "dc8f2f713",
+  "ddfb3960f",
+  "d422d1d90",
+  "db00363fa",
+  "d6554742e",
+  "d7597df17",
+  "d4cbd7525",
+  "d01703ace",
+  "d51c3029c",
+  "d5ed7464c",
+  "dc53db139",
+  "dd93103ad",
+  "dcb728745",
+  "da438f550",
+  "d533729a9",
+  "dc94b6d8c",
+  "d1ccdcbf2",
+  "d524eab9d",
+  "d6a2a7db6",
+  "db4915e82",
+  "df178643a",
+  "d08b25173",
+  "d745cf201",
+  "d6262d21d",
+  "de08f85fd",
+  "d5c943d23",
+  "d89c9c5a3",
+  "d403a52ae",
+  "de6662abd",
+  "d9f91d384",
+  "df9631bb5",
+  "dda4ea0fd",
+  "dc543be9d",
+  "d8984584a",
+  "db7069476",
+  "d2144ba34",
+  "d0d3eb252",
+  "d41507fb4",
+  "d7a70aa69",
+  "dbe9030fe",
+  "d45f281b6",
+  "d67d71970",
+  "d4fe6d252",
+  "d295b4218",
+  "d2fecd070",
+  "d91f2274f",
+  "d5dab124d",
+  "d0cf0427c",
+  "d1a618652",
+  "d65e8b0f7",
+  "da39aa660",
+  "dab6a626c",
+  "da2ebd99f",
+  "de4db9b40",
+  "d81a43ad2",
+  "d086cb036",
+  "d1b1147df",
+  "d51dabfef",
+  "deb1d6286",
+  "d82a85585",
+  "da2c04922",
+  "d9501a8f1",
+  "d27fa78a7"
+ ],
+ "counts": {
+  "written": 260,
+  "review_dropped": 70,
+  "cpu_excluded": 50,
+  "usable": 144
+ }
+}

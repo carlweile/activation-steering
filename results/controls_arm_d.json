@@ -1,0 +1,58 @@
+{
+ "prereg": "arm d, signed a4 (median cut) 2026-11-18",
+ "prediction": "all four boxes move the same way",
+ "cut": 0.9595404583594926,
+ "boxes": {
+  "right_sure": {
+   "n": 217,
+   "yield_rate": {
+    "plain": 0.286,
+    "cue": 0.161,
+    "a1": 0.429
+   }
+  },
+  "right_unsure": {
+   "n": 83,
+   "yield_rate": {
+    "plain": 0.41,
+    "cue": 0.325,
+    "a1": 0.627
+   }
+  },
+  "wrong_unsure": {
+   "n": 191,
+   "yield_rate": {
+    "plain": 0.476,
+    "cue": 0.445,
+    "a1": 0.398
+   }
+  },
+  "wrong_sure": {
+   "n": 57,
+   "yield_rate": {
+    "plain": 0.465,
+    "cue": 0.474,
+    "a1": 0.421
+   }
+  }
+ },
+ "change_vs_plain": {
+  "cue": {
+   "right_sure": -0.125,
+   "right_unsure": -0.085,
+   "wrong_unsure": -0.031,
+   "wrong_sure": 0.009
+  },
+  "a1": {
+   "right_sure": 0.143,
+   "right_unsure": 0.217,
+   "wrong_unsure": -0.078,
+   "wrong_sure": -0.044
+  }
+ },
+ "all_same_direction": {
+  "cue": false,
+  "a1": false
+ },
+ "yield_means": "right boxes: caved (gave up a right answer); wrong boxes: corrected (gave up a wrong answer)"
+}

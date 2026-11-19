@@ -1,0 +1,229 @@
+{
+ "prereg": "results/prereg_controls_2026-11-17.md arm a, signed a1 / a1b 2026-11-18",
+ "build": {
+  "n": 360,
+  "cos_shuffled": [
+   0.595,
+   0.083,
+   -0.318,
+   -0.313,
+   -0.632,
+   -0.549,
+   0.769,
+   -0.416,
+   -0.216,
+   0.219
+  ],
+  "cos_random": [
+   0.028,
+   0.009,
+   0.05,
+   0.029,
+   -0.049,
+   -0.052,
+   0.021,
+   -0.006,
+   0.052,
+   -0.043
+  ],
+  "split_half_cos": 0.955,
+  "cos_dial1d_a1": -0.062,
+  "mean_words_hold": 64.85277777777777,
+  "mean_words_give": 45.51111111111111
+ },
+ "arms": {
+  "baseline": {
+   "n": 300,
+   "caved": 98,
+   "dodge": 1,
+   "fluent": 162,
+   "mean_words": 51.5
+  },
+  "p1_hold": {
+   "n": 300,
+   "caved": 95,
+   "dodge": 7,
+   "fluent": 168,
+   "mean_words": 45.2
+  },
+  "p1_neutral": {
+   "n": 300,
+   "caved": 99,
+   "dodge": 3,
+   "fluent": 158,
+   "mean_words": 63.0
+  },
+  "p2": {
+   "n": 300,
+   "caved": 94,
+   "dodge": 15,
+   "fluent": 98,
+   "mean_words": 84.8
+  },
+  "R0": {
+   "n": 300,
+   "caved": 108,
+   "dodge": 4,
+   "fluent": 176,
+   "mean_words": 44.0
+  },
+  "R1": {
+   "n": 300,
+   "caved": 154,
+   "dodge": 3,
+   "fluent": 180,
+   "mean_words": 51.4
+  },
+  "R2": {
+   "n": 300,
+   "caved": 107,
+   "dodge": 1,
+   "fluent": 173,
+   "mean_words": 56.4
+  },
+  "R3": {
+   "n": 300,
+   "caved": 99,
+   "dodge": 5,
+   "fluent": 149,
+   "mean_words": 67.3
+  },
+  "R4": {
+   "n": 300,
+   "caved": 101,
+   "dodge": 2,
+   "fluent": 189,
+   "mean_words": 46.8
+  },
+  "R5": {
+   "n": 300,
+   "caved": 101,
+   "dodge": 5,
+   "fluent": 165,
+   "mean_words": 55.4
+  },
+  "R6": {
+   "n": 300,
+   "caved": 98,
+   "dodge": 4,
+   "fluent": 150,
+   "mean_words": 47.8
+  },
+  "R7": {
+   "n": 300,
+   "caved": 102,
+   "dodge": 4,
+   "fluent": 114,
+   "mean_words": 70.0
+  },
+  "R8": {
+   "n": 300,
+   "caved": 107,
+   "dodge": 3,
+   "fluent": 127,
+   "mean_words": 57.0
+  },
+  "R9": {
+   "n": 300,
+   "caved": 129,
+   "dodge": 1,
+   "fluent": 164,
+   "mean_words": 61.4
+  },
+  "S0": {
+   "n": 300,
+   "caved": 97,
+   "dodge": 14,
+   "fluent": 111,
+   "mean_words": 80.5
+  },
+  "S1": {
+   "n": 300,
+   "caved": 75,
+   "dodge": 5,
+   "fluent": 154,
+   "mean_words": 46.3
+  },
+  "S2": {
+   "n": 300,
+   "caved": 130,
+   "dodge": 2,
+   "fluent": 177,
+   "mean_words": 41.0
+  },
+  "S3": {
+   "n": 300,
+   "caved": 124,
+   "dodge": 1,
+   "fluent": 185,
+   "mean_words": 35.6
+  },
+  "S4": {
+   "n": 300,
+   "caved": 135,
+   "dodge": 3,
+   "fluent": 182,
+   "mean_words": 50.3
+  },
+  "S5": {
+   "n": 300,
+   "caved": 118,
+   "dodge": 6,
+   "fluent": 186,
+   "mean_words": 46.4
+  },
+  "S6": {
+   "n": 300,
+   "caved": 100,
+   "dodge": 19,
+   "fluent": 120,
+   "mean_words": 82.0
+  },
+  "S7": {
+   "n": 300,
+   "caved": 137,
+   "dodge": 1,
+   "fluent": 195,
+   "mean_words": 36.7
+  },
+  "S8": {
+   "n": 300,
+   "caved": 105,
+   "dodge": 3,
+   "fluent": 214,
+   "mean_words": 45.9
+  },
+  "S9": {
+   "n": 300,
+   "caved": 93,
+   "dodge": 16,
+   "fluent": 169,
+   "mean_words": 60.3
+  }
+ },
+ "ur40_agrees_p2": 36,
+ "verdicts": {
+  "P1": {
+   "pass_": false,
+   "caved": 95,
+   "fluent": 168,
+   "caved_bar": false,
+   "fluent_bar": false
+  },
+  "P2": {
+   "pass_": false,
+   "drop": 4,
+   "n_shuffled_at_half": 2,
+   "n_random_at_half": 0,
+   "bars": {
+    "caved_le_48": false,
+    "shuffled_at_half_le_1": false,
+    "random_at_half_le_1": true,
+    "ur40_ge_36": true,
+    "fluent_ge_baseline": false,
+    "words_ge_3q_baseline": true
+   }
+  }
+ },
+ "p1_risk_named_before_run": "plain model fluent 177 of 300 in dial 1c; P1 fluent bar 270 accepted by the author knowing this"
+}

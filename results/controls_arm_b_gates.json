@@ -1,0 +1,9 @@
+{
+ "baseline_equal": 300,
+ "a1_equal": 300,
+ "need": 285,
+ "alpha": 12.527347564697266,
+ "baseline_mean_words": 51.526666666666664,
+ "a1_mean_words": 51.53,
+ "ok": true
+}
