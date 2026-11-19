@@ -23,9 +23,9 @@ methods miss a drop that exists, stays open.
 Sycophancy under pushback is an honesty problem: a model that gives up a right answer under social pressure tells the
 user what they want to hear. Difference-of-means steering is the cheapest intervention on the table. It needs no
 training, it is reversible, and for refusal it works: one direction mediates refusal across many chat models [L6],
-and we reproduce that here as a pipeline check (Appendix A). Aamir and Bin Adil study the same "are you sure?" caving
-in the same model family with probes and ablation and name steering along the caving direction "a natural complement
-we did not attempt" [L1]. This write-up reports that steering test, its failure, and the controls needed to read the
+and we reproduce that here as a pipeline check (Appendix A). Aamir and Bin Adil find no usable caving direction for the same "are you sure?"
+pushback in this model [L8]; in a follow-up across eight models they remove the direction where it exists (7B and up)
+and call steering along it "a natural complement we did not attempt" (sec. 8) [L1]. This write-up reports that steering test, its failure, and the controls needed to read the
 failure fairly.
 
 Contributions:
@@ -41,14 +41,15 @@ Contributions:
 **Refusal and difference-of-means steering.** Arditi et al. show refusal is mediated by a single direction [L6].
 **Sycophancy directions.** Vennemeyer et al. find agreeing with the user and praising the user are separate,
 independently steerable directions in 4B-70B models [L3]. Persona Vectors builds a sycophancy vector from the model's
-own responses and steers Qwen2.5-7B, at some cost to general capability [L5]. **Caving specifically.** Aamir and Bin
+own responses and steers Qwen2.5-7B (layer 20); at large steering strengths general capability (MMLU) drops [L5]. **Caving specifically.** Aamir and Bin
 Adil probe and ablate the "are you sure?" reversal across eight models from 0.5B to 14B; ablation at Qwen2.5-7B lowers
-reversals by 4.8 points, and they find "no usable direction below 7B" [L7]; they do not steer [L1]. Lee, studying four
+reversals by 4.8 points, and they find "no usable direction below 7B" [L7]; they do not steer [L1]. Their earlier study on Qwen2.5-1.5B alone found
+no usable direction (AUROC 0.58 against a 0.70 bar) and ran no steering or ablation [L8]. Lee, studying four
 open models of 1.7B-8B, reports that "activation steering never reduced caving selectively: where it worked, it
 suppressed self-correction as well", and that reply length decides whether pushback produces caving or
 self-correction [L2].
-**Control quality.** SteerCheck and others argue that isotropic random controls are too easy and that label shuffles
-can leak [L4]; we therefore pair isotropic random dummies with label-shuffled ones built from the same data and
+**Control quality.** SteerCheck (one model, Qwen3-14B) and others argue that isotropic random controls are too easy
+and that label shuffles can leak, though leakage alone did not break their test [L4]; we therefore pair isotropic random dummies with label-shuffled ones built from the same data and
 report both.
 
 ## 3. Setup
