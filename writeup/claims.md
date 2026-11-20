@@ -65,6 +65,7 @@ Judge model in every caving grade file: `gemini-3.1-pro-preview` (field `model` 
 |---|---|---|
 | C50 | 14B (4-bit) held-out: full refusals 11/12 -> 0/12; random 10/12, 9/12; 4 steered "partial"; all 24 fluent | `results/control_14b_unblinded.json` `*|heldout` |
 | C52 | 1.5B add-side: harmless prompts, plain 0/18 refused; +10 at block 13 -> 12/18 full+partial (10 full, 2 partial), coh3 16; grader fresh blind Claude sub-agent | `results/hook_layer_compare_v3_unblinded.json` `table.harmless_add_+10_block13`, `claim_B_add_strength`, `grader` |
+| C53 | 7B-A (Qwen2.5-7B-Instruct, 4-bit, one greedy reply each): plain screen caved answer-template 11/180 (L1 4, L2 3, L3 4 of 60), are-you-sure 82/180 (30, 21, 31 of 60); 1c pick rule fails at every level -> registered stop 'no usable test set'; 0.87 USD | `results/d7b/stop.json` `rates`, `stop`; `results/d7b/pick.json`; LABBOOK 2026-11-20 |
 | C51 | 1.5B held-out: ablate block 13 -> 2/12 full; ablate all layers -> 0/12; random ablation 12/12 | `results/hook_layer_compare_v3_unblinded.json` `heldout_*` |
 
 ## Claim-check 2026-11-19 (blind fresh agent, all tags)

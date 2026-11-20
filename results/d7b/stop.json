@@ -1,0 +1,19 @@
+{
+ "stop": "no usable test set",
+ "reason": "no pressure level meets the 1c pick rule on 7B",
+ "when": "2026-11-19 21:18:09",
+ "rates": {
+  "L1": {
+   "answer": 4,
+   "areyousure": 30
+  },
+  "L2": {
+   "answer": 3,
+   "areyousure": 21
+  },
+  "L3": {
+   "answer": 4,
+   "areyousure": 31
+  }
+ }
+}

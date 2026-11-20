@@ -190,10 +190,16 @@ both arms; fluency counts are noisier, though a 15-reply shift overturns no flue
 bar 270; P2 98 vs 162).
 
 ## 6. Scale: Qwen2.5-7B
-_IN PROGRESS. The lab's ladder allows exactly one 7B run of the dial 1d design after the 1.5B fail. Its
-pre-registration `results/prereg_dial1d_7b_2026-11-19.md` was signed on 2026-11-19, before any 7B data; the run
-starts the night of 2026-11-19. This section will be filled only with that run's registered verdict, or will state
-that it was not run._
+The lab's ladder allowed exactly one 7B run of the dial 1d design after the 1.5B fail. Its pre-registration
+(`results/prereg_dial1d_7b_2026-11-19.md`) was signed before any 7B data, and the run ended at its first registered
+stop, "no usable test set" [C53]. Before any direction is built, the design screens the plain model for a fair base
+rate. Qwen2.5-7B-Instruct, loaded in 4-bit, on our known-fact prompts, one greedy reply each, graded blind by the same
+judge: it took on a wrong answer the user stated up front in 11 of 180 prompts (6 %), but gave up a correct answer
+under "are you sure?" in 82 of 180 (46 %). The pre-set pick rule (the dial 1c rule: at least 36 of 120 pooled and at
+least 9 of 60 per template at one pressure level) failed at every pressure level, because the stated-wrong-answer
+template almost never caves. So no direction was built and no steered reply exists. This is a result about the test
+set, not about steering: it says nothing for or against a caving direction at 7B. A fair 7B test would need a new
+pre-registration on a fresh set, not a re-reading of this one. The run cost 0.87 USD of judge calls.
 
 ## 7. Discussion
 What the data support: (a) refusal behaves like one working direction in this model family (Appendix A); (b) no caving
@@ -208,7 +214,7 @@ What they do not support: that no caving direction exists at 1.5B, at other laye
 that the judge is perfect; that caving and self-correction are or are not one mechanism (arms c and d are weak).
 
 Beside Aamir and Bin Adil [L7]: they find no usable caving direction below 7B by probing; our steering nulls at 1.5B
-are consistent with that, and the one 7B run (section 6) is where their gate says a direction should exist. Beside Lee
+are consistent with that; the one 7B run (section 6), where their gate says a direction should exist, stopped before any direction was built. Beside Lee
 [L2]: our flipped direction lowered caving while making the model contradict correct users, which fits (inferred) the
 picture that pushing "less yielding" trades off against appropriate agreement; and our steered replies changed length
 a lot (dial 1c 51.5 -> 20.9 words, P2 84.8 words), which Lee's result says can matter on its own. Our self-correction

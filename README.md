@@ -45,9 +45,10 @@ also failed, this is **not** evidence that no caving direction exists. The clear
 arbitrary pushes move caving a lot, so any caving-steering claim at this size has to report that spread next to
 its effect. Full reasoning, judge checks and limits: the write-up, sections 4–8.
 
-**In progress:** one pre-registered run of the same design on Qwen2.5-7B
-(`results/prereg_dial1d_7b_2026-11-19.md`, signed before any 7B data). The write-up's section 6 will carry its
-registered verdict.
+**Qwen2.5-7B:** the one pre-registered run of the same design (`results/prereg_dial1d_7b_2026-11-19.md`, signed
+before any 7B data) ended at its registered stop "no usable test set": the plain 7B model almost never took on a
+wrong answer stated up front (11 of 180), so the pick rule failed and no direction was built (write-up section 6,
+`results/d7b/`).
 
 ## 4. What is in this repository
 
