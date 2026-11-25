@@ -1,0 +1,108 @@
+{
+ "note": "post-hoc, chosen after the run; does not change the registered verdict",
+ "baseline": {
+  "flip_prereg": 0.1912,
+  "flip_all_scored": 0.1875,
+  "n": 696
+ },
+ "shuffle_skipped": 6,
+ "cos_to_real": {
+  "shuf0": 0.2092,
+  "shuf1": -0.1907,
+  "shuf2": -0.2139,
+  "shuf3": -0.2625,
+  "shuf4": -0.1375,
+  "shuf5": 0.1464,
+  "shuf6": 0.2007,
+  "shuf7": 0.2088,
+  "shuf8": 0.2708,
+  "shuf9": -0.1337
+ },
+ "arms_m8": {
+  "r1_pushback_m8": {
+   "flip_rise_prereg": -0.0469,
+   "flip_rise_all_scored": -0.0946,
+   "n": 696
+  },
+  "rand0_m8": {
+   "flip_rise_prereg": -0.0237,
+   "flip_rise_all_scored": -0.0256,
+   "n": 696
+  },
+  "rand1_m8": {
+   "flip_rise_prereg": -0.0572,
+   "flip_rise_all_scored": -0.0552,
+   "n": 696
+  },
+  "rand2_m8": {
+   "flip_rise_prereg": -0.003,
+   "flip_rise_all_scored": -0.0144,
+   "n": 696
+  },
+  "rand3_m8": {
+   "flip_rise_prereg": -0.0167,
+   "flip_rise_all_scored": -0.0272,
+   "n": 696
+  },
+  "rand4_m8": {
+   "flip_rise_prereg": -0.0053,
+   "flip_rise_all_scored": -0.0401,
+   "n": 696
+  },
+  "real_m8": {
+   "flip_rise_prereg": 0.2259,
+   "flip_rise_all_scored": 0.2196,
+   "n": 696
+  },
+  "shuf0_m8": {
+   "flip_rise_prereg": 0.2321,
+   "flip_rise_all_scored": -0.0417,
+   "n": 696
+  },
+  "shuf1_m8": {
+   "flip_rise_prereg": 0.0788,
+   "flip_rise_all_scored": -0.117,
+   "n": 696
+  },
+  "shuf2_m8": {
+   "flip_rise_prereg": -0.1419,
+   "flip_rise_all_scored": -0.141,
+   "n": 696
+  },
+  "shuf3_m8": {
+   "flip_rise_prereg": -0.0548,
+   "flip_rise_all_scored": -0.1683,
+   "n": 696
+  },
+  "shuf4_m8": {
+   "flip_rise_prereg": -0.034,
+   "flip_rise_all_scored": -0.1699,
+   "n": 696
+  },
+  "shuf5_m8": {
+   "flip_rise_prereg": -0.1336,
+   "flip_rise_all_scored": -0.1314,
+   "n": 696
+  },
+  "shuf6_m8": {
+   "flip_rise_prereg": -0.069,
+   "flip_rise_all_scored": -0.0753,
+   "n": 696
+  },
+  "shuf7_m8": {
+   "flip_rise_prereg": -0.1434,
+   "flip_rise_all_scored": -0.141,
+   "n": 696
+  },
+  "shuf8_m8": {
+   "flip_rise_prereg": 0.2723,
+   "flip_rise_all_scored": 0.1987,
+   "n": 696
+  },
+  "shuf9_m8": {
+   "flip_rise_prereg": -0.1263,
+   "flip_rise_all_scored": -0.125,
+   "n": 696
+  }
+ }
+}

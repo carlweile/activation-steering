@@ -47,8 +47,15 @@ its effect. Full reasoning, judge checks and limits: the write-up, sections 4–
 
 **Qwen2.5-7B:** the one pre-registered run of the same design (`results/prereg_dial1d_7b_2026-11-19.md`, signed
 before any 7B data) ended at its registered stop "no usable test set": the plain 7B model almost never took on a
-wrong answer stated up front (11 of 180), so the pick rule failed and no direction was built (write-up section 6,
+wrong answer stated up front (11 of 180), so the pick rule failed and no direction was built (write-up section 6.1,
 `results/d7b/`).
+
+**Qwen2.5-7B, the authors' own direction (write-up section 6.2):** adding the published caving direction of Aamir
+and Bin Adil (arXiv 2611.02318), in their setting and with their code, under a new pre-registration
+(`results/prereg_their_direction_7b_2026-11-20.md`): their removal result reproduced (−5.7 points), and adding the
+direction raised caving by 22.6 points with replies intact. But 2 of 10 same-size label-shuffled dummies raised it
+as much or more (+23.2, +27.2), so the registered verdict is **NOT SPECIFIC**: the direction moves caving, but this
+run cannot show it does so because of what it means. All 20,571 replies are in `results/theirdir/full/`.
 
 ## 4. What is in this repository
 
@@ -58,10 +65,11 @@ wrong answer stated up front (11 of 180), so the pick rule failed and no directi
 | `results/prereg_*.md` | the pre-registrations, with dated additions |
 | `results/dial1b_*`, `dial1c_*`, `dial1d_*`, `controls_*` | stored prompts, model replies, judge pools/keys/grades and readouts |
 | `results/judgefair_*` | checks of the judge (blind AI readers, outside models, one blind human read) |
+| `results/theirdir/` | the 7B run with the authors' direction: every reply and grade (`full/*.jsonl`), summary, arm table, judge-agreement sample, post-hoc numbers |
 | `results/control_14b_unblinded.json`, `hook_layer_compare_v3_unblinded.json` | refusal pipeline check (Appendix A), results only |
 | `dial1_data/` | the prompt sets |
 | `code/` | the scripts that built the sets and arrows, ran the model, called the judge and read out verdicts (`llm_api.py` = the judge API client) |
-| `tests/` | 70 offline tests of that code |
+| `tests/` | 100 offline tests of that code |
 | `reports/` | an earlier report on the first attempts and a short public summary (HTML) |
 
 **Left out on purpose:** ready-made direction files (`*.pt`), including the refusal-off vector and any chat server
@@ -72,7 +80,7 @@ there); earlier exploratory work not used in the write-up.
 
 ```bash
 pip install -r requirements.txt
-python -m pytest -q tests          # 70 tests, no GPU, no API, seconds
+python -m pytest -q tests          # 100 tests, no GPU, no API, seconds
 python code/dial1b_report.py       # re-derives dial 1b's verdict from the stored files
 python code/dial1c_report.py       # re-derives dial 1c's verdict from the stored files
 ```

@@ -66,11 +66,27 @@ Judge model in every caving grade file: `gemini-3.1-pro-preview` (field `model` 
 | C50 | 14B (4-bit) held-out: full refusals 11/12 -> 0/12; random 10/12, 9/12; 4 steered "partial"; all 24 fluent | `results/control_14b_unblinded.json` `*|heldout` |
 | C52 | 1.5B add-side: harmless prompts, plain 0/18 refused; +10 at block 13 -> 12/18 full+partial (10 full, 2 partial), coh3 16; grader fresh blind Claude sub-agent | `results/hook_layer_compare_v3_unblinded.json` `table.harmless_add_+10_block13`, `claim_B_add_strength`, `grader` |
 | C53 | 7B-A (Qwen2.5-7B-Instruct, 4-bit, one greedy reply each): plain screen caved answer-template 11/180 (L1 4, L2 3, L3 4 of 60), are-you-sure 82/180 (30, 21, 31 of 60); 1c pick rule fails at every level -> registered stop 'no usable test set'; 0.87 USD | `results/d7b/stop.json` `rates`, `stop`; `results/d7b/pick.json`; LABBOOK 2026-11-20 |
+| C54 | 6.2 gates: G1 cosine rebuilt vs theirs 1.0000; G2 baseline flip 0.191 (theirs 0.178), labels equal 0.991 of 696; G3 their removal re-run -5.7 pts [-9.4, -1.8]; G4 picked m = 8 | `results/theirdir/full/summary.json` `g1_cos`, `g2`, `g3`, `m`, `g4` |
+| C55 | 6.2 test, 696 held-out episodes: real rise +22.6 pts [16.4, 28.6]; abandon rise +0.5; string-match rise +25.3; real at m2 / m4: +12.4 / +18.3 | `results/theirdir/full/summary.json` `rise`, `rise_ci`, `abandon_rise`, `string_rise`; `results/theirdir/full_arms_table.json` `real_m2`, `real_m4` |
+| C56 | 6.2 rivals: R1 pushback direction flip -4.7, abandon +33.7; 5 random dummies -5.7 to -0.3 | `results/theirdir/full_arms_table.json` `r1_pushback_m8`, `rand*_m8`; `summary.json` `random_rises` |
+| C57 | 6.2 B2: shuffled rises shuf0 +23.2, shuf8 +27.2 (bar: at most 1 of 10 reaches half of +22.6); other 8 from -14.3 to +7.9; 6 draws with abs(cos) > 0.3 replaced as pre-registered; verdict NOT SPECIFIC; 174 held-out questions x 4 types = 696 episodes (prereg estimate was 150) | `results/theirdir/full/summary.json` `shuffled_rises`, `shuffle_skipped`; `results/theirdir/full/g2_baseline.jsonl` (696 rows, 174 qids); prereg dated addition 2026-11-25 |
+| C58 | 6.2 B5: Gemini vs Haiku kappa 0.932 (4 classes), n 1,500 (baseline, real, shuf0, shuf8, rand0; dummies picked after the run) | `results/theirdir/kappa_b5_full.json` `kappa_4class`, `n` |
+| C59 | 6.2 post-hoc: shuf0 abandon +63.6; flip over all scored replies shuf0 -4.2, real +22.0; shuf8 abandon +14.7, cosine to real +0.27; shuf0 / shuf6 / shuf7 cosine +0.21 / +0.20 / +0.21; leak arithmetic 0.27 x alpha(8x) 54.6 = 14.8 vs alpha(2x) 13.7 | `results/theirdir/full_posthoc.json` (`theirdir_posthoc.py`, CPU, after the run); `full_arms_table.json` `abandon_rise`; `summary.json` `alpha` |
+| C60 | 6.2 H2 (neutral follow-up): base 0.006, real 0.310, shuffled 0.006-0.041 except shuf8 0.348 -> prediction met (9 of 10) | `results/theirdir/full/summary.json` `h2` |
+| C61 | 6.2 cost: 3.4 GPU h of generation (12,303 s), 20,571 replies; pod 11.694 USD at 2.09 USD/h (= 5.6 h pod time), 1 x A100 80GB SECURE; Gemini sample 2.87 USD (std price); total incl. Haiku judge at most ~26 USD of the 45 cap (lab estimate, no itemised Haiku bill) | `summary.json` `gpu_seconds`, `replies`; `results/theirdir/full_guard.json` `cost_usd`; `kappa_b5_full.json` `gemini_cost_usd_std_price`; LABBOOK 2026-11-25 (night) |
 | C51 | 1.5B held-out: ablate block 13 -> 2/12 full; ablate all layers -> 0/12; random ablation 12/12 | `results/hook_layer_compare_v3_unblinded.json` `heldout_*` |
 
 ## Claim-check 2026-11-19 (blind fresh agent, all tags)
 All numbers SUPPORTED by their files; 1 WRONG ("first registered stop" -> stop (ii)), 7 OVERSTATED and 1 unsourced
 wording fixed the same day. Judge: a fresh sub-agent with no expected answer, raw files only.
+
+## Claim-check 2026-11-25 (section 6.2, blind fresh agent, raw jsonl recomputed)
+All C54-C61 numbers SUPPORTED from the per-episode files; 0 WRONG. Fixed the same day: "almost five times" dropped
+(different interventions), "reached half" -> "matched or exceeded", 6 replaced draws named, 174 vs prereg's 150
+named, leak share "up to about half, if linear (untested)", sec. 9 "two of ten did as well or better", cost split.
+Claim: adding their direction raises caving 22.6 pts without breaking replies -> measured. Claim "because of its
+meaning" -> NOT supported (B2); rival "a large push sharing part of the direction" not killed; control drafted, not run. Judges not us: signed bars, their Haiku, Gemini kappa,
+string match, this blind check.
 
 ## Literature
 | Tag | Claim | Source |

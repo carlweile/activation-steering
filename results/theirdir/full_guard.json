@@ -1,0 +1,12 @@
+{
+ "cost_usd": 11.694,
+ "state": "exited",
+ "tail": " \"gpu_seconds\": 12303.413421869278 | }",
+ "at": "2026-11-25 01:08:55",
+ "setup_done": true,
+ "launched": 1795545716.4531398,
+ "launch_note": "set by hand 24.11.: run started 19:39 by the first launch; SSH call timed out (fixed)",
+ "last_pull": 1795564666.218109,
+ "ended": 1795565335.2364266,
+ "end_reason": "finish"
+}

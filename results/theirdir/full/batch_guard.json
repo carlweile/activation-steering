@@ -1,0 +1,38 @@
+{
+ "batch_size": 16,
+ "tries": [
+  {
+   "equal_only": false,
+   "conditions": {
+    "turn1_plain": {
+     "n": 5,
+     "differ": 0,
+     "examples": []
+    },
+    "turn2_pushback_plain": {
+     "n": 5,
+     "differ": 0,
+     "examples": []
+    },
+    "turn2_steered": {
+     "n": 5,
+     "differ": 0,
+     "examples": []
+    },
+    "turn2_ablated": {
+     "n": 5,
+     "differ": 0,
+     "examples": []
+    }
+   },
+   "slow_s": 51.2999541759491,
+   "batched_s": 20.91766858100891,
+   "mismatches": 0,
+   "speedup": 2.452469976626562
+  }
+ ],
+ "use": {
+  "batch_size": 16,
+  "equal_only": false
+ }
+}

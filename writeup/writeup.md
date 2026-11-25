@@ -1,6 +1,6 @@
 # Steering a small chat model against caving: a pre-registered negative result with controls
 
-_Version 2026-11-19 · portfolio write-up, not peer-reviewed · Carl J. Weile ([ORCID 0000-0003-2691-7856](https://orcid.org/0000-0003-2691-7856)) · every number carries a
+_Version 2026-11-25 · portfolio write-up, not peer-reviewed · Carl J. Weile ([ORCID 0000-0003-2691-7856](https://orcid.org/0000-0003-2691-7856)) · every number carries a
 tag `[Cn]` that names its stored file in `writeup/claims.md`._
 
 ## Abstract
@@ -17,7 +17,10 @@ instruction (94) [C34, C35]. Our main claim is narrow: in this 1.5B model, on th
 block 17 with f = 0.20) lowered caving past its pre-set bars against arbitrary pushes of the same size. Because no positive control worked,
 this is not evidence that no caving direction exists. Arbitrary pushes alone moved caving anywhere from 58 to 167 of
 300 [C41]: caving in this model is easy to move by accident. Whether it is also hard to lower on purpose, or our
-methods miss a drop that exists, stays open.
+methods miss a drop that exists, stays open. At 7B, adding the published caving direction of Aamir and Bin Adil in
+their own setting (the converse of their removal test) raised caving by 22.6 points with replies intact, but 2 of 10
+label-shuffled directions of the same size matched or exceeded that rise (+23.2, +27.2; the bar allowed at most one
+to reach half of it), so under its pre-set bars the rise is not shown to be specific to the direction [C55, C57].
 
 ## 1. Introduction
 Sycophancy under pushback is an honesty problem: a model that gives up a right answer under social pressure tells the
@@ -190,6 +193,7 @@ both arms; fluency counts are noisier, though a 15-reply shift overturns no flue
 bar 270; P2 98 vs 162).
 
 ## 6. Scale: Qwen2.5-7B
+### 6.1 Our design at 7B: no usable test set
 The lab's ladder allowed exactly one 7B run of the dial 1d design after the 1.5B fail. Its pre-registration
 (`results/prereg_dial1d_7b_2026-11-19.md`) was signed before any 7B data, and the run ended at its first registered
 stop, "no usable test set" [C53]. Before any direction is built, the design screens the plain model for a fair base
@@ -200,6 +204,56 @@ least 9 of 60 per template at one pressure level) failed at every pressure level
 template almost never caves. So no direction was built and no steered reply exists. This is a result about the test
 set, not about steering: it says nothing for or against a caving direction at 7B. A fair 7B test would need a new
 pre-registration on a fresh set, not a re-reading of this one. The run cost 0.87 USD of judge calls.
+
+### 6.2 The authors' direction, added
+_Label (fixed in its pre-registration): a new pre-registration after the dial-1 ladder ended (7B-A registered
+stop 20.11.2026); 11 earlier dial-1 attempts; their direction, their setting, float32._
+
+Aamir and Bin Adil found a caving ("capitulation") direction in Qwen2.5-7B-Instruct and showed that removing it
+lowers caving by 4.8 points [L7]. Their discussion calls the converse "a natural complement we did not attempt":
+a direction that lowers caving when removed should raise it when added [L1]. We ran that test in their setting:
+their direction file, their questions and pushback wordings, their code (MIT, credited), their judge (Claude Haiku
+4.5), float32. The pass lines were signed before any 7B reply existed
+(`results/prereg_their_direction_7b_2026-11-20.md`). The aim was to copy their setup, not to improve it.
+
+**Gates.** Our rebuilt direction matched theirs (cosine 1.0000). Our plain-model flip rate was 19.1 % (theirs
+17.8 %), with 99.1 % of 696 episode labels equal to theirs. Their removal, re-run by us, lowered caving by 5.7
+points (95 % CI −9.4 to −1.8; theirs −4.8) [C54]. So their setup reproduces, and unlike our 1.5B runs (5.3) this
+test has a working positive control. The strength was picked on other questions by a pre-set rule (the largest
+of 2x, 4x, 8x that does not break replies): 8x.
+
+**Result.** On 696 held-out episodes (174 questions, 4 pushback types each; the pre-registration had estimated
+150 questions from their paper's table, their held-out split gives 174), adding their direction raised the flip
+rate by 22.6 points (95 % CI 16.4 to 28.6), well above the pre-set +4.8 bar (B1) [C55]. Replies stayed
+intact: the rate of replies that give up answering rose by only 0.5 points, and a judge-free string match moved
+the same way (+25.3). A second judge (Gemini) agreed with Haiku at kappa 0.932 on 1,500 episodes [C58]. The rival
+"it is just the pushback cue" did not explain it: their pushback direction at the same size lowered flips (−4.7)
+and broke replies [C56]. The 5 random dummies all lowered flips a little (−5.7 to −0.3) [C56].
+
+**But the pre-set bar B2 failed.** It allowed at most 1 of 10 label-shuffled dummies of the same size to reach half
+of the real rise. Two did, and both matched or exceeded the full rise: +23.2 and +27.2 (the other eight ranged
+from −14.3 to +7.9) [C57]. As pre-registered, six shuffled draws with |cosine| > 0.3 to the real direction had
+been replaced by the next draws before any reply was generated [C57]. The registered
+verdict is therefore **NOT SPECIFIC**: adding their direction clearly moves caving, but this run cannot show that
+it does so because of what the direction means, rather than because of a large push of that kind.
+
+**What the two dummies look like** (looked at after the run; hints only, they do not change the verdict) [C59]:
+- *shuf0 mostly breaks replies:* its give-up rate rose 63.6 points. The flip rate counts only replies that still
+  commit to an answer; counted over all scored replies, shuf0 lowers caving (−4.2), while the real direction
+  still raises it (+22.0).
+- *shuf8 keeps most replies* (give-up rate +14.7) and has cosine +0.27 to the real direction, just under the 0.3
+  leak filter of the pre-registration. At 8x, that shared part is about as large as the real direction at 2x,
+  which alone raised flips by 12.4 [C55]. So the shared part might explain up to about half of shuf8's
+  rise, if the effects add linearly (inferred, untested). Against this reading: three other dummies also share about 0.2 with the real direction (shuf0,
+  shuf6, shuf7), and shuf6 and shuf7 lowered caving.
+
+**Their drafted converse test** (registered, prediction only, no pass bar): with a neutral follow-up and no
+pushback, the real direction raised flips from 0.6 % to 31.0 %, above 9 of 10 shuffled dummies; the tenth was
+shuf8 again (34.8 %) [C60]. Prediction met.
+
+What would separate the two readings is a control we have drafted but not run: dummies with the real direction's
+share removed (cosine exactly 0), and 50 of them instead of 10. The run used 3.4 GPU hours of generation (5.6
+hours of pod time, 11.7 USD) on one rented A100, and at most about 26 USD in total including judge calls [C61].
 
 ## 7. Discussion
 What the data support: (a) refusal behaves like one working direction in this model family (Appendix A); (b) no caving
@@ -214,7 +268,10 @@ What they do not support: that no caving direction exists at 1.5B, at other laye
 that the judge is perfect; that caving and self-correction are or are not one mechanism (arms c and d are weak).
 
 Beside Aamir and Bin Adil [L7]: they find no usable caving direction below 7B by probing; our steering nulls at 1.5B
-are consistent with that; the one 7B run (section 6), where their gate says a direction should exist, stopped before any direction was built. Beside Lee
+are consistent with that. At 7B, where their gate says a direction exists, our own design stopped before any
+direction was built (6.1). With their direction, their removal result reproduced, and adding it in their setting
+raised caving strongly, but did not beat 2 of 10 shuffled dummies (6.2); point (d) holds there too, with shuffled
+pushes of the same size moving caving from −14.3 to +27.2 points. Beside Lee
 [L2]: our flipped direction lowered caving while making the model contradict correct users, which fits (inferred) the
 picture that pushing "less yielding" trades off against appropriate agreement; and our steered replies changed length
 a lot (dial 1c 51.5 -> 20.9 words, P2 84.8 words), which Lee's result says can matter on its own. Our self-correction
@@ -225,13 +282,18 @@ One model family and size for the caving work; one greedy reply per prompt; one 
 judge family for all verdicts, with only 16 replies read by a human; re-grading identical text moved fluency counts
 by 15 of 300 (5.6). The flipped-direction control was designed after
 seeing dial 1d. One stop rule was overridden. The author also wrote the pass lines, though always before the data.
-No positive control worked.
+No positive control worked at 1.5B. At 7B (6.2): one greedy reply per episode; the three dummies in the
+second-judge sample were picked after the run; the reading of shuf0 and shuf8 is post-hoc; the 0.3 leak filter
+let through dummies that share up to 0.27 with the real direction.
 
 ## 9. Conclusion
 Under pre-registered bars and matched controls, difference-of-means steering did not give a caving dial in
 Qwen2.5-1.5B-Instruct, and neither did a direct instruction. In the same pipeline, removing a refusal direction works (Appendix A);
 the additive steering used for caving was not validated on refusal at these strengths.
 Anyone testing caving steering at this size should report the dummy spread beside every effect.
+At 7B, adding the authors' caving direction (validated by them through removal) raised caving strongly with replies
+intact, but two of ten same-size shuffled dummies did as well or better; a control with leak-free dummies is the
+next test.
 
 ## AI use
 AI coding agents wrote most of the code and drafted this write-up. The author set the questions, signed every pass line,
