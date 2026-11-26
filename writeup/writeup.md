@@ -70,6 +70,14 @@ no usable direction (AUROC 0.58 against a 0.70 bar) and ran no steering or ablat
 open models of 1.7B-8B, reports that "activation steering never reduced caving selectively: where it worked, it
 suppressed self-correction as well", and that reply length decides whether pushback produces caving or
 self-correction [L2].
+**Selectivity.** Since mid-2026 several groups ask whether an intervention lowers caving without also lowering
+warranted answer changes. Ma et al. separate yielding to bare pressure from updating on supplied evidence and find,
+in four open models, that training or steering that lowers the first often lowers the second; the two steering
+directions are positively aligned (cosine 0.40 to 0.84), and orthogonalising them gave "modest, backbone-dependent"
+gains [L9]. Shapira et al. report that mitigations lower adoption of a credible source's position along with the
+user's (correlation 0.87 to 0.90), and that the internal components supporting deference to the user are also
+causally important for in-context updating [L10]. Lee also gated the steering on predicted correctness of the first
+answer: it gained at most 0.4 and 1.0 accuracy points, where an oracle gate would have gained 6.9 and 1.5 [L2].
 **Control quality.** SteerCheck (one model, Qwen3-14B) and others argue that isotropic random controls are too easy
 and that label shuffles can leak, though leakage alone did not break their test [L4]; we therefore pair isotropic random dummies with label-shuffled ones built from the same data and
 report both.
@@ -295,6 +303,12 @@ pushes of the same size moving caving from −14.3 to +27.2 points. Beside Lee
 picture that pushing "less yielding" trades off against appropriate agreement; and our steered replies changed length
 a lot (dial 1c 51.5 -> 20.9 words, P2 84.8 words), which Lee's result says can matter on its own. Our self-correction
 set is too uneven to speak to Lee's self-correction result directly.
+
+Beside Ma et al. and Shapira et al. [L9, L10]: the loss of agreement with correct users under the flipped direction
+(5.2) is the trade-off they describe, seen here at 1.5B. For the 7B direction (6.2) the matching number is missing:
+Aamir and Bin Adil's ablation comparison conditions on answers that were correct at first [L7], and so did our
+addition test, so neither says whether removing or adding the direction changes how often a wrong answer is
+repaired after pushback (19.4 % in their plain Qwen2.5-7B, beside a flip rate of 18.3 % [L7]). We did not measure it.
 
 ## 8. Limitations
 One model family and size for the caving work; one greedy reply per prompt; one block and one strength per arm; one
