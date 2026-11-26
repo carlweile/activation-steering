@@ -3,15 +3,33 @@
 _Version 2026-11-25 · portfolio write-up, not peer-reviewed · Carl J. Weile ([ORCID 0000-0003-2691-7856](https://orcid.org/0000-0003-2691-7856)) · every number carries a
 tag `[Cn]` that names its stored file in `writeup/claims.md`._
 
+## In plain words
+- A chat model "caves" when it drops a correct answer because the user insists on a wrong one. We tried to stop this in
+  Qwen2.5-1.5B-Instruct (1.5 billion parameters) by adding one fixed "arrow" inside the model while it writes. No
+  retraining, and it can be switched off at once.
+- The test: 300 questions with a known answer. Without any arrow, the model caves on 96 of them.
+- Try 1: an arrow built from prompts with and without pushback lowered caving to 62. That missed the goal set in
+  advance (48 or fewer), and dummy arrows of the same size did about half as well.
+- Try 2: an arrow built from the model's own caved and held answers. It was added the wrong way round, so it pushed
+  toward caving (96 -> 145; that rise was real, only 1 of 20 dummy arrows went as far). Turned the right way round it
+  lowered caving to 69, but again some dummy arrows did half as well, and the model began to argue with users who were
+  right.
+- Even telling the model plainly to hold its ground did not help (95 vs 98). So our tests may be unable to show a drop
+  at all: this is not proof that no such arrow exists.
+- At 7 billion parameters, the published caving arrow of Aamir and Bin Adil pushed caving up by 22.6 points, but 2 of
+  10 dummy arrows did as much, so we cannot say it works because of what it means.
+- Bottom line: in these models caving is easy to move by accident, and we found no arrow that lowers it on purpose
+  better than dummy pushes of the same size.
+
 ## Abstract
 A model "caves" when it drops a correct answer because the user pushes back with a wrong one. We asked whether a
 single difference-of-means direction, added to the residual stream of Qwen2.5-1.5B-Instruct at inference time, can
 lower caving while leaving other behaviour in place. Every run reported as a result had its pass lines committed before it ran. On 300
 known-fact prompts where the plain model caves on 96, a direction built from prompts with and without pushback cut
 caving to 62, but missed its pre-set bar of 48, and 3 of 10 label-shuffled directions of the same size did at least
-half as well [C11, C12]. A direction built from the model's own caved-versus-held answers, as built, pushed toward
-caving (96 to 145); a pre-registered control showed this rise is specific (1 of 20 same-size dummies reached 145)
-[C15, C30]. Flipping it lowered caving to 69, but 3 of 20 flipped dummies did at least half as well [C32]. Two
+half as well [C11, C12]. A direction built from the model's own caved-versus-held answers was added with the sign that points toward
+caving, the opposite of the aim, and caving rose from 96 to 145; a pre-registered control showed this rise is specific
+(1 of 20 same-size dummies reached 145) [C15, C16, C30]. Flipping it lowered caving to 69, but 3 of 20 flipped dummies did at least half as well [C32]. Two
 positive controls also failed: a "hold your ground" instruction (95 vs 98 plain) and a direction built from that
 instruction (94) [C34, C35]. Our main claim is narrow: in this 1.5B model, on this prompt set, nothing we tried (an instruction, or steering at
 block 17 with f = 0.20) lowered caving past its pre-set bars against arbitrary pushes of the same size. Because no positive control worked,
@@ -110,9 +128,10 @@ answer alone falls instead (265 -> 243), so this read is ambiguous, and the verd
 **Dial 1d** built the direction a1 from 58 caved and 87 held replies of the model itself, so that it would encode the
 behaviour rather than the cue in the prompt. Its build prompts (the 360 screen prompts) share no prompt and no fact with
 the 300 GI-H prompts it was then tested on (asserted by script, dial 1d pre-registration 3.1) [C19]; a1 passed its stability gate (median split-half cosine 0.844 vs at most
-0.26 for shuffled labels) [C14]. Only 7 of the 96 prompts the plain model caved on held fluently with a1 on, so the run ended at its
-second registered stop (stop (ii); the stability gate, stop (i), had passed), and caving overall rose to 145 [C15]. Checked in code after the run: a1 = caved minus held was
-added with a positive sign, so it pushed toward caving [C16]. The verdict stays as registered; section 5 reads the rise.
+0.26 for shuffled labels) [C14]. With a1 on, only 7 of the 96 prompts the plain model caved on were now held in a fluent reply; the
+pre-registered minimum was 24, so the run ended at that stop (stop (ii)) and the planned second arrow, to be built
+from what the first push left over, was never built. Caving overall rose to 145 [C15]. A code check after the run found why: a1 is "caved minus held", so it points from holding toward caving, and the
+run added it rather than subtracting it, so it pushed the model toward caving [C16]. The verdict stays as registered; section 5 reads the rise.
 Dial 1d was run after an overridden stop rule (the 1c pre-registration said a FAIL would end this line of work) and
 after 8 earlier caving and sycophancy attempts [C17] (the run's own readout file counts 4, only the
 re-openings after the first close; the lab notebook of 17.11. explains the two counts); a pass would have been weaker evidence than at a first try.
