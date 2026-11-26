@@ -179,8 +179,8 @@ readings stay open, and these data do not decide between them: this model's cavi
 our recipe, block, strength or judge misses a drop that exists.
 
 ### 5.4 One "yielding" knob? (arms c, d)
-If caving and failing to self-correct were one knob, a direction that lowers caving should raise correction of the
-model's own wrong answers. On 638 items the plain model corrected itself 47.3 % of the time, which met the pre-registered
+If a caving direction were only one "yielding" knob (the model simply listens to the user less), a direction that lowers
+caving should also lower correction of the model's own wrong answers. On 638 items the plain model corrected itself 47.3 % of the time, which met the pre-registered
 usability band (30-80 %), but only as the average of one wording near 2 % and one near 92 % [C37]. None of the 7 arrows tested (the two caving
 directions and five of dial 1c's shuffled controls) met the "one knob" rule; the prompt-built direction lowered caving 11.3 points and moved correction -1.7; a1 raised caving
 16.3 points and moved correction -3.8 [C37]. One dummy moved correction from 47.3 to 78.5 % [C37], so correction is movable,
