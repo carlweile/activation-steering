@@ -1,4 +1,4 @@
-# Steering a small chat model against caving: a pre-registered negative result with controls
+# Steering a 1.5-billion-parameter chat model (Qwen2.5-1.5B-Instruct) against caving: a pre-registered negative result with controls
 
 _Version 2026-11-25 · portfolio write-up, not peer-reviewed · Carl J. Weile ([ORCID 0000-0003-2691-7856](https://orcid.org/0000-0003-2691-7856)) · every number carries a
 tag `[Cn]` that names its stored file in `writeup/claims.md`._

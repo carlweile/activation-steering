@@ -1,6 +1,6 @@
-# Steering a small chat model against caving
+# Steering a 1.5-billion-parameter chat model (Qwen2.5-1.5B-Instruct) against caving
 
-**Can one "direction" added inside a small chat model stop it from giving up a correct answer when the user pushes
+**Can one "direction" added inside a 1.5-billion-parameter chat model (Qwen2.5-1.5B-Instruct) stop it from giving up a correct answer when the user pushes
 back with a wrong one?** In this project: no. This repository holds the write-up, the pre-registrations, the stored
 model replies and judge grades, and the code, so anyone can check how that answer was reached.
 
